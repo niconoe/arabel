@@ -1,3 +1,5 @@
+# !! Pass this config file to Django
+
 from arabel.settings import *
 
 # Database
