@@ -1,9 +1,11 @@
 {% extends 'website/base.html' %}
+{% load page_fragments %}
 
 {% block content %}
+    {% get_page_fragment 'welcome' %}
     <div class="col">
         <div class="row">
-            <h1>Toto</h1>
+
         </div>
     </div>
 {% endblock content %}
