@@ -7,7 +7,21 @@
 
     <div class="col">
         <div class="row">
-
+            <div id="app">
+                [[ message ]]
+            </div>
         </div>
     </div>
+
+    <script>
+        window.onload = function () {
+            var app = new Vue({
+                el: '#app',
+                delimiters: ['[[', ']]'],
+                data: {
+                    message: 'Hello Vue!'
+                }
+            })
+        }
+    </script>
 {% endblock content %}
