@@ -12,18 +12,24 @@
 # To discuss
 - Release the code as Open Source?
 - Familiar with GitHub?
+- Should I do something (filter data), according to the "present" field in SOORTEN INFO 
+- Database structure is pretty messy, if they want to improve one day.
+- Report data import (date interpretation, ...) issues
 
 # Data import process
 
 1) convert access database to CSV using `jetread`. All useful data is in the 4 tables in uppercase:
 
 ```
-./jetread spinnenatlas_20201007.mdb export "STAAL GEGEVENS" -fmt csv > spinnenatlas_20201007_staal_gegevens.csv
+./jetread spinnenatlas_20201007.mdb export "STAAL GEGEVENS" -fmt csv > staal_gegevens.csv
 
-./jetread spinnenatlas_20201007.mdb export "LITERATUUR" -fmt csv > spinnenatlas_20201007_litteratuur.csv
+./jetread spinnenatlas_20201007.mdb export "LITERATUUR" -fmt csv > litteratuur.csv
 
-./jetread spinnenatlas_20201007.mdb export "GEGEVENS" -fmt csv > spinnenatlas_20201007_gegevens.csv
+./jetread spinnenatlas_20201007.mdb export "GEGEVENS" -fmt csv > gegevens.csv
 
-./jetread spinnenatlas_20201007.mdb export "SOORTEN INFO" -fmt csv > spinnenatlas_20201007_soorten_info.csv
+./jetread spinnenatlas_20201007.mdb export "SOORTEN INFO" -fmt csv > soorten_info.csv
 ```
 
+2) Copy those 4 files to ./data (keep the same filenames)
+
+3) Run the full import script
