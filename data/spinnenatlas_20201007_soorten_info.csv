@@ -1,0 +1,749 @@
+"ID","FN","FA","SA + SYN","SZ + SYN","SNL","FSC","SC","FC","VL","RL","RL-C (E)","RL-C (NL)","RL-C (ci)","HAB (NL)","HAB (E)","SZ","PRESENT"
+289,27,"AGELENIDAE","Agelena gracilens C.L. KOCH, 1841","Agelena gracilens","Kleine doolhofspin","AGEAGGRAC","AGGRAC","AGE","FL","RL","IK","OG",8,"Y","Y","Agelena gracilens",1
+290,27,"AGELENIDAE","Agelena labyrinthica (CLERCK, 1757)","Agelena labyrinthica",,"AGEAGLABY","AGLABY","AGE","FL",,"NT","NB",6,,"-","Agelena labyrinthica",1
+291,27,"AGELENIDAE","Coelotes atropos (WALCKENAER, 1825)","Coelotes atropos","Britse bostrechterspin","AGECOATRO","COATRO","AGE","FL","RL","IK","OG",8,"Y","Y","Coelotes atropos",1
+292,27,"AGELENIDAE","Coelotes inermis (L. KOCH, 1855)","Coelotes inermis","Leemtrechterspin","AGECOINER","COINER","AGE","FL","RL","RG","GB",5,"N","N","Coelotes inermis",1
+293,27,"AGELENIDAE","Coelotes terrestris (WIDER, 1834)","Coelotes terrestris","Gewone bostrechterspin","AGECOTERR","COTERR","AGE","FL","RL","VU","KW",3,"Bldd","Fddd","Coelotes terrestris",1
+294,27,"AGELENIDAE","Cryphoeca silvicola (C.L. KOCH, 1834)","Cryphoeca silvicola","Kleine bostrechterspin","AGECRSILV","CRSILV","AGE","FL","RL","EN","IG",2,"Bldd","Fddd","Cryphoeca silvicola",1
+295,27,"AGELENIDAE","Histopona torpida (C.L. KOCH, 1834)","Histopona torpida","Slanke bostrechterspin","AGEHITORP","HITORP","AGE","FL","RL","RG","GB",5,"N","N","Histopona torpida",1
+296,27,"AGELENIDAE","Tegenaria agrestis (WALCKENAER, 1802)","Tegenaria agrestis",,"AGETEAGRE","TEAGRE","AGE","FL",,"NT","NB",6,,"-","Tegenaria agrestis",1
+297,27,"AGELENIDAE","Tegenaria atrica C.L. KOCH, 1843","Tegenaria atrica",,"AGETEATRI","TEATRI","AGE","FL",,"NT","NB",6,,"-","Tegenaria atrica",1
+305,27,"AGELENIDAE","Textrix caudata L. KOCH, 1872","Textrix caudata","Zwarte staartspin","AGETECAUD","TECAUD","AGE","FL",,"NT","NB",6,,"-","Textrix caudata",1
+306,27,"AGELENIDAE","Textrix denticulata (OLIVIER, 1789)","Textrix denticulata",,"AGETEDENT","TEDENT","AGE","FL",,"NT","NB",6,,"-","Textrix denticulata",1
+298,27,"AGELENIDAE","Tegenaria domestica (CLERCK, 1757)","Tegenaria domestica",,"AGETEDOME","TEDOME","AGE","FL",,"NT","NB",6,,"-","Tegenaria domestica",1
+299,27,"AGELENIDAE","Tegenaria ferruginea (PANZER, 1804)","Tegenaria ferruginea",,"AGETEFERR","TEFERR","AGE","FL",,"NT","NB",6,,"-","Tegenaria ferruginea",1
+300,27,"AGELENIDAE","Tegenaria pagana C.L. KOCH, 1841","Tegenaria pagana",,"AGETEPAGA","TEPAGA","AGE","FL","RL","IK","OG",8,"Y","Y","Tegenaria pagana",1
+301,27,"AGELENIDAE","Tegenaria parietina (FOURCROY, 1785)","Tegenaria parietina",,"AGETEPARI","TEPARI","AGE","FL",,"NT","NB",6,,"-","Tegenaria parietina",1
+302,27,"AGELENIDAE","Tegenaria picta SIMON, 1870","Tegenaria picta",,"AGETEPICT","TEPICT","AGE","FL",,"NT","NB",6,,"-","Tegenaria picta",1
+303,27,"AGELENIDAE","Tegenaria saeva BLACKWALL, 1844","Tegenaria saeva",,"AGETESAEV","TESAEV","AGE","FL",,"NT","NB",6,,"-","Tegenaria saeva",1
+304,27,"AGELENIDAE","Tegenaria silvestris L. KOCH, 1872","Tegenaria silvestris","Steentrechterspin","AGETESILV","TESILV","AGE","FL","RL","VU","KW",3,"Bldd","Fddd","Tegenaria silvestris",1
+4,3,"AMAUROBIIDAE","Amaurobius claustrarius (HAHN, 1831)","Amaurobius claustrarius",,"AMAAMCLAU","AMCLAU","AMA",,,"NT","NB",6,,"-","Amaurobius claustrarius",1
+5,3,"AMAUROBIIDAE","Amaurobius erberi (KEYSERLING, 1863)","Amaurobius erberi",,"AMAAMERBE","AMERBE","AMA",,,"NT","NB",6,,"-","Amaurobius erberi",1
+6,3,"AMAUROBIIDAE","Amaurobius fenestralis (STROEM, 1768)","Amaurobius fenestralis",,"AMAAMFENE","AMFENE","AMA","FL",,"NT","NB",6,,"-","Amaurobius fenestralis",1
+7,3,"AMAUROBIIDAE","Amaurobius ferox (WALCKENAER, 1825)","Amaurobius ferox",,"AMAAMFERO","AMFERO","AMA","FL",,"NT","NB",6,,"-","Amaurobius ferox",1
+8,3,"AMAUROBIIDAE","Amaurobius similis (BLACKWALL, 1845)","Amaurobius similis",,"AMAAMSIMI","AMSIMI","AMA","FL",,"NT","NB",6,,"-","Amaurobius similis",1
+429,35,"ANAPIDAE","Comaroma simoni BERTKAU, 1889","Comaroma simoni",,"ANACOSIMO","COSIMO","ANA",,,"NT","NB",6,,"-","Comaroma simoni",1
+130,18,"ANYPHAENIDAE","Anyphaena accentuata (WALCKENAER, 1802)","Anyphaena accentuata",,"ANYANACCE","ANACCE","ANY","FL",,"NT","NB",6,,"-","Anyphaena accentuata",1
+395,34,"ARANEIDAE","Aculepeira ceropegius (WALCKENAER, 1802)","Aculepeira ceropegius",,"ARAACCERO","ACCERO","ARA",,,"NT","NB",6,,"-","Aculepeira ceropegius",1
+396,34,"ARANEIDAE","Agalenatea redii (SCOPOLI, 1763)","Agalenatea redii","Brede wielwebspin","ARAAGREDI","AGREDI","ARA","FL","RL","VU","KW",3,"Gsdd","Godd","Agalenatea redii",1
+402,34,"ARANEIDAE","Araniella alpica (L. KOCH, 1869)","Araniella alpica",,"ARAARALPI","ARALPI","ARA",,,"NT","NB",6,,"-","Araniella alpica",1
+397,34,"ARANEIDAE","Araneus alsine (WALCKENAER, 1802)","Araneus alsine","Sinaasappelspin","ARAARALSI","ARALSI","ARA","FL","RL","VU","KW",3,"Blnz","Fdwv","Araneus alsine",1
+398,34,"ARANEIDAE","Araneus angulatus CLERCK, 1757","Araneus angulatus","Schouderkruisspin","ARAARANGU","ARANGU","ARA","FL","RL","EN","IG",2,"Bldz","Fddv","Araneus angulatus",1
+408,34,"ARANEIDAE","Argiope bruennichi (SCOPOLI, 1772)","Argiope bruennichi","Wespspin","ARAARBRUE","ARBRUE","ARA","FL","RL","RG","GB",5,"N","N","Argiope bruennichi",1
+403,34,"ARANEIDAE","Araniella cucurbitina (CLERCK, 1757)","Araniella cucurbitina",,"ARAARCUCU","ARCUCU","ARA","FL",,"NT","NB",6,,"-","Araniella cucurbitina",1
+399,34,"ARANEIDAE","Araneus diadematus CLERCK, 1757","Araneus diadematus",,"ARAARDIAD","ARDIAD","ARA","FL",,"NT","NB",6,,"-","Araneus diadematus",1
+404,34,"ARANEIDAE","Araniella displicata (HENTZ, 1847)","Araniella displicata",,"ARAARDISP","ARDISP","ARA","FL",,"NT","NB",6,,"-","Araniella displicata",1
+405,34,"ARANEIDAE","Araniella insconspicua (SIMON, 1874)","Araniella insconspicua",,"ARAARINSC","ARINSC","ARA",,,"NT","NB",6,,"-","Araniella insconspicua",1
+400,34,"ARANEIDAE","Araneus marmoreus CLERCK, 1757","Araneus marmoreus",,"ARAARMARM","ARMARM","ARA","FL",,"NT","NB",6,,"-","Araneus marmoreus",1
+406,34,"ARANEIDAE","Araniella opistographa (KULCZYNSKI, 1905)","Araniella opistographa",,"ARAAROPIS","AROPIS","ARA","FL",,"NT","NB",6,,"-","Araniella opistographa",1
+407,34,"ARANEIDAE","Araniella proxima (KULCZYNSKI, 1885)","Araniella proxima",,"ARAARPROX","ARPROX","ARA",,,"NT","NB",6,,"-","Araniella proxima",1
+401,34,"ARANEIDAE","Araneus quadratus CLERCK, 1757","Araneus quadratus",,"ARAARQUAD","ARQUAD","ARA","FL",,"NT","NB",6,,"-","Araneus quadratus",1
+409,34,"ARANEIDAE","Atea sturmi (HAHN, 1831)","Atea sturmi",,"ARAATSTUR","ATSTUR","ARA","FL",,"NT","NB",6,,"-","Atea sturmi",1
+410,34,"ARANEIDAE","Atea triguttata (FABRICIUS, 1757)","Atea triguttata",,"ARAATTRIG","ATTRIG","ARA","FL",,"NT","NB",6,,"-","Atea triguttata",1
+411,34,"ARANEIDAE","Cercidia prominens (WESTRING, 1851)","Cercidia prominens",,"ARACEPROM","CEPROM","ARA","FL",,"NT","NB",6,,"-","Cercidia prominens",1
+412,34,"ARANEIDAE","Cyclosa conica (PALLAS, 1772)","Cyclosa conica",,"ARACYCONI","CYCONI","ARA","FL",,"NT","NB",6,,"-","Cyclosa conica",1
+413,34,"ARANEIDAE","Cyclosa oculata (WALCKENAER, 1802)","Cyclosa oculata","Zesknobbelspin","ARACYOCUL","CYOCUL","ARA","FL","RL","RG","GB",5,"N","N","Cyclosa oculata",1
+414,34,"ARANEIDAE","Gibbaranea bituberculata (WALCKENAER, 1802)","Gibbaranea bituberculata","Struikknobbelspin","ARAGIBITU","GIBITU","ARA","FL","RL","IK","OG",8,"Y","Y","Gibbaranea bituberculata",1
+415,34,"ARANEIDAE","Gibbaranea gibbosa (WALCKENAER, 1802)","Gibbaranea gibbosa",,"ARAGIGIBB","GIGIBB","ARA","FL",,"NT","NB",6,,"-","Gibbaranea gibbosa",1
+416,34,"ARANEIDAE","Hypsosinga albovittata (WESTRING, 1851)","Hypsosinga albovittata","Witvlekpyjamaspin","ARAHYALBO","HYALBO","ARA","FL","RL","VU","KW",3,"Gsdd","Godd","Hypsosinga albovittata",1
+417,34,"ARANEIDAE","Hypsosinga heri (HAHN, 1831)","Hypsosinga heri","Moeraspyjamaspin","ARAHYHERI","HYHERI","ARA","FL","RL","EN","IG",2,"Gsnv","Gowr","Hypsosinga heri",1
+418,34,"ARANEIDAE","Hypsosinga pygmaea (SUNDEVALL, 1831)","Hypsosinga pygmaea","Graspyjamaspin","ARAHYPYGM","HYPYGM","ARA","FL","RL","EN","IG",2,"Hn","Hw","Hypsosinga pygmaea",1
+419,34,"ARANEIDAE","Hypsosinga sanguinea (C.L. KOCH, 1844)","Hypsosinga sanguinea","Heidepyjamaspin","ARAHYSANG","HYSANG","ARA","FL","RL","EN","IG",2,"Hd","Hd","Hypsosinga sanguinea",1
+420,34,"ARANEIDAE","Larinioides cornutus (CLERCK, 1757)","Larinioides cornutus",,"ARALACORN","LACORN","ARA","FL",,"NT","NB",6,,"-","Larinioides cornutus",1
+421,34,"ARANEIDAE","Larinioides patagiatus (CLERCK, 1757)","Larinioides patagiatus",,"ARALAPATA","LAPATA","ARA","FL",,"NT","NB",6,,"-","Larinioides patagiatus",1
+422,34,"ARANEIDAE","Larinioides sclopetarius (CLERCK, 1757)","Larinioides sclopetarius",,"ARALASCLO","LASCLO","ARA","FL",,"NT","NB",6,,"-","Larinioides sclopetarius",1
+423,34,"ARANEIDAE","Mangora acalypha (WALCKENAER, 1802)","Mangora acalypha",,"ARAMAACAL","MAACAL","ARA","FL",,"NT","NB",6,,"-","Mangora acalypha",1
+424,34,"ARANEIDAE","Neoscona adianta (WALCKENAER, 1802)","Neoscona adianta",,"ARANEADIA","NEADIA","ARA","FL",,"NT","NB",6,,"-","Neoscona adianta",1
+425,34,"ARANEIDAE","Nuctenea umbratica (CLERCK, 1757)","Nuctenea umbratica",,"ARANUUMBR","NUUMBR","ARA","FL",,"NT","NB",6,,"-","Nuctenea umbratica",1
+426,34,"ARANEIDAE","Singa hamata (CLERCK, 1757)","Singa hamata","Bonte pyjamaspin","ARASIHAMA","SIHAMA","ARA","FL","RL","EN","IG",2,"Gsnv","Gowr","Singa hamata",1
+427,34,"ARANEIDAE","Singa nitidula C.L. KOCH, 1845","Singa nitidula",,"ARASINITI","SINITI","ARA",,,"NT","NB",6,,"-","Singa nitidula",1
+428,34,"ARANEIDAE","Zilla diodia (WALCKENAER, 1802)","Zilla diodia",,"ARAZIDIOD","ZIDIOD","ARA","FL",,"NT","NB",6,,"-","Zilla diodia",1
+1,1,"ATYPIDAE","Atypus affinis EICHWALD,1830","Atypus affinis","Gewone mijnspin","ATYATAFFI","ATAFFI","ATY","FL","RL","VU","KW",3,"Gsdps","Godts","Atypus affinis",1
+691,1,"ATYPIDAE","Atypus piceus (SULZER, 1776)","Atypus piceus","Kalkmijnspin","ATYATPICE","ATPICE","ATY",,,"NS","NS",7,,,"Atypus piceus",1
+88,15,"CLUBIONIDAE","Cheiracanthium erraticum (WALCKENAER, 1802)","Cheiracanthium erraticum",,"CLUCHERRA","CHERRA","CLU","FL",,"NT","NB",6,,"-","Cheiracanthium erraticum",1
+92,15,"CLUBIONIDAE","Cheiracanthium montanum (L. KOCH, 1877)","Cheiracantium montanum","Boomspoorspin","CLUCHMONT","CHMONT","CLU","FL","RL","RG","GB",5,"N","N","Cheiracantium montanum",1
+89,15,"CLUBIONIDAE","Cheiracanthium pennyi O.P.-CAMBRIDGE, 1873","Cheiracanthium pennyi","Penny's spoorspin","CLUCHPENN","CHPENN","CLU","FL","RL","RG","GB",5,"N","N","Cheiracanthium pennyi",1
+90,15,"CLUBIONIDAE","Cheiracanthium punctorium (VILLERS,1789)","Cheiracanthium punctorium","Grote spoorspin","CLUCHPUNC","CHPUNC","CLU","FL","RL","EX","UI",0,"Gsddz","Godds","Cheiracanthium punctorium",1
+91,15,"CLUBIONIDAE","Cheiracanthium virescens (SUNDEVALL, 1833)","Cheiracanthium virescens","Groene spoorspin","CLUCHVIRE","CHVIRE","CLU","FL","RL","EN","IG",2,"Gsdp","Godt","Cheiracanthium virescens",1
+93,15,"CLUBIONIDAE","Clubiona brevipes BLACKWALL, 1841","Clubiona brevipes",,"CLUCLBREV","CLBREV","CLU","FL",,"NT","NB",6,,"-","Clubiona brevipes",1
+94,15,"CLUBIONIDAE","Clubiona caerulescens L. KOCH, 1867 (=C. coerulescens L. KOCH)","Clubiona caerulescens (=C. coerulescens)","Glanzende zakspin","CLUCLCAER","CLCAER","CLU","FL","RL","EN","IG",2,"Bldo","Fddo","Clubiona caerulescens",1
+95,15,"CLUBIONIDAE","Clubiona compta C.L. KOCH, 1839","Clubiona compta",,"CLUCLCOMP","CLCOMP","CLU","FL",,"NT","NB",6,,"-","Clubiona compta",1
+96,15,"CLUBIONIDAE","Clubiona corticalis (WALCKENAER, 1802)","Clubiona corticalis",,"CLUCLCORT","CLCORT","CLU","FL",,"NT","NB",6,,"-","Clubiona corticalis",1
+97,15,"CLUBIONIDAE","Clubiona diversa O.P.-CAMBRIDGE, 1862","Clubiona diversa",,"CLUCLDIVE","CLDIVE","CLU","FL",,"NT","NB",6,,"-","Clubiona diversa",1
+98,15,"CLUBIONIDAE","Clubiona frisia WUNDERLICH & SCHÜTT, 1995 (niet: C. similis L. KOCH, 1867)","Clubiona frisia (niet: C. similis)","Helmzakspin","CLUCLFRIS","CLFRIS","CLU","FL","RL","VU","KW",3,"Gsdp","Godt","Clubiona frisia",1
+99,15,"CLUBIONIDAE","Clubiona frutetorum L. KOCH, 1867","Clubiona frutetorum",,"CLUCLFRUT","CLFRUT","CLU","FL",,"NT","NB",6,,"-","Clubiona frutetorum",1
+100,15,"CLUBIONIDAE","Clubiona genevensis L. KOCH, 1867","Clubiona genevensis","Graszakspin","CLUCLGENE","CLGENE","CLU","FL","RL","CR","KR",1,"Gsdv","Godr","Clubiona genevensis",1
+101,15,"CLUBIONIDAE","Clubiona germanica THORELL, 1872","Clubiona germanica",,"CLUCLGERM","CLGERM","CLU","FL",,"NT","NB",6,,"-","Clubiona germanica",1
+102,15,"CLUBIONIDAE","Clubiona juvenis SIMON, 1878","Clubiona juvenis","Zeggezakspin","CLUCLJUVE","CLJUVE","CLU","FL","RL","CR","KR",1,"Mrv","Mrr","Clubiona juvenis",1
+704,15,"CLUBIONIDAE","Clubiona leucaspis (SIMON, 1932)","Clubiona leucaspis","Witrugzakspin","CLUCLLEUC","CLLEUC","CLU","","","","",8,"","","Clubiona leucaspis",
+103,15,"CLUBIONIDAE","Clubiona lutescens WESTRING, 1851","Clubiona lutescens",,"CLUCLLUTE","CLLUTE","CLU","FL",,"NT","NB",6,,"-","Clubiona lutescens",1
+104,15,"CLUBIONIDAE","Clubiona neglecta O.P.-CAMBRIDGE, 1862","Clubiona neglecta",,"CLUCLNEGL","CLNEGL","CLU","FL",,"NT","NB",6,,"-","Clubiona neglecta",1
+105,15,"CLUBIONIDAE","Clubiona pallidula (CLERCK, 1757)","Clubiona pallidula",,"CLUCLPALL","CLPALL","CLU","FL",,"NT","NB",6,,"-","Clubiona pallidula",1
+106,15,"CLUBIONIDAE","Clubiona phragmitis C.L. KOCH, 1843","Clubiona phragmitis",,"CLUCLPHRA","CLPHRA","CLU","FL",,"NT","NB",6,,"-","Clubiona phragmitis",1
+693,15,"CLUBIONIDAE","Clubiona pseudoneglecta WUNDERLICH, 1994","Clubiona pseudoneglecta",,"CLUCLPSEU","CLPSEU","CLU","FL","RL","NS","NS",7,,,"Clubiona pseudoneglecta",1
+107,15,"CLUBIONIDAE","Clubiona reclusa O.P.-CAMBRIDGE, 1863","Clubiona reclusa",,"CLUCLRECL","CLRECL","CLU","FL",,"NT","NB",6,,"-","Clubiona reclusa",1
+108,15,"CLUBIONIDAE","Clubiona stagnatilis KULCZYNSKI, 1897","Clubiona stagnatilis",,"CLUCLSTAG","CLSTAG","CLU","FL",,"NT","NB",6,,"-","Clubiona stagnatilis",1
+109,15,"CLUBIONIDAE","Clubiona subsultans THORELL, 1875","Clubiona subsultans","Dennenzakspin","CLUCLSUBS","CLSUBS","CLU","FL","RL","RG","GB",5,"Z","S","Clubiona subsultans",1
+110,15,"CLUBIONIDAE","Clubiona subtilis L. KOCH, 1867","Clubiona subtilis",,"CLUCLSUBT","CLSUBT","CLU","FL",,"NT","NB",6,,"-","Clubiona subtilis",1
+111,15,"CLUBIONIDAE","Clubiona terrestris WESTRING, 1862","Clubiona terrestris",,"CLUCLTERR","CLTERR","CLU","FL",,"NT","NB",6,,"-","Clubiona terrestris",1
+112,15,"CLUBIONIDAE","Clubiona trivialis C.L. KOCH, 1841","Clubiona trivialis","Moszakspin","CLUCLTRIV","CLTRIV","CLU","FL","RL","VU","KW",3,"Gsdp","Godt","Clubiona trivialis",1
+698,16,"CORINNIDAE","Ceto laticeps (CANESTRINI,????)","Ceto laticeps",,"CORCELATI","CELATI","COR","FL","RL","NS","NS",7,,,"Ceto laticeps",1
+287,26,"CYBAEIDAE","Argyroneta aquatica (CLERCK, 1757)","Argyroneta aquatica","Waterspin","CYBARAQUA","ARAQUA","CYB","FL","RL","VU","KW",3,"Aes","Wes","Argyroneta aquatica",1
+288,26,"CYBAEIDAE","Cybaeus angustarium L. KOCH, 1868","Cybaeus angustarium",,"CYBCYANGU","CYANGU","CYB","FL","RL","IK","OG",8,"Y","Y","Cybaeus angustarium",1
+9,4,"DICTYNIDAE","Altella lucida (SIMON, 1874)","Altella lucida","Steppekaardertje","DICALLUCI","ALLUCI","DIC","FL","RL","RG","GB",5,"N","N","Altella lucida",1
+10,4,"DICTYNIDAE","Argenna patula (SIMON, 1874)","Argenna patula","Kwelderkaardertje","DICARPATU","ARPATU","DIC","FL","RL","CR","KR",1,"Szb","Sa","Argenna patula",1
+11,4,"DICTYNIDAE","Argenna subnigra (O.P.-CAMBRIDGE, 1861)","Argenna subnigra","Bodemkaardertje","DICARSUBN","ARSUBN","DIC","FL","RL","EN","IG",2,"Gsdo","Godb","Argenna subnigra",1
+12,4,"DICTYNIDAE","Cicurina cicur (FABRICIUS, 1793)","Cicurina cicur",,"DICCICICU","CICICU","DIC","FL",,"NT","NB",6,,"-","Cicurina cicur",1
+13,4,"DICTYNIDAE","Dictyna arundinacea (LINNAEUS, 1758)","Dictyna arundinacea",,"DICDIARUN","DIARUN","DIC","FL",,"NT","NB",6,,"-","Dictyna arundinacea",1
+14,4,"DICTYNIDAE","Dictyna civica (LUCAS, 1849)","Dictyna civica",,"DICDICIVI","DICIVI","DIC","FL","RL","RG","GB",5,"N","N","Dictyna civica",1
+15,4,"DICTYNIDAE","Dictyna latens (FABRICIUS, 1775)","Dictyna latens","Zwart kaardertje","DICDILATE","DILATE","DIC","FL","RL","EN","IG",2,"Gsdd","Godd","Dictyna latens",1
+16,4,"DICTYNIDAE","Dictyna major MENGE, 1869","Dictyna major","Noords kaardertje","DICDIMAJO","DIMAJO","DIC","FL","RL","RG","GB",5,"Z","S","Dictyna major",1
+17,4,"DICTYNIDAE","Dictyna pusilla THORELL, 1856","Dictyna pusilla","Bruin kaardertje","DICDIPUSI","DIPUSI","DIC","FL","RL","EN","IG",2,"Gsdd","Godd","Dictyna pusilla",1
+18,4,"DICTYNIDAE","Dictyna uncinata THORELL, 1856","Dictyna uncinata",,"DICDIUNCI","DIUNCI","DIC","FL",,"NT","NB",6,,"-","Dictyna uncinata",1
+19,4,"DICTYNIDAE","Lathys humilis (BLACKWALL, 1855)","Lathys humilis",,"DICLAHUMI","LAHUMI","DIC","FL",,"NT","NB",6,,"-","Lathys humilis",1
+20,4,"DICTYNIDAE","Lathys puta (O..P-CAMBRIDGE, 1863) (=L. stigmatisata (MENGE, 1869))","Lathys puta (=L. stigmatisata)","Kurkentrekkerkaardertje","DICLAPUTA","LAPUTA","DIC","FL","RL","RG","GB",5,"N","N","Lathys puta",1
+21,4,"DICTYNIDAE","Mastigusa arietina (THORELL, 1871)","Mastigusa arietina","Kleinoogzweeppalpspin","DICMAARIE","MAARIE","DIC","FL","RL","EN","IG",2,"Gsdpm","Godta","Mastigusa arietina",1
+22,4,"DICTYNIDAE","Mastigusa macrophthalmus (KULCZYNSKI, 1896)","Mastigusa macrophthalmus",,"DICMAMACR","MAMACR","DIC",,,"NT","NB",6,,"-","Mastigusa macrophthalmus",1
+23,4,"DICTYNIDAE","Nigma flavescens (WALCKENAER, 1825)","Nigma flavescens",,"DICNIFLAV","NIFLAV","DIC","FL",,"NT","NB",6,,"-","Nigma flavescens",1
+24,4,"DICTYNIDAE","Nigma walckenaeri (ROEWER, 1951)","Nigma walckenaeri",,"DICNIWALC","NIWALC","DIC","FL",,"NT","NB",6,,"-","Nigma walckenaeri",1
+35,10,"DYSDERIDAE","Dysdera crocota C.L. KOCH, 1838","Dysdera crocota",,"DYSDYCROC","DYCROC","DYS","FL",,"NT","NB",6,,"-","Dysdera crocota",1
+36,10,"DYSDERIDAE","Dysdera erythrina (WALCKENAER, 1802)","Dysdera erythrina","Boscelspin","DYSDYERYT","DYERYT","DYS","FL","RL","EN","IG",2,"Bldd","Fddd","Dysdera erythrina",1
+37,10,"DYSDERIDAE","Harpactea hombergi (SCOPOLI, 1763)","Harpactea hombergi","Schorscelspin","DYSHAHOMB","HAHOMB","DYS","FL","RL","EN","IG",2,"Bldd","Fddd","Harpactea hombergi",1
+694,10,"DYSDERIDAE","Harpactea rubicunda (C.L. KOCH,????)","Harpactea rubicunda",,"DYSHARUBI","HARUBI","DYS","FL","RL","NS","NS",7,,,"Harpactea rubicunda",1
+2,2,"ERESIDAE","Eresus cinnaberinus (OLIVIER, 1789) (= E. niger)","Eresus cinnaberinus","Herfstvuurspin","EREERCINN","ERNIGE","ERE","FL","RL","IK","OG",8,"Y","Y","Eresus cinnaberinus",1
+3,2,"ERESIDAE","Eresus sandaliatus (MARTINI & GOEZE, 1778)","Eresus sandaliatus","Lentevuurspin","EREERSAND","ERSAND","ERE","FL","RL","EX","UI",0,"Hdos","Hdbs","Eresus sandaliatus",1
+431,37,"ERIGONINAE","Acartauchenius scurrilis (O.P.-CAMBRIDGE, 1872)","Acartauchenius scurrilis","Bleek haarkopje","ERIACSCUR","ACSCUR","ERI","FL","RL","EN","IG",2,"Gsdpm","Godta","Acartauchenius scurrilis",1
+432,37,"ERIGONINAE","Araeoncus crassiceps (WESTRING, 1861)","Araeoncus crassiceps","Arrogant voorkopje","ERIARCRAS","ARCRAS","ERI","FL","RL","EN","IG",2,"Hnh","Hws","Araeoncus crassiceps",1
+433,37,"ERIGONINAE","Araeoncus humilis (BLACKWALL, 1841)","Araeoncus humilis",,"ERIARHUMI","ARHUMI","ERI","FL",,"NT","NB",6,,"-","Araeoncus humilis",1
+434,37,"ERIGONINAE","Baryphyma duffeyi (MILLIDGE, 1954)","Baryphyma duffeyi","Klokspinnetje","ERIBADUFF","BADUFF","ERI","FL","RL","CR","KR",1,"Szb","Sa","Baryphyma duffeyi",1
+435,37,"ERIGONINAE","Baryphyma maritimum (CROCKER & PARKER, 1970)","Baryphyma maritimum","Helmgras-putkopje","ERIBAMARI","BAMARI","ERI","FL","RL","EN","IG",2,"Gsdpz","Godtr","Baryphyma maritimum",1
+436,37,"ERIGONINAE","Baryphyma pratense (BLACKWALL, 1861)","Baryphyma pratense","Weide-putkopje","ERIBAPRAT","BAPRAT","ERI","FL","RL","VU","KW",3,"Gsnv","Gowr","Baryphyma pratense",1
+437,37,"ERIGONINAE","Baryphyma trifrons (O.P.-CAMBRIDGE, 1863)","Baryphyma trifrons","Kust-putkopje","ERIBATRIF","BATRIF","ERI","FL","RL","CR","KR",1,"Hdo","Hdb","Baryphyma trifrons",1
+438,37,"ERIGONINAE","Ceratinella brevipes (WESTRING, 1851)","Ceratinella brevipes",,"ERICEBREP","CEBREP","ERI","FL",,"NT","NB",6,,"-","Ceratinella brevipes",1
+439,37,"ERIGONINAE","Ceratinella brevis (WIDER, 1834)","Ceratinella brevis",,"ERICEBRES","CEBRES","ERI","FL",,"NT","NB",6,,"-","Ceratinella brevis",1
+441,37,"ERIGONINAE","Ceratinopsis romana (O.P.-CAMBRIDGE, 1872)","Ceratinopsis romana","Bosplatkopje","ERICEROMA","CEROMA","ERI","FL","RL","EN","IG",2,"Gsdp","Godt","Ceratinopsis romana",1
+440,37,"ERIGONINAE","Ceratinella scabrosa (O.P.-CAMBRIDGE, 1871)","Ceratinella scabrosa",,"ERICESCAB","CESCAB","ERI","FL",,"NT","NB",6,,"-","Ceratinella scabrosa",1
+442,37,"ERIGONINAE","Ceratinopsis stativa (SIMON, 1881)","Ceratinopsis stativa","Weideplatkopje","ERICESTAT","CESTAT","ERI","FL","RL","RG","GB",5,"N","N","Ceratinopsis stativa",1
+443,37,"ERIGONINAE","Cineta gradata (SIMON, 1881)","Cineta gradata",,"ERICIGRAD","CIGRAD","ERI",,,"NT","NB",6,,"-","Cineta gradata",1
+444,37,"ERIGONINAE","Cnephalocotes obscurus (BLACKWALL, 1834)","Cnephalocotes obscurus",,"ERICNOBSC","CNOBSC","ERI","FL",,"NT","NB",6,,"-","Cnephalocotes obscurus",1
+454,37,"ERIGONINAE","Dismodicus bifrons (BLACKWALL, 1841)","Dismodicus bifrons",,"ERIDIBIFR","DIBIFR","ERI","FL",,"NT","NB",6,,"-","Dismodicus bifrons",1
+445,37,"ERIGONINAE","Dicymbium brevisetosum LOCKET, 1962","Dicymbium brevisetosum",,"ERIDIBREV","DIBREV","ERI","FL",,"NT","NB",6,,"-","Dicymbium brevisetosum",1
+448,37,"ERIGONINAE","Diplocephalus caecus DENIS, 1952","Diplocephalus caecus",,"ERIDICAEC","DICAEC","ERI",,,"NT","NB",6,,"-","Diplocephalus caecus",1
+449,37,"ERIGONINAE","Diplocephalus cristatus (BLACKWALL, 1833)","Diplocephalus cristatus",,"ERIDICRIS","DICRIS","ERI","FL",,"NT","NB",6,,"-","Diplocephalus cristatus",1
+455,37,"ERIGONINAE","Dismodicus elevatus (C.L. KOCH, 1838)","Dismodicus elevatus","Hoogste bolkopje","ERIDIELEV","DIELEV","ERI","FL","RL","RG","GB",5,"Z","S","Dismodicus elevatus",1
+705,37,"ERIGONINAE","Diplocephalus graecus ","Diplocephalus graecus ","","ERIDIGRAE","DIGRAE","ERI","","","","",8,"","","Diplocephalus graecus",
+450,37,"ERIGONINAE","Diplocephalus latifrons (O.P.-CAMBRIDGE, 1863)","Diplocephalus latifrons",,"ERIDILATI","DILATI","ERI","FL",,"NT","NB",6,,"-","Diplocephalus latifrons",1
+451,37,"ERIGONINAE","Diplocephalus lusiscus (SIMON, 1872)","Diplocephalus lusiscus",,"ERIDILUSI","DILUSI","ERI",,,"NT","NB",6,,"-","Diplocephalus lusiscus",1
+446,37,"ERIGONINAE","Dicymbium nigrum (BLACKWALL, 1834)","Dicymbium nigrum",,"ERIDINIGR","DINIGR","ERI","FL",,"NT","NB",6,,"-","Dicymbium nigrum",1
+452,37,"ERIGONINAE","Diplocephalus permixtus (O.P.-CAMBRIDGE, 1871)","Diplocephalus permixtus",,"ERIDIPERM","DIPERM","ERI","FL",,"NT","NB",6,,"-","Diplocephalus permixtus",1
+453,37,"ERIGONINAE","Diplocephalus picinus (BLACKWALL, 1841) (= Entelecara meticulosa, SIMON)","Diplocephalus picinus (=E. meticulosa)",,"ERIDIPICI","DIPICI","ERI","FL",,"NT","NB",6,,"-","Diplocephalus picinus",1
+447,37,"ERIGONINAE","Dicymbium tibiale (BLACKWALL, 1836)","Dicymbium tibiale",,"ERIDITIBI","DITIBI","ERI","FL",,"NT","NB",6,,"-","Dicymbium tibiale",1
+456,37,"ERIGONINAE","Entelecara acuminata (WIDER, 1834)","Entelecara acuminata",,"ERIENACUM","ENACUM","ERI","FL",,"NT","NB",6,,"-","Entelecara acuminata",1
+457,37,"ERIGONINAE","Entelecara congenera (O.P.-CAMBRIDGE, 1879)","Entelecara congenera","Bolkop-struikdwergspin","ERIENCONG","ENCONG","ERI","FL","RL","RG","GB",5,"Z","S","Entelecara congenera",1
+458,37,"ERIGONINAE","Entelecara errata O.P.-CAMBRIDGE, 1913","Entelecara errata","Zuidelijke struikdwergspin","ERIENERRA","ENERRA","ERI","FL","RL","RG","GB",5,"N","N","Entelecara errata",1
+459,37,"ERIGONINAE","Entelecara erythropus (WESTRING, 1851)","Entelecara erythropus",,"ERIENERYT","ENERYT","ERI","FL",,"NT","NB",6,,"-","Entelecara erythropus",1
+460,37,"ERIGONINAE","Entelecara flavipes (BLACKWALL, 1834)","Entelecara flavipes","Putkop-struikdwergspin","ERIENFLAV","ENFLAV","ERI","FL","RL","IN","OG",4,"X","X","Entelecara flavipes",1
+461,37,"ERIGONINAE","Entelecara media KULCZYNSKI, 1887","Entelecara media","Noordse struikdwergspin","ERIENMEDI","ENMEDI","ERI","FL","RL","RG","GB",5,"Z","S","Entelecara media",1
+462,37,"ERIGONINAE","Entelecara omissa O.P.-CAMBRIDGE, 1902????","Entelecara omissa","Ven-struikdwergspin","ERIENOMIS","ENOMIS","ERI","FL","RL","CR","KR",1,"Gsnp","Gowt","Entelecara omissa",1
+695,37,"ERIGONINAE","Eperigone trilobata (EMERTON, 1882)","Eperigone trilobata",,"ERIEPTRIL","EPTRIL","ERI","FL","RL","NS","NS",7,,,"Eperigone trilobata",1
+463,37,"ERIGONINAE","Erigone arctica (WHITE, 1852)","Erigone arctica",,"ERIERARCT","ERARCT","ERI","FL",,"NT","NB",6,,"-","Erigone arctica",1
+464,37,"ERIGONINAE","Erigone atra (BLACKWALL, 1841)","Erigone atra",,"ERIERATRA","ERATRA","ERI","FL",,"NT","NB",6,,"-","Erigone atra",1
+465,37,"ERIGONINAE","Erigone dentipalpis (WIDER, 1834)","Erigone dentipalpis",,"ERIERDENT","ERDENT","ERI","FL",,"NT","NB",6,,"-","Erigone dentipalpis",1
+470,37,"ERIGONINAE","Erigonoplus globipes (C.L. KOCH, 1872)","Erigonoplus globipes",,"ERIERGLOB","ERGLOB","ERI",,,"NT","NB",6,,"-","Erigonoplus globipes",1
+468,37,"ERIGONINAE","Erigonella hiemalis (BLACKWALL, 1841)","Erigonella hiemalis","Putkop-ruwborstje","ERIERHIEM","ERHIEM","ERI","FL","RL","RG","GB",5,"Z","S","Erigonella hiemalis",1
+469,37,"ERIGONINAE","Erigonella ignobilis (O.P.-CAMBRIDGE, 1871)","Erigonella ignobilis","Bolkop-ruwborstje","ERIERIGNO","ERIGNO","ERI","FL","RL","EN","IG",2,"Gsnp","Gowt","Erigonella ignobilis",1
+471,37,"ERIGONINAE","Erigonoplus justus (O.P.-CAMBRIDGE, 1875)","Erigonoplus justus",,"ERIERJUST","ERJUST","ERI",,,"NT","NB",6,,"-","Erigonoplus justus",1
+466,37,"ERIGONINAE","Erigone longipalpis (SUNDEVALL, 1830)","Erigone longipalpis",,"ERIERLONG","ERLONG","ERI","FL",,"NT","NB",6,,"-","Erigone longipalpis",1
+467,37,"ERIGONINAE","Erigone promiscua (O.P.-CAMBRIDGE, 1872)","Erigone promiscua","Zand-storingsdwergspin","ERIERPROM","ERPROM","ERI","FL","RL","CR","KR",1,"Gsdo","Godb","Erigone promiscua",1
+706,37,"ERIGONINAE","Evansia merens  ","Evansia merens  ","","ERIEVMERE","EVMERE","ERI","","","","",8,"","","Evansia merens",
+472,37,"ERIGONINAE","Glyphesis cottonae (LA TOUCHE, 1945)","Glyphesis cottonae","Dwergbultkopje","ERIGLCOTT","GLCOTT","ERI","FL","RL","CR","KR",1,"Hnh","Hws","Glyphesis cottonae",1
+473,37,"ERIGONINAE","Glyphesis servulus (SIMON, 1881)","Glyphesis servulus","Neuskopje","ERIGLSERV","GLSERV","ERI","FL","RL","EN","IG",2,"Blmoh","Fdmot","Glyphesis servulus",1
+474,37,"ERIGONINAE","Gnathonarium dentatum (WIDER, 1834)","Gnathonarium dentatum",,"ERIGNDENT","GNDENT","ERI","FL",,"NT","NB",6,,"-","Gnathonarium dentatum",1
+707,37,"ERIGONINAE","Gonatium hilare  ","Gonatium hilare  ","","ERIGOHILA","GOHILA","ERI","","","","",8,"","","Gonatium hilare",
+477,37,"ERIGONINAE","Gongylidiellum latebricola (O.P.-CAMBRIDGE, 1871)","Gongylidiellum latebricola",,"ERIGOLATE","GOLATE","ERI","FL",,"NT","NB",6,,"-","Gongylidiellum latebricola",1
+478,37,"ERIGONINAE","Gongylidiellum murcidum SIMON, 1884","Gongylidiellum murcidum","Duimpalpje","ERIGOMURC","GOMURC","ERI","FL","RL","CR","KR",1,"Mrv","Mrr","Gongylidiellum murcidum",1
+475,37,"ERIGONINAE","Gonatium rubellum (BLACKWALL, 1841)","Gonatium rubellum",,"ERIGORUBL","GORUBL","ERI","FL",,"NT","NB",6,,"-","Gonatium rubellum",1
+476,37,"ERIGONINAE","Gonatium rubens (BLACKWALL, 1833)","Gonatium rubens",,"ERIGORUBN","GORUBN","ERI","FL",,"NT","NB",6,,"-","Gonatium rubens",1
+480,37,"ERIGONINAE","Gongylidium rufipes (SUNDEVALL, 1829)","Gongylidium rufipes",,"ERIGORUFI","GORUFI","ERI","FL",,"NT","NB",6,,"-","Gongylidium rufipes",1
+479,37,"ERIGONINAE","Gongylidiellum vivum (O.P.-CAMBRIDGE, 1875)","Gongylidiellum vivum",,"ERIGOVIVU","GOVIVU","ERI","FL",,"NT","NB",6,,"-","Gongylidiellum vivum",1
+483,37,"ERIGONINAE","Hypomma bituberculatum (WIDER, 1834)","Hypomma bituberculatum",,"ERIHYBITU","HYBITU","ERI","FL",,"NT","NB",6,,"-","Hypomma bituberculatum",1
+484,37,"ERIGONINAE","Hypomma cornutum (BLACKWALL, 1833)","Hypomma cornutum",,"ERIHYCORN","HYCORN","ERI","FL",,"NT","NB",6,,"-","Hypomma cornutum",1
+485,37,"ERIGONINAE","Hypomma fulvum BOSENBERG, 1902","Hypomma fulvum","Pijlpalpje","ERIHYFULV","HYFULV","ERI","FL","RL","VU","KW",3,"Mrv","Mrr","Hypomma fulvum",1
+481,37,"ERIGONINAE","Hylyphantes graminicola (SUNDEVALL, 1829)","Hylyphantes graminicola",,"ERIHYGRAM","HYGRAM","ERI","FL",,"NT","NB",6,,"-","Hylyphantes graminicola",1
+486,37,"ERIGONINAE","Hypselistes jacksoni (O.P.-CAMBRIDGE, 1902)","Hypselistes jacksoni","Jackson's dubbelkopje","ERIHYJACK","HYJACK","ERI","FL","RL","EN","IG",2,"Hnh","Hws","Hypselistes jacksoni",1
+482,37,"ERIGONINAE","Hylyphantes nigritus (SIMON, 1881)","Hylyphantes nigritus","Kort kurkentrekkertje","ERIHYNIGR","HYNIGR","ERI","FL","RL","RG","GB",5,"N","N","Hylyphantes nigritus",1
+487,37,"ERIGONINAE","Jacksonella falconeri (JACKSON, 1908)","Jacksonella falconeri",,"ERIJAFALC","JAFALC","ERI",,,"NT","NB",6,,"-","Jacksonella falconeri",1
+488,37,"ERIGONINAE","Lessertia dentichelis (SIMON, 1884)","Lessertia dentichelis",,"ERILEDENT","LEDENT","ERI","FL",,"NT","NB",6,,"-","Lessertia dentichelis",1
+489,37,"ERIGONINAE","Lophomma punctatum (BLACKWALL, 1841)","Lophomma punctatum",,"ERILOPUNC","LOPUNC","ERI","FL",,"NT","NB",6,,"-","Lophomma punctatum",1
+490,37,"ERIGONINAE","Maso gallicus SIMON, 1894","Maso gallicus","Veer-dwergstekelpoot","ERIMAGALL","MAGALL","ERI","FL","RL","EN","IG",2,"Gsnv","Gowr","Maso gallicus",1
+491,37,"ERIGONINAE","Maso sundevalli (WESTRING, 1851)","Maso sundevalli",,"ERIMASUND","MASUND","ERI","FL",,"NT","NB",6,,"-","Maso sundevalli",1
+492,37,"ERIGONINAE","Metopobactrus prominulus (O.P.-CAMBRIDGE, 1872)","Metopobactrus prominulus","Kalkgrasdwergspin","ERIMEPROM","MEPROM","ERI","FL","RL","VU","KW",3,"Gsdo","Godb","Metopobactrus prominulus",1
+493,37,"ERIGONINAE","Micrargus apertus (O.P.-CAMBRIDGE, 1870)","Micrargus apertus","Apart putkopje","ERIMIAPER","MIAPER","ERI","FL","RL","IK","OG",8,"Y","Y","Micrargus apertus",1
+501,37,"ERIGONINAE","Mioxena blanda","Mioxena blanda","Bleek dwergspinnetje","ERIMIBLAN","MIBLAN","ERI","FL","RL","RG","GB",5,"N","N","Mioxena blanda",1
+494,37,"ERIGONINAE","Micrargus herbigradus (BLACKWALL, 1854)","Micrargus herbigradus",,"ERIMIHERB","MIHERB","ERI","FL",,"NT","NB",6,,"-","Micrargus herbigradus",1
+498,37,"ERIGONINAE","Milleriana inerrans (O.P.-CAMBRIDGE, 1884)","Milleriana inerrans",,"ERIMIINER","MIINER","ERI","FL",,"NT","NB",6,,"-","Milleriana inerrans",1
+495,37,"ERIGONINAE","Micrargus laudatus (O.P.-CAMBRIDGE, 1881)","Micrargus laudatus",,"ERIMILAUD","MILAUD","ERI",,,"NT","NB",6,,"-","Micrargus laudatus",1
+499,37,"ERIGONINAE","Minicia marginella (WIDER, 1834)","Minicia marginella",,"ERIMIMARG","MIMARG","ERI",,,"NT","NB",6,,"-","Minicia marginella",1
+708,37,"ERIGONINAE","Minyriolus pusillus (WIDER, 1834)","Minyriolus pusillus","Deukkopje","ERIMIPUSI","MIPUSI","ERI","FL","","NT","NB",6,"","","Minyriolus pusillus",1
+500,37,"ERIGONINAE","Minyriolus pusillus (WIDER, 1834)","Minyriolus pusillus",,"ERIMIPUSU","MIPUSU","ERI","FL",,"NT","NB",6,,"-","Minyriolus pusillus",1
+496,37,"ERIGONINAE","Micrargus subaequalis (WESTRING, 1851)","Micrargus subaequalis",,"ERIMISUBA","MISUBA","ERI","FL",,"NT","NB",6,,"-","Micrargus subaequalis",1
+497,37,"ERIGONINAE","Microctenonyx subitaneus (O.P.-CAMBRIDGE, 1875)","Microctenonyx subitaneus",,"ERIMISUBI","MISUBI","ERI","FL",,"NT","NB",6,,"-","Microctenonyx subitaneus",1
+503,37,"ERIGONINAE","Monocephalus castaneipes (SIMON, 1884)","Monocephalus castaneipes","Breed groefkopje","ERIMOCAST","MOCAST","ERI","FL","RL","RG","GB",5,"Z","S","Monocephalus castaneipes",1
+504,37,"ERIGONINAE","Monocephalus fuscipes (BLACKWALL, 1836)","Monocephalus fuscipes",,"ERIMOFUSC","MOFUSC","ERI","FL",,"NT","NB",6,,"-","Monocephalus fuscipes",1
+502,37,"ERIGONINAE","Moebelia penicillata (WESTRING, 1851)","Moebelia penicillata",,"ERIMOPENI","MOPENI","ERI","FL",,"NT","NB",6,,"-","Moebelia penicillata",1
+505,37,"ERIGONINAE","Nematogmus sanguinolentus (WALCKENAER, 1837)","Nematogmus sanguinolentus",,"ERINESANG","NESANG","ERI",,,"NT","NB",6,,"-","Nematogmus sanguinolentus",1
+506,37,"ERIGONINAE","Notioscopus sarcinatus (O.P.-CAMBRIDGE, 1872)","Notioscopus sarcinatus","Spleetkopje","ERINOSARC","NOSARC","ERI","FL","RL","CR","KR",1,"Hnh","Hws","Notioscopus sarcinatus",1
+507,37,"ERIGONINAE","Oedothorax agrestis (BLACKWALL, 1853)","Oedothorax agrestis",,"ERIOEAGRE","OEAGRE","ERI","FL",,"NT","NB",6,,"-","Oedothorax agrestis",1
+508,37,"ERIGONINAE","Oedothorax apicatus (BLACKWALL, 1850)","Oedothorax apicatus",,"ERIOEAPIC","OEAPIC","ERI","FL",,"NT","NB",6,,"-","Oedothorax apicatus",1
+509,37,"ERIGONINAE","Oedothorax fuscus (BLACKWALL, 1834)","Oedothorax fuscus",,"ERIOEFUSC","OEFUSC","ERI","FL",,"NT","NB",6,,"-","Oedothorax fuscus",1
+510,37,"ERIGONINAE","Oedothorax gibbosus (BLACKWALL, 1841)","Oedothorax gibbosus","Bult-velddwergspin","ERIOEGIBB","OEGIBB","ERI","FL","RL","VU","KW",3,"Blmo","Fdmo","Oedothorax gibbosus",1
+511,37,"ERIGONINAE","Oedothorax retusus (WESTRING, 1851)","Oedothorax retusus",,"ERIOERETU","OERETU","ERI","FL",,"NT","NB",6,,"-","Oedothorax retusus",1
+512,37,"ERIGONINAE","Panamamops sulcifrons (WIDER, 1834)","Panamamops sulcifrons",,"ERIPASULC","PASULC","ERI",,,"NT","NB",6,,"-","Panamamops sulcifrons",1
+513,37,"ERIGONINAE","Pelecopsis elongata (WIDER, 1834)","Pelecopsis elongata","Accidentje","ERIPEELON","PEELON","ERI","FL","RL","IK","OG",8,"Y","Y","Pelecopsis elongata",1
+517,37,"ERIGONINAE","Peponocranium ludicrum (O.P.-CAMBRIDGE, 1861)","Peponocranium ludicrum","Heide-ballonkopje","ERIPELUDI","PELUDI","ERI","FL",,"NT","NB",6,,"-","Peponocranium ludicrum",1
+514,37,"ERIGONINAE","Pelecopsis nemoralis (ook: P. locketi en P. mediocris)","Pelecopsis nemoralis (ook: P. locketi en P. mediocris)","Duin-ballonkopje","ERIPENEMO","PENEMO","ERI","FL","RL","EN","IG",2,"Gsdpz","Godtr","Pelecopsis nemoralis",1
+518,37,"ERIGONINAE","Peponocranium orbiculatum (O.P.-CAMBRIDGE, 1882)","Peponocranium orbiculatum",,"ERIPEORBI","PEORBI","ERI",,,"NT","NB",6,,"-","Peponocranium orbiculatum",1
+515,37,"ERIGONINAE","Pelecopsis parallela (WIDER, 1834)","Pelecopsis parallela",,"ERIPEPARA","PEPARA","ERI","FL",,"NT","NB",6,,"-","Pelecopsis parallela",1
+516,37,"ERIGONINAE","Pelecopsis radicicola (L. KOCH, 1875)","Pelecopsis radicicola","Bescheiden ballonkopje","ERIPERADI","PERADI","ERI","FL","RL","IN","OG",4,"X","X","Pelecopsis radicicola",1
+519,37,"ERIGONINAE","Pocadicnemis juncea LOCKET & MILLIDGE, 1953","Pocadicnemis juncea",,"ERIPOJUNC","POJUNC","ERI","FL",,"NT","NB",6,,"-","Pocadicnemis juncea",1
+520,37,"ERIGONINAE","Pocadicnemis pumila (BLACKWALL, 1841)","Pocadicnemis pumila",,"ERIPOPUMI","POPUMI","ERI","FL",,"NT","NB",6,,"-","Pocadicnemis pumila",1
+521,37,"ERIGONINAE","Prinerigone vagans AUDOUIN, 1826","Prinerigone vagans",,"ERIPRVAGA","PRVAGA","ERI","FL",,"NT","NB",6,,"-","Prinerigone vagans",1
+523,37,"ERIGONINAE","Pseudomaro aenigmaticus DENIS, 1966","Pseudomaro aenigmaticus","Feministje","ERIPSAENI","PSAENI","ERI","FL","RL","RG","GB",5,"N","N","Pseudomaro aenigmaticus",1
+522,37,"ERIGONINAE","Pseudocarorita thaleri (SAARISTO, 1971)","Pseudocarorita thaleri","Thalers vals wevertje","ERIPSTHAL","PSTHAL","ERI","FL","RL","RG","GB",5,"Z","S","Pseudocarorita thaleri",1
+525,37,"ERIGONINAE","Satilatlas britteni (JACKSON, 1913)","Satilatlas britteni","Donker dwergstekelpootje","ERISABRIT","SABRIT","ERI","FL","RL","CR","KR",1,"Hn","Hw","Satilatlas britteni",1
+524,37,"ERIGONINAE","Saloca diceros (O.P.-CAMBRIDGE, 1871)","Saloca diceros","Moerasbos-sierkopje","ERISADICE","SADICE","ERI","FL","RL","VU","KW",3,"Blno","Fdwo","Saloca diceros",1
+526,37,"ERIGONINAE","Savignya frontata (BLACKWALL, 1833)","Savignya frontata","Torenkopje","ERISAFRON","SAFRON","ERI","FL","RL","VU","KW",3,"Gsnv","Gowr","Savignya frontata",1
+527,37,"ERIGONINAE","Silometopus ambiguus (O.P.-CAMBRIDGE, 1905)","Silometopus ambiguus","Elegant putkopje","ERISIAMBI","SIAMBI","ERI","FL","RL","CR","KR",1,"Szb","Sa","Silometopus ambiguus",1
+528,37,"ERIGONINAE","Silometopus bonessi CASEMIR, 1970","Silometopus bonessi","Hoogveen-groefkopje","ERISIBONE","SIBONE","ERI","FL","RL","CR","KR",1,"Hd","Hd","Silometopus bonessi",1
+529,37,"ERIGONINAE","Silometopus elegans (O.P.-CAMBRIDGE, 1905)","Silometopus elegans","Elegant groefkopje","ERISIELEG","SIELEG","ERI","FL","RL","VU","KW",3,"Gsnv","Gowr","Silometopus elegans",1
+530,37,"ERIGONINAE","Silometopus incurvatus (O.P.-CAMBRIDGE, 1873)","Silometopus incurvatus","Oranje heide-putkopje","ERISIINCU","SIINCU","ERI","FL","RL","EN","IG",2,"Gsdo","Godb","Silometopus incurvatus",1
+531,37,"ERIGONINAE","Silometopus reussi (THORELL, 1871)","Silometopus reussi","Plat groefkopje","ERISIREUS","SIREUS","ERI","FL","RL","VU","KW",3,"Gsnv","Gowr","Silometopus reussi",1
+532,37,"ERIGONINAE","Tapinocyba biscissa (O.P.-CAMBRIDGE, 1872)","Tapinocyba biscissa","Gevorkt groefkopje","ERITABISC","TABISC","ERI","FL","RL","IK","OG",8,"Y","Y","Tapinocyba biscissa",1
+533,37,"ERIGONINAE","Tapinocyba insecta (L. KOCH, 1869)","Tapinocyba insecta",,"ERITAINSE","TAINSE","ERI","FL",,"NT","NB",6,,"-","Tapinocyba insecta",1
+534,37,"ERIGONINAE","Tapinocyba pallens (O.P.-CAMBRIDGE, 1872)","Tapinocyba pallens","Bleek mos-groefkopje","ERITAPALL","TAPALL","ERI","FL","RL","IK","OG",8,"Y","Y","Tapinocyba pallens",1
+535,37,"ERIGONINAE","Tapinocyba praecox (O.P.-CAMBRIDGE, 1873)","Tapinocyba praecox",,"ERITAPRAE","TAPRAE","ERI","FL",,"NT","NB",6,,"-","Tapinocyba praecox",1
+536,37,"ERIGONINAE","Tapinocyboides pygmaea (MENGE, 1869)","Tapinocyboides pygmaea",,"ERITAPYGM","TAPYGM","ERI",,,"NT","NB",6,,"-","Tapinocyboides pygmaea",1
+537,37,"ERIGONINAE","Thyreostenius biovatus (O.P.-CAMBRIDGE, 1875)","Thyreostenius biovatus","Mier-groefkopje","ERITHBIOV","THBIOV","ERI","FL","RL","CR","KR",1,"Gsdpm","Godta","Thyreostenius biovatus",1
+538,37,"ERIGONINAE","Thyreostenius parasiticus (WESTRING, 1851)","Thyreostenius parasiticus",,"ERITHPARA","THPARA","ERI","FL",,"NT","NB",6,,"-","Thyreostenius parasiticus",1
+539,37,"ERIGONINAE","Tiso vagans (BLACKWALL, 1834)","Tiso vagans",,"ERITIVAGA","TIVAGA","ERI","FL",,"NT","NB",6,,"-","Tiso vagans",1
+540,37,"ERIGONINAE","Tmeticus affinis (BLACKWALL, 1841)","Tmeticus affinis","Wrattenkaakje","ERITMAFFI","TMAFFI","ERI","FL","RL","VU","KW",3,"Mr","Mr","Tmeticus affinis",1
+546,37,"ERIGONINAE","Troxochrus cirrifrons (O.P.-CAMBRIDGE, 1871)","Troxochrus cirrifrons",,"ERITRCIRR","TRCIRR","ERI","FL",,"NT","NB",6,,"-","Troxochrus cirrifrons",1
+544,37,"ERIGONINAE","Trichopterna cito (O.P.-CAMBRIDGE, 1872)","Trichopterna cito","Stekelloos putkopje","ERITRCITO","TRCITO","ERI","FL","RL","VU","KW",3,"Gsdo","Godb","Trichopterna cito",1
+541,37,"ERIGONINAE","Trematocephalus cristatus (WIDER, 1834)","Trematocephalus cristatus","Doorkijkkopje","ERITRCRIS","TRCRIS","ERI","FL","RL","VU","KW",3,"Bldz","Fddv","Trematocephalus cristatus",1
+542,37,"ERIGONINAE","Trichoncus hackmanni MILLIDGE, 1955","Trichoncus hackmanni","Strand-kontrastppotje","ERITRHACK","TRHACK","ERI","FL","RL","CR","KR",1,"Os","Rg","Trichoncus hackmanni",1
+547,37,"ERIGONINAE","Troxochrus nasutus SCHENKEL, 1925","Troxochrus nasutus",,"ERITRNASU","TRNASU","ERI",,,"NT","NB",6,,"-","Troxochrus nasutus",1
+543,37,"ERIGONINAE","Trichoncus saxicola (O.P.-CAMBRIDGE, 1861)","Trichoncus saxicola","Gevorkt kontrastpootje","ERITRSAXI","TRSAXI","ERI","FL","RL","IK","OG",8,"Y","Y","Trichoncus saxicola",1
+548,37,"ERIGONINAE","Troxochrus scabriculus (WESTRING, 1851)","Troxochrus scabriculus",,"ERITRSCAB","TRSCAB","ERI","FL",,"NT","NB",6,,"-","Troxochrus scabriculus",1
+545,37,"ERIGONINAE","Trichopterna thorelli (WESTRING, 1861)","Trichopterna thorelli","Harig dubbelkopje","ERITRTHOR","TRTHOR","ERI","FL","RL","EN","IG",2,"Gsnv","Gowr","Trichopterna thorelli",1
+549,37,"ERIGONINAE","Typhochrestus digitatus (O.P.-CAMBRIDGE, 1872)","Typhochrestus digitatus",,"ERITYDIGI","TYDIGI","ERI","FL",,"NT","NB",6,,"-","Typhochrestus digitatus",1
+550,37,"ERIGONINAE","Typhochrestus simoni DE LESSERT, 1907","Typhochrestus simoni",,"ERITYSIMO","TYSIMO","ERI",,,"NT","NB",6,,"-","Typhochrestus simoni",1
+551,37,"ERIGONINAE","Walckenaeria acuminata BLACKWALL, 1833","Walckenaeria acuminata",,"ERIWAACUM","WAACUM","ERI","FL",,"NT","NB",6,,"-","Walckenaeria acuminata",1
+552,37,"ERIGONINAE","Walckenaeria alticeps (DENIS, 1952)","Walckenaeria alticeps","Gehoornd schaduwdubblkopje","ERIWAALTI","WAALTI","ERI","FL","RL","CR","KR",1,"Ms","Mo","Walckenaeria alticeps",1
+553,37,"ERIGONINAE","Walckenaeria antica (WIDER, 1834)","Walckenaeria antica",,"ERIWAANTI","WAANTI","ERI","FL",,"NT","NB",6,,"-","Walckenaeria antica",1
+554,37,"ERIGONINAE","Walckenaeria atrotibialis (O.P.-CAMBRIDGE, 1878)","Walckenaeria atrotibialis",,"ERIWAATRO","WAATRO","ERI","FL",,"NT","NB",6,,"-","Walckenaeria atrotibialis",1
+555,37,"ERIGONINAE","Walckenaeria capito (WESTRING, 1861)","Walckenaeria capito","Bol dubbelkopje","ERIWACAPI","WACAPI","ERI","FL","RL","IN","OG",4,"X","X","Walckenaeria capito",1
+556,37,"ERIGONINAE","Walckenaeria corniculans (O.P.-CAMBRIDGE, 1875)","Walckenaeria corniculans","Harig dubbelsierkopje","ERIWACORN","WACORN","ERI","FL","RL","VU","KW",3,"Blno","Fdwo","Walckenaeria corniculans",1
+557,37,"ERIGONINAE","Walckenaeria cucullata (C.L. KOCH, 1836)","Walckenaeria cucullata",,"ERIWACUCU","WACUCU","ERI","FL",,"NT","NB",6,,"-","Walckenaeria cucullata",1
+558,37,"ERIGONINAE","Walckenaeria cuspidata (BLACKWALL, 1833)","Walckenaeria cuspidata",,"ERIWACUSP","WACUSP","ERI","FL",,"NT","NB",6,,"-","Walckenaeria cuspidata",1
+559,37,"ERIGONINAE","Walckenaeria dysderoides (WIDER, 1834)","Walckenaeria dysderoides",,"ERIWADYSD","WADYSD","ERI","FL",,"NT","NB",6,,"-","Walckenaeria dysderoides",1
+560,37,"ERIGONINAE","Walckenaeria furcillata (MENGE, 1869)","Walckenaeria furcillata","Gespleten doorkijkkopje","ERIWAFURC","WAFURC","ERI","FL",,"NT","NB",6,,"-","Walckenaeria furcillata",1
+561,37,"ERIGONINAE","Walckenaeria incisa (O.P.-CAMBRIDGE, 1871)","Walckenaeria incisa","Oog-sierkopje","ERIWAINCI","WAINCI","ERI","FL",,"NT","NB",6,,"-","Walckenaeria incisa",1
+562,37,"ERIGONINAE","Walckenaeria kochi (O.P.-CAMBRIDGE, 1872)","Walckenaeria kochi","Tweeknopje","ERIWAKOCH","WAKOCH","ERI","FL","RL","RG","GB",5,"Z","S","Walckenaeria kochi",1
+563,37,"ERIGONINAE","Walckenaeria mitrata (MENGE, 1868)","Walckenaeria mitrata","Mijtertje","ERIWAMITR","WAMITR","ERI","FL","RL","EN","IG",2,"Bldd","Fddd","Walckenaeria mitrata",1
+564,37,"ERIGONINAE","Walckenaeria monoceros (WIDER, 1834)","Walckenaeria monoceros","Kuifje","ERIWAMONO","WAMONO","ERI","FL",,"NT","NB",6,,"-","Walckenaeria monoceros",1
+565,37,"ERIGONINAE","Walckenaeria nodosa O.P.-CAMBRIDGE, 1873","Walckenaeria nodosa","Bol-sierkopje","ERIWANODO","WANODO","ERI","FL","RL","EN","IG",2,"Gsnv","Gowr","Walckenaeria nodosa",1
+566,37,"ERIGONINAE","Walckenaeria nudipalpis (WESTRING, 1851)","Walckenaeria nudipalpis",,"ERIWANUDI","WANUDI","ERI","FL",,"NT","NB",6,,"-","Walckenaeria nudipalpis",1
+567,37,"ERIGONINAE","Walckenaeria obtusa BLACKWALL, 1836","Walckenaeria obtusa",,"ERIWAOBTU","WAOBTU","ERI","FL",,"NT","NB",6,,"-","Walckenaeria obtusa",1
+568,37,"ERIGONINAE","Walckenaeria stylifrons (O.P.-CAMBRIDGE, 1875)","Walckenaeria stylifrons","Plat sierkopje","ERIWASTYL","WASTYL","ERI","FL","RL","EN","IG",2,"Gsdoz","Godbr","Walckenaeria stylifrons",1
+569,37,"ERIGONINAE","Walckenaeria unicornis O.P.-CAMBRIDGE, 1861","Walckenaeria unicornis",,"ERIWAUNIC","WAUNIC","ERI","FL",,"NT","NB",6,,"-","Walckenaeria unicornis",1
+570,37,"ERIGONINAE","Walckenaeria vigilax (BLACKWALL, 1833)","Walckenaeria vigilax","Klein vals sierkopje","ERIWAVIGI","WAVIGI","ERI","FL",,"NT","NB",6,,"-","Walckenaeria vigilax",1
+571,37,"ERIGONINAE","Wiehlea calcarifera (SIMON, 1884)","Wiehlea calcarifera",,"ERIWICALC","WICALC","ERI",,,"NT","NB",6,,"-","Wiehlea calcarifera",1
+131,19,"EUSPARASSIDAE","Micrommata virescens (CLERCK, 1757)","Micrommata virescens","Groene jachtspin","EUSMIVIRE","MIVIRE","EUS","FL","RL","CR","KR",1,"Blnz","Fdwv","Micrommata virescens",1
+44,14,"GNAPHOSIDAE","Callilepis nocturna (LINNAEUS, 1758)","Callilepis nocturna","Mierendief","GNACANOCT","CANOCT","GNA","FL","RL","RG","GB",5,"N","N","Callilepis nocturna",1
+45,14,"GNAPHOSIDAE","Drassodes cupreus (BLACKWALL, 1834)","Drassodes cupreus",,"GNADRCUPR","DRCUPR","GNA","FL",,"NT","NB",6,,"-","Drassodes cupreus",1
+46,14,"GNAPHOSIDAE","Drassodes hypocrita (SIMON, 1878)","Drassodes hypocrita",,"GNADRHYPO","DRHYPO","GNA",,,"NT","NB",6,,"-","Drassodes hypocrita",1
+47,14,"GNAPHOSIDAE","Drassodes lapidosus (WALCKENAER, 1802)","Drassodes lapidosus",,"GNADRLAPI","DRLAPI","GNA","FL",,"NT","NB",6,,"-","Drassodes lapidosus",1
+48,14,"GNAPHOSIDAE","Drassodes pubescens (THORELL, 1856)","Drassodes pubescens","Harige muisspin","GNADRPUBE","DRPUBE","GNA","FL","RL","EN","IG",2,"Gsdp","Godt","Drassodes pubescens",1
+49,14,"GNAPHOSIDAE","Gnaphosa leporina (L. KOCH, 1866)","Gnaphosa leporina","Heiderichelkaak","GNAGNLEPO","GNLEPO","GNA","FL","RL","EN","IG",2,"Hn","Hw","Gnaphosa leporina",1
+50,14,"GNAPHOSIDAE","Gnaphosa lucifuga (WALCKENAER, 1802)","Gnaphosa lucifuga",,"GNAGNLUCI","GNLUCI","GNA","FL","RL","CR","KR",1,"Gsdo","Godb","Gnaphosa lucifuga",1
+51,14,"GNAPHOSIDAE","Gnaphosa lugubris (C.L. KOCH, 1839)","Gnaphosa lugubris",,"GNAGNLUGU","GNLUGU","GNA",,,"NT","NB",6,,"-","Gnaphosa lugubris",1
+52,14,"GNAPHOSIDAE","Gnaphosa nigerrima L. KOCH, 1877","Gnaphosa nigerrima","Moerasrichelkaak","GNAGNNIGE","GNNIGE","GNA","FL","RL","CR","KR",1,"Hnh","Hws","Gnaphosa nigerrima",1
+53,14,"GNAPHOSIDAE","Gnaphosa opaca HERMAN, 1879","Gnaphosa opaca","Kleine richelkaak","GNAGNOPAC","GNOPAC","GNA","FL","RL","RG","GB",5,"N","N","Gnaphosa opaca",1
+54,14,"GNAPHOSIDAE","Haplodrassus dalmatensis (L. KOCH, 1866)","Haplodrassus dalmatensis","Gestreepte muisspin","GNAHADALM","HADALM","GNA","FL","RL","EN","IG",2,"Gsdp","Godt","Haplodrassus dalmatensis",1
+55,14,"GNAPHOSIDAE","Haplodrassus kulczynskii LOHMANDER, 1942","Haplodrassus kulczynskii",,"GNAHAKULC","HAKULC","GNA",,,"NT","NB",6,,"-","Haplodrassus kulczynskii",1
+56,14,"GNAPHOSIDAE","Haplodrassus moderatus (KULCZYNSKI, 1897)","Haplodrassus moderatus",,"GNAHAMODE","HAMODE","GNA",,,"NT","NB",6,,"-","Haplodrassus moderatus",1
+696,14,"GNAPHOSIDAE","Haplodrassus species","Haplodrassus species",,"GNAHASECU","HASECU","GNA","FL","RL","NS","NS",7,,,"Haplodrassus species",1
+57,14,"GNAPHOSIDAE","Haplodrassus signifer (C.L. KOCH, 1839)","Haplodrassus signifer",,"GNAHASIGN","HASIGN","GNA","FL",,"NT","NB",6,,"-","Haplodrassus signifer",1
+58,14,"GNAPHOSIDAE","Haplodrassus silvestris (BLACKWALL,1833)","Haplodrassus silvestris","Bosmuisspin","GNAHASILV","HASILV","GNA","FL","RL","EN","IG",2,"Bldd","Fddd","Haplodrassus silvestris",1
+59,14,"GNAPHOSIDAE","Haplodrassus umbratilis (L. KOCH, 1866)","Haplodrassus umbratilis","Zandmuisspin","GNAHAUMBR","HAUMBR","GNA","FL","RL","CR","KR",1,"Gsdps","Godts","Haplodrassus umbratilis",1
+60,14,"GNAPHOSIDAE","Micaria dives (LUCAS,1846) (Micariolepis d. (LUCAS))","Micaria dives (Micariolepis d.)","Prachtmierspin","GNAMIDIVE","MIDIVE","GNA","FL","RL","CR","KR",1,"Gsdpm","Godta","Micaria dives",1
+61,14,"GNAPHOSIDAE","Micaria formicaria (SUNDEVALL,1832)","Micaria formicaria",,"GNAMIFORM","MIFORM","GNA",,,"NT","NB",6,,"-","Micaria formicaria",1
+62,14,"GNAPHOSIDAE","Micaria fulgens (WALCKENAER, 1802)","Micaria fulgens","Rode mierspin","GNAMIFULG","MIFULG","GNA","FL","RL","EN","IG",2,"Gsdpm","Godta","Micaria fulgens",1
+63,14,"GNAPHOSIDAE","Micaria guttulata (C.L. KOCH, 1839)","Micaria guttulata",,"GNAMIGUTT","MIGUTT","GNA",,,"NT","NB",6,,"-","Micaria guttulata",1
+64,14,"GNAPHOSIDAE","Micaria pulicaria (SUNDEVALL, 1831)","Micaria pulicaria",,"GNAMIPULI","MIPULI","GNA","FL",,"NT","NB",6,,"-","Micaria pulicaria",1
+65,14,"GNAPHOSIDAE","Micaria romana L. KOCH, 1866 (=M. scintillans, O.P.-CAMBRIDGE,….)","Micaria romana (=M. scintillans)","Zuidelijke mierspin","GNAMIROMA","MIROMA","GNA","FL","RL","RG","GB",5,"N","N","Micaria romana",1
+66,14,"GNAPHOSIDAE","Micaria silesiaca L. KOCH, 1875","Micaria silesiaca","Zandmierspin","GNAMISILE","MISILE","GNA","FL","RL","RG","GB",5,"N","N","Micaria silesiaca",1
+67,14,"GNAPHOSIDAE","Micaria subopaca WESTRING, 1861","Micaria subopaca","Boomstammierspin","GNAMISUBO","MISUBO","GNA","FL",,"NT","NB",6,,"-","Micaria subopaca",1
+68,14,"GNAPHOSIDAE","Phaeocedus braccatus (L. KOCH, 1866)","Phaeocedus braccatus","Zesvlekmuisspin","GNAPHBRAC","PHBRAC","GNA","FL","RL","EN","IG",2,"Hdo","Hdb","Phaeocedus braccatus",1
+69,14,"GNAPHOSIDAE","Poecilochroa conspicua (L. KOCH, 1867)","Poecilochroa conspicua","Viervlekmuisspin","GNAPOCONS","POCONS","GNA","FL","RL","RG","GB",5,"N","N","Poecilochroa conspicua",1
+70,14,"GNAPHOSIDAE","Poecilochroa variana (C.L. KOCH, 1839)","Poecilochroa variana",,"GNAPOVARI","POVARI","GNA",,,"NT","NB",6,,"-","Poecilochroa variana",1
+71,14,"GNAPHOSIDAE","Scotophaeus blackwalli (THORELL, 1873)","Scotophaeus blackwalli",,"GNASCBLAC","SCBLAC","GNA","FL",,"NT","NB",6,,"-","Scotophaeus blackwalli",1
+72,14,"GNAPHOSIDAE","Scotophaeus scutulatus (L. KOCH, 1866)","Scotophaeus scutulatus",,"GNASCSCUT","SCSCUT","GNA","FL",,"NT","NB",6,,"-","Scotophaeus scutulatus",1
+74,14,"GNAPHOSIDAE","Zelotes aeneus (SIMON, 1878)","Zelotes aeneus","Rotskampoot","GNAZEAENE","ZEAENE","GNA","FL","RL","RG","GB",5,"N","N","Zelotes aeneus",1
+75,14,"GNAPHOSIDAE","Zelotes apricorum (L. KOCH, 1876)","Zelotes apricorum","Graskampoot","GNAZEAPRI","ZEAPRI","GNA","FL","RL","IK","OG",8,"Y","Y","Zelotes apricorum",1
+76,14,"GNAPHOSIDAE","Zelotes electus (C.L. KOCH, 1839)","Zelotes electus","Duinkampoot","GNAZEELEC","ZEELEC","GNA","FL","RL","VU","KW",3,"Gsdp","Godt","Zelotes electus",1
+77,14,"GNAPHOSIDAE","Zelotes erebeus (THORELL, 1871)","Zelotes erebeus",,"GNAZEEREB","ZEEREB","GNA",,,"NT","NB",6,,"-","Zelotes erebeus",1
+78,14,"GNAPHOSIDAE","Zelotes latreillei (SIMON, 1878)","Zelotes latreillei",,"GNAZELATR","ZELATR","GNA","FL",,"NT","NB",6,,"-","Zelotes latreillei",1
+79,14,"GNAPHOSIDAE","Zelotes longipes (L. KOCH, 1866) (=Z. serotinus (L. KOCH))","Zelotes longipes (=Z. serotinus)","Stekelkampoot","GNAZELONG","ZELONG","GNA","FL","RL","VU","KW",3,"Gsdp","Godt","Zelotes longipes",1
+80,14,"GNAPHOSIDAE","Zelotes lutetianus (L. KOCH, 1866) (=Drassyllus l.)","Zelotes lutetianus (=Drassyllus l.)","Moeraskampoot","GNAZELUTE","ZELUTE","GNA","FL","RL","EN","IG",2,"Gsnp","Gowt","Zelotes lutetianus",1
+81,14,"GNAPHOSIDAE","Zelotes pedestris (C.L. KOCH,1839) (=Trachyzelotes p.)","Zelotes pedestris (C.L. KOCH,1839) (=Trachyzelotes p.)","Stekelkaakkampoot","GNAZEPEDE","ZEPEDE","GNA","FL","RL","EN","IG",2,"Gsdp","Godt","Zelotes pedestris",1
+82,14,"GNAPHOSIDAE","Zelotes petrensis (C.L. KOCH, 1839)","Zelotes petrensis","Steppekampoot","GNAZEPETR","ZEPETR","GNA","FL","RL","VU","KW",3,"Gsdp","Godt","Zelotes petrensis",1
+83,14,"GNAPHOSIDAE","Zelotes praeficus (L. KOCH, 1866) (=Drassyllus p.)","Zelotes praeficus (=Drassyllus p.)","Zonnekampoot","GNAZEPRAE","ZEPRAE","GNA","FL","RL","CR","KR",1,"Hdo","Hdb","Zelotes praeficus",1
+84,14,"GNAPHOSIDAE","Zelotes pseudoclivicolus GRIMM, 1982","Zelotes pseudoclivicolus",,"GNAZEPSEU","ZEPSEU","GNA",,,"NT","NB",6,,"-","Zelotes pseudoclivicolus",1
+85,14,"GNAPHOSIDAE","Zelotes pumilus (C.L. KOCH, 1839) (=Drassyllus p.)","Zelotes pumilus (=Drassyllus p.)",,"GNAZEPUMI","ZEPUMI","GNA",,,"NT","NB",6,,"-","Zelotes pumilus",1
+86,14,"GNAPHOSIDAE","Zelotes pusillus (C.L. KOCH, 1833) (=Drassyllus p.)","Zelotes pusillus (Drassyllus p.)",,"GNAZEPUSI","ZEPUSI","GNA","FL",,"NT","NB",6,,"-","Zelotes pusillus",1
+87,14,"GNAPHOSIDAE","Zelotes subterraneus (C.L. KOCH, 1833)","Zelotes subterraneus",,"GNAZESUBT","ZESUBT","GNA","FL",,"NT","NB",6,,"-","Zelotes subterraneus",1
+73,14,"GNAPHOSIDAE","Zelote villicus (THORELL, 1875) (=Drassyllus v.)","Zelote villicus (=Drassyllus v.)",,"GNAZEVILL","ZEVILL","GNA",,,"NT","NB",6,,"-","Zelote villicus",1
+307,28,"HAHNIIDAE","Antistea elegans (BLACKWALL, 1841)","Antistea elegans",,"HAHANELEG","ANELEG","HAH","FL",,"NT","NB",6,,"-","Antistea elegans",1
+308,28,"HAHNIIDAE","Hahnia candida SIMON, 1875","Hahnia candida","Klein kamstaartje","HAHHACAND","HACAND","HAH","FL","RL","RG","GB",5,"N","N","Hahnia candida",1
+309,28,"HAHNIIDAE","Hahnia helveola SIMON, 1875","Hahnia helveola","Boskamstaartje","HAHHAHELV","HAHELV","HAH","FL","RL","VU","KW",3,"Bldd","Fddd","Hahnia helveola",1
+310,28,"HAHNIIDAE","Hahnia montana (BLACKWALL, 1841)","Hahnia montana",,"HAHHAMONT","HAMONT","HAH","FL",,"NT","NB",6,,"-","Hahnia montana",1
+311,28,"HAHNIIDAE","Hahnia nava (BLACKWALL, 1841)","Hahnia nava","Heidekamstaartje","HAHHANAVA","HANAVA","HAH","FL","RL","EN","IG",2,"Gsdv","Godr","Hahnia nava",1
+312,28,"HAHNIIDAE","Hahnia ononidum SIMON, 1875","Hahnia ononidum",,"HAHHAONON","HAONON","HAH",,,"NT","NB",6,,"-","Hahnia ononidum",1
+313,28,"HAHNIIDAE","Hahnia pusilla C.L. KOCH, 1841","Hahnia pusilla","Kleinst kamstaartje","HAHHAPUSI","HAPUSI","HAH","FL","RL","IN","OG",4,"X","X","Hahnia pusilla",1
+692,28,"HAHNIIDAE","Tuberta maerens (O.P.-CAMBRIDGE, 1863)","Tuberta maerens",,"HAHTUMAER","TUMAER","HAH","FL","RL","NS","NS",7,"Bldo","Fddo","Tuberta maerens",1
+572,38,"LINYPHIINAE","Agyneta cauta (O.P.-CAMBRIDGE, 1902)","Agyneta cauta","Gezadeld dikpalpje","LINAGCAUT","AGCAUT","LIN","FL","RL","EN","IG",2,"Blno","Fdwo","Agyneta cauta",1
+573,38,"LINYPHIINAE","Agyneta conigera (O.P.-CAMBRIDGE, 1863)","Agyneta conigera",,"LINAGCONI","AGCONI","LIN","FL",,"NT","NB",6,,"-","Agyneta conigera",1
+574,38,"LINYPHIINAE","Agyneta decora (O.P.-CAMBRIDGE, 1870)","Agyneta decora",,"LINAGDECO","AGDECO","LIN","FL",,"NT","NB",6,,"-","Agyneta decora",1
+575,38,"LINYPHIINAE","Agyneta ramosa JACKSON, 1912","Agyneta ramosa",,"LINAGRAMO","AGRAMO","LIN","FL",,"NT","NB",6,,"-","Agyneta ramosa",1
+576,38,"LINYPHIINAE","Agyneta subtilis (O.P.-CAMBRIDGE, 1863)","Agyneta subtilis",,"LINAGSUBT","AGSUBT","LIN","FL",,"NT","NB",6,,"-","Agyneta subtilis",1
+577,38,"LINYPHIINAE","Allomengea scopigera (GRUBE, 1859)","Allomengea scopigera","Alert stekelpalpje","LINALSCOP","ALSCOP","LIN","FL","RL","CR","KR",1,"Szb","Sa","Allomengea scopigera",1
+578,38,"LINYPHIINAE","Allomengea vidua (L. KOCH, 1879)","Allomengea vidua","Klein stekelpalpje","LINALVIDU","ALVIDU","LIN","FL","RL","VU","KW",3,"Gsnv","Gowr","Allomengea vidua",1
+579,38,"LINYPHIINAE","Aphileta misera (O.P.-CAMBRIDGE, 1882)","Aphileta misera","Veenmosspinnetje","LINAPMISE","APMISE","LIN","FL","RL","EN","IG",2,"Hnh","Hws","Aphileta misera",1
+580,38,"LINYPHIINAE","Asthenargus paganus (SIMON, 1884)","Asthenargus paganus","Bleek haakpalpje","LINASPAGA","ASPAGA","LIN","FL","RL","IN","OG",4,"X","X","Asthenargus paganus",1
+581,38,"LINYPHIINAE","Bathyphantes approximatus (O.P.-CAMBRIDGE, 1871)","Bathyphantes approximatus",,"LINBAAPPR","BAAPPR","LIN","FL",,"NT","NB",6,,"-","Bathyphantes approximatus",1
+582,38,"LINYPHIINAE","Bathyphantes eumenis (L. KOCH, 1879)","Bathyphantes eumenis",,"LINBAEUME","BAEUME","LIN",,,"NT","NB",6,,"-","Bathyphantes eumenis",1
+583,38,"LINYPHIINAE","Bathyphantes gracilis (BLACKWALL, 1841)","Bathyphantes gracilis",,"LINBAGRAC","BAGRAC","LIN","FL",,"NT","NB",6,,"-","Bathyphantes gracilis",1
+584,38,"LINYPHIINAE","Bathyphantes nigrinus (WESTRING, 1851)","Bathyphantes nigrinus",,"LINBANIGR","BANIGR","LIN","FL",,"NT","NB",6,,"-","Bathyphantes nigrinus",1
+585,38,"LINYPHIINAE","Bathyphantes parvulus (WESTRING, 1851)","Bathyphantes parvulus",,"LINBAPARV","BAPARV","LIN","FL",,"NT","NB",6,,"-","Bathyphantes parvulus",1
+586,38,"LINYPHIINAE","Bathyphantes setiger F.O.P.-CAMBRIDGE, 1894","Bathyphantes setiger","Harig wevertje","LINBASETI","BASETI","LIN","FL","RL","EN","IG",2,"Hnh","Hws","Bathyphantes setiger",1
+587,38,"LINYPHIINAE","Bathyphantes vittiger SIMON, 1884","Bathyphantes vittiger",,"LINBAVITT","BAVITT","LIN",,,"NT","NB",6,,"-","Bathyphantes vittiger",1
+588,38,"LINYPHIINAE","Bolyphantes alticeps (SUNDEVALL, 1832)","Bolyphantes alticeps",,"LINBOALTI","BOALTI","LIN",,,"NT","NB",6,,"-","Bolyphantes alticeps",1
+589,38,"LINYPHIINAE","Bolyphantes crucifer (MENGE, 1866)","Bolyphantes crucifer",,"LINBOCRUC","BOCRUC","LIN",,,"NT","NB",6,,"-","Bolyphantes crucifer",1
+590,38,"LINYPHIINAE","Bolyphantes luteolus (BLACKWALL, 1833)","Bolyphantes luteolus","Gevlekt voorkopje","LINBOLUTE","BOLUTE","LIN","FL","RL","RG","GB",5,"Z","S","Bolyphantes luteolus",1
+591,38,"LINYPHIINAE","Carorita paludosa DUFFEY, 1971","Carorita paludosa","Zompwevertje","LINCAPALU","CAPALU","LIN","FL","RL","EN","IG",2,"Mrv","Mrr","Carorita paludosa",1
+709,38,"LINYPHIINAE","Caviphantes saxetorum","Caviphantes saxetorum","","LINCASAXE","CASAXE","LIN","","","","",8,"","","Caviphantes saxetorum",
+594,38,"LINYPHIINAE","Centromerus aequalis (WESTRING, 1851)","Centromerus aequalis",,"LINCEAEQU","CEAEQU","LIN","FL",,"NT","NB",6,,"-","Centromerus aequalis",1
+595,38,"LINYPHIINAE","Centromerus arcanus (O.P.-CAMBRIDGE, 1873)","Centromerus arcanus",,"LINCEARCA","CEARCA","LIN",,,"NT","NB",6,,"-","Centromerus arcanus",1
+592,38,"LINYPHIINAE","Centromerita bicolor (BLACKWALL, 1833)","Centromerita bicolor",,"LINCEBICO","CEBICO","LIN","FL",,"NT","NB",6,,"-","Centromerita bicolor",1
+596,38,"LINYPHIINAE","Centromerus capucinus (SIMON, 1884)","Centromerus capucinus","Kampalpje","LINCECAPU","CECAPU","LIN","FL","RL","RG","GB",5,"N","N","Centromerus capucinus",1
+593,38,"LINYPHIINAE","Centromerita concinna (THORELL, 1875)","Centromerita concinna",,"LINCECONC","CECONC","LIN","FL",,"NT","NB",6,,"-","Centromerita concinna",1
+597,38,"LINYPHIINAE","Centromerus dilutus (O.P.-CAMBRIDGE, 1875)","Centromerus dilutus",,"LINCEDILU","CEDILU","LIN","FL",,"NT","NB",6,,"-","Centromerus dilutus",1
+598,38,"LINYPHIINAE","Centromerus incilium (L. KOCH, 1881)","Centromerus incilium",,"LINCEINCI","CEINCI","LIN",,,"NT","NB",6,,"-","Centromerus incilium",1
+599,38,"LINYPHIINAE","Centromerus incultus FALCONER, 1915","Centromerus incultus","Moeras-tongpalpje","LINCEINCU","CEINCU","LIN","FL","RL","EN","IG",2,"Hn","Hw","Centromerus incultus",1
+600,38,"LINYPHIINAE","Centromerus leruthi FAGE, 1933","Centromerus leruthi","Leruths tandpalpje","LINCELERU","CELERU","LIN","FL","RL","RG","GB",5,"N","N","Centromerus leruthi",1
+601,38,"LINYPHIINAE","Centromerus levitarsus (SIMON, 1884)","Centromerus levitarsus","Veen-tandpalpje","LINCELEVI","CELEVI","LIN","FL","RL","CR","KR",1,"Ms","Mo","Centromerus levitarsus",1
+602,38,"LINYPHIINAE","Centromerus pabulator (O.P.-CAMBRIDGE, 1875)","Centromerus pabulator","Kegelpalpje","LINCEPABU","CEPABU","LIN","FL","RL","RG","GB",5,"W","W","Centromerus pabulator",1
+603,38,"LINYPHIINAE","Centromerus persimilis (O.P.-CAMBRIDGE, 1912)","Centromerus persimilis","Drietongetje","LINCEPERS","CEPERS","LIN","FL","RL","IN","OG",4,"X","X","Centromerus persimilis",1
+604,38,"LINYPHIINAE","Centromerus prudens (O.P.-CAMBRIDGE, 1873)","Centromerus prudens",,"LINCEPRUD","CEPRUD","LIN","FL",,"NT","NB",6,,"-","Centromerus prudens",1
+605,38,"LINYPHIINAE","Centromerus serratus (O.P.-CAMBRIDGE, 1875)","Centromerus serratus",,"LINCESERR","CESERR","LIN","FL","RL","RG","GB",5,"N","N","Centromerus serratus",1
+606,38,"LINYPHIINAE","Centromerus sylvaticus (BLACKWALL, 1841)","Centromerus sylvaticus",,"LINCESYLV","CESYLV","LIN","FL",,"NT","NB",6,,"-","Centromerus sylvaticus",1
+607,38,"LINYPHIINAE","Diplostyla concolor (WIDER, 1834)","Diplostyla concolor",,"LINDICONC","DICONC","LIN","FL",,"NT","NB",6,,"-","Diplostyla concolor",1
+608,38,"LINYPHIINAE","Donacochara speciosa (THORELL, 1875)","Donacochara speciosa","Bleek langpalpje","LINDOSPEC","DOSPEC","LIN","FL","RL","VU","KW",3,"Gsnv","Gowr","Donacochara speciosa",1
+609,38,"LINYPHIINAE","Drapetisca socialis (SUNDEVALL, 1832)","Drapetisca socialis",,"LINDRSOCI","DRSOCI","LIN","FL",,"NT","NB",6,,"-","Drapetisca socialis",1
+610,38,"LINYPHIINAE","Drepanotylus uncatus (O.P.-CAMBRIDGE, 1873)","Drepanotylus uncatus","Haakhangmatspin","LINDRUNCA","DRUNCA","LIN","FL","RL","EN","IG",2,"Ms","Mo","Drepanotylus uncatus",1
+611,38,"LINYPHIINAE","Floronia bucculenta (CLERCK, 1757)","Floronia bucculenta",,"LINFLBUCC","FLBUCC","LIN","FL",,"NT","NB",6,,"-","Floronia bucculenta",1
+612,38,"LINYPHIINAE","Frontinellina frutetorum (C.L. KOCH, 1834)","Frontinellina frutetorum","Dubbelhangmatspin","LINFRFRUT","FRFRUT","LIN","FL","RL","RG","GB",5,"W","W","Frontinellina frutetorum",1
+613,38,"LINYPHIINAE","Halorates distinctus (SIMON, 1879)","Halorates distinctus","Stomphoekpalpje","LINHADIST","HADIST","LIN","FL","RL","EN","IG",2,"Gsnv","Gowr","Halorates distinctus",1
+614,38,"LINYPHIINAE","Haloratus reprobus (O.P.-CAMBRIDGE, 1879)","Haloratus reprobus","Slikkespinnetje","LINHAREPR","HAREPR","LIN","FL","RL","CR","KR",1,"Szb","Sa","Haloratus reprobus",1
+615,38,"LINYPHIINAE","Helophora insignis (BLACKWALL, 1841)","Helophora insignis",,"LINHEINSI","HEINSI","LIN","FL",,"NT","NB",6,,"-","Helophora insignis",1
+616,38,"LINYPHIINAE","Hilaira excisa (O.P.-CAMBRIDGE, 1870)","Hilaira excisa","Knobbelrugje","LINHIEXCI","HIEXCI","LIN","FL","RL","IN","OG",4,"X","X","Hilaira excisa",1
+617,38,"LINYPHIINAE","Kaestneria dorsalis (WIDER, 1834)","Kaestneria dorsalis","Korttong-wevertje","LINKADORS","KADORS","LIN","FL","RL","VU","KW",3,"Gsdd","Godd","Kaestneria dorsalis",1
+618,38,"LINYPHIINAE","Kaestneria pullata (O.P.-CAMBRIDGE, 1863)","Kaestneria pullata",,"LINKAPULL","KAPULL","LIN","FL",,"NT","NB",6,,"-","Kaestneria pullata",1
+619,38,"LINYPHIINAE","Labulla thoracica (WIDER, 1834)","Labulla thoracica","Schaduwhangmatspin","LINLATHOR","LATHOR","LIN","FL","RL","IN","OG",4,"X","X","Labulla thoracica",1
+620,38,"LINYPHIINAE","Lepthyphantes alacris (BLACKWALL, 1853)","Lepthyphantes alacris",,"LINLEALAC","LEALAC","LIN",,,"NT","NB",6,,"-","Lepthyphantes alacris",1
+621,38,"LINYPHIINAE","Lepthyphantes angulatus (O.P.-CAMBRIDGE, 1881)","Lepthyphantes angulatus",,"LINLEANGA","LEANGA","LIN",,,"NT","NB",6,,"-","Lepthyphantes angulatus",1
+622,38,"LINYPHIINAE","Lepthyphantes angulipalpis (WESTRING, 1851)","Lepthyphantes angulipalpis",,"LINLEANGI","LEANGI","LIN",,,"NT","NB",6,,"-","Lepthyphantes angulipalpis",1
+623,38,"LINYPHIINAE","Lepthyphantes cristatus (MENGE, 1866)","Lepthyphantes cristatus",,"LINLECRIS","LECRIS","LIN","FL",,"NT","NB",6,,"-","Lepthyphantes cristatus",1
+624,38,"LINYPHIINAE","Lepthyphantes ericaeus (BLACKWALL, 1853)","Lepthyphantes ericaeus",,"LINLEERIC","LEERIC","LIN","FL",,"NT","NB",6,,"-","Lepthyphantes ericaeus",1
+625,38,"LINYPHIINAE","Lepthyphantes flavipes (BLACKWALL, 1854)","Lepthyphantes flavipes",,"LINLEFLAV","LEFLAV","LIN","FL",,"NT","NB",6,,"-","Lepthyphantes flavipes",1
+640,38,"LINYPHIINAE","Leptothrix hardyi (BLACKWALL, 1850)","Leptothrix hardyi","Pruikspinnetje","LINLEHARD","LEHARD","LIN","FL","RL","EN","IG",2,"Gsnd","Gowd","Leptothrix hardyi",1
+626,38,"LINYPHIINAE","Lepthyphantes insignis O.P.-CAMBRIDGE, 1913","Lepthyphantes insignis",,"LINLEINSI","LEINSI","LIN","FL",,"NT","NB",6,,"-","Lepthyphantes insignis",1
+627,38,"LINYPHIINAE","Lepthyphantes leprosus (OHLERT, 1865)","Lepthyphantes leprosus",,"LINLELEPR","LELEPR","LIN","FL",,"NT","NB",6,,"-","Lepthyphantes leprosus",1
+628,38,"LINYPHIINAE","Lepthyphantes lepthyphantiformis (STRAND, 1907)","Lepthyphantes lepthyphantiformis","Bleek bodemwevertje","LINLELEPT","LELEPT","LIN","FL","RL","RG","GB",5,"W","W","Lepthyphantes lepthyphantiformis",1
+629,38,"LINYPHIINAE","Lepthyphantes mengei KULCZYNSKI, 1887","Lepthyphantes mengei",,"LINLEMENG","LEMENG","LIN","FL",,"NT","NB",6,,"-","Lepthyphantes mengei",1
+630,38,"LINYPHIINAE","Lepthyphantes minutus (BLACKWALL, 1833)","Lepthyphantes minutus",,"LINLEMINU","LEMINU","LIN","FL",,"NT","NB",6,,"-","Lepthyphantes minutus",1
+631,38,"LINYPHIINAE","Lepthyphantes mughi (FICKERT, 1875)","Lepthyphantes mughi","Noords bodemwevertje","LINLEMUGH","LEMUGH","LIN","FL","RL","IK","OG",8,"Y","Y","Lepthyphantes mughi",1
+632,38,"LINYPHIINAE","Lepthyphantes nebulosus (SUNDEVALL, 1830)","Lepthyphantes nebulosus",,"LINLENEBU","LENEBU","LIN","FL",,"NT","NB",6,,"-","Lepthyphantes nebulosus",1
+633,38,"LINYPHIINAE","Lepthyphantes obscurus (BLACKWALL, 1841)","Lepthyphantes obscurus",,"LINLEOBSC","LEOBSC","LIN","FL",,"NT","NB",6,,"-","Lepthyphantes obscurus",1
+634,38,"LINYPHIINAE","Lepthyphantes pallidus (O.P.-CAMBRIDGE, 1871)","Lepthyphantes pallidus",,"LINLEPALL","LEPALL","LIN","FL",,"NT","NB",6,,"-","Lepthyphantes pallidus",1
+639,38,"LINYPHIINAE","Leptorhoptrum robustum (WESTRING, 1851)","Leptorhoptrum robustum","Donker langpalpje","LINLEROBU","LEROBU","LIN","FL","RL","VU","KW",3,"Oo","Rb","Leptorhoptrum robustum",1
+635,38,"LINYPHIINAE","Lepthyphantes simoni CHYZER & KULCZYNSKI, 1894","Lepthyphantes simoni",,"LINLESIMO","LESIMO","LIN",,,"NT","NB",6,,"-","Lepthyphantes simoni",1
+636,38,"LINYPHIINAE","Lepthyphantes tenebricola (WIDER, 1834)","Lepthyphantes tenebricola",,"LINLETENE","LETENE","LIN","FL",,"NT","NB",6,,"-","Lepthyphantes tenebricola",1
+637,38,"LINYPHIINAE","Lepthyphantes tenuis (BLACKWALL, 1852)","Lepthyphantes tenuis",,"LINLETENU","LETENU","LIN","FL",,"NT","NB",6,,"-","Lepthyphantes tenuis",1
+638,38,"LINYPHIINAE","Lepthyphantes zimmermanni BERTKAU, 1890","Lepthyphantes zimmermanni",,"LINLEZIMM","LEZIMM","LIN","FL",,"NT","NB",6,,"-","Lepthyphantes zimmermanni",1
+641,38,"LINYPHIINAE","Linyphia hortensis SUNDEVALL, 1829","Linyphia hortensis",,"LINLIHORT","LIHORT","LIN","FL",,"NT","NB",6,,"-","Linyphia hortensis",1
+642,38,"LINYPHIINAE","Linyphia tenuipalpis SIMON, 1884","Linyphia tenuipalpis","Heide-wevertje","LINLITENU","LITENU","LIN","FL","RL","CR","KR",1,"Hd","Hd","Linyphia tenuipalpis",1
+643,38,"LINYPHIINAE","Linyphia triangularis (CLERCK, 1757)","Linyphia triangularis",,"LINLITRIA","LITRIA","LIN","FL",,"NT","NB",6,,"-","Linyphia triangularis",1
+644,38,"LINYPHIINAE","Macrargus carpenteri (O.P.-CAMBRIDGE, 1894)","Macrargus carpenteri","Dennestrooiselspin","LINMACARP","MACARP","LIN","FL","RL","RG","GB",5,"Z","S","Macrargus carpenteri",1
+646,38,"LINYPHIINAE","Maro lehtineni SAARISTO, 1971","Maro lehtineni",,"LINMALEHT","MALEHT","LIN",,,"NT","NB",6,,"-","Maro lehtineni",1
+647,38,"LINYPHIINAE","Maro lepidus CASEMIR, 1963","Maro lepidus",,"LINMALEPI","MALEPI","LIN",,,"NT","NB",6,,"-","Maro lepidus",1
+648,38,"LINYPHIINAE","Maro minutus O.P.-CAMBRIDGE, 1906","Maro minutus","Kleinste dwergspin","LINMAMINU","MAMINU","LIN","FL","RL","IK","OG",8,"Y","Y","Maro minutus",1
+645,38,"LINYPHIINAE","Macrargus rufus (WIDER, 1834)","Macrargus rufus",,"LINMARUFU","MARUFU","LIN","FL",,"NT","NB",6,,"-","Macrargus rufus",1
+649,38,"LINYPHIINAE","Maro sublestus FALCONER, 1915","Maro sublestus","Struik-dwergspin","LINMASUBL","MASUBL","LIN","FL","RL","CR","KR",1,"Blmo","Fdmo","Maro sublestus",1
+650,38,"LINYPHIINAE","Meioneta beata (O.P.-CAMBRIDGE, 1906)","Meioneta beata","Concaaf probleemspinnetje","LINMEBEAT","MEBEAT","LIN","FL","RL","EN","IG",2,"Gsdg","Godg","Meioneta beata",1
+651,38,"LINYPHIINAE","Meioneta fuscipalpis (C.L. KOCH, 1836)","Meioneta fuscipalpis","Duits probleemspinnetje","LINMEFUSC","MEFUSC","LIN","FL","RL","RG","GB",5,"W","W","Meioneta fuscipalpis",1
+652,38,"LINYPHIINAE","Meioneta innotabilis (O.P.-CAMBRIDGE, 1863)","Meioneta innotabilis",,"LINMEINNO","MEINNO","LIN","FL",,"NT","NB",6,,"-","Meioneta innotabilis",1
+653,38,"LINYPHIINAE","Meioneta mollis (O.P.-CAMBRIDGE, 1871)","Meioneta mollis",,"LINMEMOLL","MEMOLL","LIN","FL",,"NT","NB",6,,"-","Meioneta mollis",1
+654,38,"LINYPHIINAE","Meioneta rurestris (C.L. KOCH, 1836)","Meioneta rurestris",,"LINMERURE","MERURE","LIN","FL",,"NT","NB",6,,"-","Meioneta rurestris",1
+655,38,"LINYPHIINAE","Meioneta saxatilis (BLACKWALL, 1844)","Meioneta saxatilis",,"LINMESAXA","MESAXA","LIN","FL",,"NT","NB",6,,"-","Meioneta saxatilis",1
+656,38,"LINYPHIINAE","Meioneta simplicitarsis (SIMON, 1884)","Meioneta simplicitarsis",,"LINMESIMP","MESIMP","LIN",,,"NT","NB",6,,"-","Meioneta simplicitarsis",1
+657,38,"LINYPHIINAE","Microlinyphia impigra (O.P.-CAMBRIDGE, 1871)","Microlinyphia impigra","Zweep-hangmatspin","LINMIIMPI","MIIMP","LIN","FL","RL","VU","KW",3,"Mrv","Mrr","Microlinyphia impigra",1
+658,38,"LINYPHIINAE","Microlinyphia pusilla (SUNDEVALL, 1829)","Microlinyphia pusilla",,"LINMIPUSA","MIPUSA","LIN","FL",,"NT","NB",6,,"-","Microlinyphia pusilla",1
+710,38,"LINYPHIINAE","Microlinyphia pusilla (SUNDEVALL, 1829)","Microlinyphia pusilla","Kleine heidehangmatspin","LINMIPUSI","MIPUSI","LIN","FL","","NT","NB",6,"","","Microlinyphia pusilla",1
+659,38,"LINYPHIINAE","Microneta viaria (BLACKWALL, 1841)","Microneta viaria",,"LINMIVIAR","MIVIAR","LIN","FL",,"NT","NB",6,,"-","Microneta viaria",1
+660,38,"LINYPHIINAE","Neriene clathrata (SUNDEVALL, 1829)","Neriene clathrata",,"LINNECLAT","NECLAT","LIN","FL",,"NT","NB",6,,"-","Neriene clathrata",1
+661,38,"LINYPHIINAE","Neriene emphana (WALCKENAER, 1837)","Neriene emphana","Langpalp-hangmatspin","LINNEEMPH","NEEMPH","LIN","FL","RL","VU","KW",3,"Bldz","Fddv","Neriene emphana",1
+662,38,"LINYPHIINAE","Neriene furtiva (O.P.-CAMBRIDGE, 1871)","Neriene furtiva","Steppe-hangmatspin","LINNEFURT","NEFURT","LIN","FL","RL","EN","IG",2,"Bldz","Fddv","Neriene furtiva",1
+663,38,"LINYPHIINAE","Neriene hammeni (VAN HELSDINGEN, 1963)","Neriene hammeni","Van der Hammens hangmatspin","LINNEHAMM","NEHAMM","LIN","FL","RL","EN","IG",2,"Bldz","Fddv","Neriene hammeni",1
+664,38,"LINYPHIINAE","Neriene montana (CLERCK, 1757)","Neriene montana",,"LINNEMONT","NEMONT","LIN","FL",,"NT","NB",6,,"-","Neriene montana",1
+665,38,"LINYPHIINAE","Neriene peltata (WIDER, 1834)","Neriene peltata",,"LINNEPELT","NEPELT","LIN","FL",,"NT","NB",6,,"-","Neriene peltata",1
+666,38,"LINYPHIINAE","Neriene radiata (WALCKENAER, 1841) (=N. marginata (C.L. KOCH, 1834))","Neriene radiata (=N. marginata)","Zomerhangmatspin","LINNERADI","NERADI","LIN","FL","RL","CR","KR",1,"Bldz","Fddv","Neriene radiata",1
+667,38,"LINYPHIINAE","Oreonetides vaginatus (THORELL, 1872)","Oreonetides vaginatus",,"LINORVAGI","ORVAGI","LIN",,,"NT","NB",6,,"-","Oreonetides vaginatus",1
+668,38,"LINYPHIINAE","Ostearius melanopygius (O.P.-CAMBRIDGE, 1879)","Ostearius melanopygius",,"LINOSMELA","OSMELA","LIN","FL",,"NT","NB",6,,"-","Ostearius melanopygius",1
+669,38,"LINYPHIINAE","Pityohyphantes phrygianus (C.L. KOCH, 1836)","Pityohyphantes phrygianus",,"LINPIPHRY","PIPHRY","LIN",,,"NT","NB",6,,"-","Pityohyphantes phrygianus",1
+671,38,"LINYPHIINAE","Porrhomma campbelli F.O.P.-CAMBRIDGE, 1894","Porrhomma campbelli","Campbells kleinoogje","LINPOCAMP","POCAMB","LIN","FL",,"NT","NB",6,,"-","Porrhomma campbelli",1
+672,38,"LINYPHIINAE","Porrhomma convexum (WESTRING, 1861)","Porrhomma convexum","Grond-kleinoogje","LINPOCONV","POCONV","LIN","FL",,"NT","NB",6,,"-","Porrhomma convexum",1
+673,38,"LINYPHIINAE","Porrhomma egeria SIMON, 1884","Porrhomma egeria","Kelder-kleinoogje","LINPOEGER","POEGER","LIN","FL",,"NT","NB",6,,"-","Porrhomma egeria",1
+674,38,"LINYPHIINAE","Porrhomma errans (BLACKWALL, 1841)","Porrhomma errans","Bos-kleinoogje","LINPOERRA","POERRA","LIN","FL",,"NT","NB",6,,"-","Porrhomma errans",1
+670,38,"LINYPHIINAE","Poeciloneta globosa (WIDER, 1834)","Poeciloneta globosa",,"LINPOGLOB","POGLOB","LIN","FL",,"NT","NB",6,,"-","Poeciloneta globosa",1
+711,38,"LINYPHIINAE","Porhomma montanum ","Porhomma montanum ","","LINPOMONT","POMONT","LIN","","","","",8,"","","Porhomma montanum",
+676,38,"LINYPHIINAE","Porrhomma myops SIMON, 1884","Porrhomma myops",,"LINPOMYOP","POMYOP","LIN",,,"NT","NB",6,,"-","Porrhomma myops",1
+677,38,"LINYPHIINAE","Porrhomma oblitum (O.P.-CAMBRIDGE, 1870)","Porrhomma oblitum",,"LINPOOBLI","POOBLI","LIN","FL",,"NT","NB",6,,"-","Porrhomma oblitum",1
+678,38,"LINYPHIINAE","Porrhomma pallidum JACKSON, 1913","Porrhomma pallidum",,"LINPOPALL","POPALL","LIN",,,"NT","NB",6,,"-","Porrhomma pallidum",1
+679,38,"LINYPHIINAE","Porrhomma pygmaeum (BLACKWALL, 1834)","Porrhomma pygmaeum",,"LINPOPYGM","POPYGM","LIN","FL",,"NT","NB",6,,"-","Porrhomma pygmaeum",1
+680,38,"LINYPHIINAE","Porrhomma rosenhaueri (L. KOCH, 1872)","Porrhomma rosenhaueri","Grot-kleinoogje","LINPOROSE","POROSE","LIN","FL","RL","IN","OG",4,"Y","Y","Porrhomma rosenhaueri",1
+681,38,"LINYPHIINAE","Saaristoa abnormis (BLACKWALL, 1841)","Saaristoa abnormis",,"LINSAABNO","SAABNO","LIN","FL",,"NT","NB",6,,"-","Saaristoa abnormis",1
+682,38,"LINYPHIINAE","Saaristoa firma (O.P.-CAMBRIDGE, 1901)","Saaristoa firma",,"LINSAFIRM","SAFIRM","LIN",,,"NT","NB",6,,"-","Saaristoa firma",1
+683,38,"LINYPHIINAE","Sintula cornigera (BLACKWALL, 1856)","Sintula cornigera","Hoornpalpje","LINSICORN","SICORN","LIN","FL","RL","IN","OG",4,"X","X","Sintula cornigera",1
+684,38,"LINYPHIINAE","Stemonyphantes lineatus (LINNAEUS, 1758)","Stemonyphantes lineatus",,"LINSTLINE","STLINE","LIN","FL",,"NT","NB",6,,"-","Stemonyphantes lineatus",1
+685,38,"LINYPHIINAE","Syedra gracilis (MENGE, 1866)","Syedra gracilis","Elegant dwergspinnetje","LINSYGRAC","SYGRAC","LIN","FL","RL","IN","OG",4,"X","X","Syedra gracilis",1
+686,38,"LINYPHIINAE","Tallusia experta (O.P.-CAMBRIDGE, 1871)","Tallusia experta",,"LINTAEXPE","TAEXPE","LIN","FL",,"NT","NB",6,,"-","Tallusia experta",1
+687,38,"LINYPHIINAE","Tapinopa longidens (WIDER, 1834)","Tapinopa longidens",,"LINTALONG","TALONG","LIN","FL",,"NT","NB",6,,"-","Tapinopa longidens",1
+688,38,"LINYPHIINAE","Taranucnus setosus (O.P.-CAMBRIDGE, 1863)","Taranucnus setosus","Sikkelpalpje","LINTASETO","TASETO","LIN","FL","RL","VU","KW",3,"Hn","Hw","Taranucnus setosus",1
+689,38,"LINYPHIINAE","Theonina cornix (SIMON, 1881)","Theonina cornix",,"LINTHCORN","THCORN","LIN",,,"NT","NB",6,,"-","Theonina cornix",1
+115,16,"LIOCRANIDAE","Agroeca brunnea (BLACKWALL, 1833)","Agroeca brunnea",,"LIOAGBRUN","AGBRUN","LIO","FL",,"NT","NB",6,,"-","Agroeca brunnea",1
+116,16,"LIOCRANIDAE","Agroeca cuprea MENGE, 1873 (=A. pullata THORELL, 1875)","Agroeca cuprea (=A. pullata)","Gouden lantaarnspin","LIOAGCUPR","AGCUPR","LIO","FL","RL","EN","IG",2,"Gsdp","Godt","Agroeca cuprea",1
+117,16,"LIOCRANIDAE","Agroeca dentigera KULCZYNSKI, 1913","Agroeca dentigera","Dopheilantaarnspin","LIOAGDENT","AGDENT","LIO","FL","RL","CR","KR",1,"Hnh","Hws","Agroeca dentigera",1
+118,16,"LIOCRANIDAE","Agroeca inopina O.P.-CAMBRIDGE, 1886","Agroeca inopina","Donkere lantaarnspin","LIOAGINOP","AGINOP","LIO","FL","RL","IK","OG",8,"Y","Y","Agroeca inopina",1
+113,16,"LIOCRANIDAE","Agraecina lineata (SIMON, 1878)","Agraecina lineata (SIMON, 1878)","Zuidelijke lantaarnspin","LIOAGLINE","AGLINE","LIO","FL","RL","RG","GB",5,"N","N","Agraecina lineata",1
+119,16,"LIOCRANIDAE","Agroeca lusatica (L. KOCH, 1875)","Agroeca lusatica","Duinlantaarnspin","LIOAGLUSA","AGLUSA","LIO","FL","RL","VU","KW",3,"Gsdd","Godd","Agroeca lusatica",1
+120,16,"LIOCRANIDAE","Agroeca proxima (O.P.-CAMBRIDGE, 1871)","Agroeca proxima",,"LIOAGPROX","AGPROX","LIO","FL",,"NT","NB",6,,"-","Agroeca proxima",1
+114,16,"LIOCRANIDAE","Agraecina striata (KULCZYNSKI, 1882) (=Agroeca s.)","Agraecina striata (=Agroeca s.)",,"LIOAGSTRI","AGSTRI","LIO",,,"NT","NB",6,,"-","Agraecina striata",1
+121,16,"LIOCRANIDAE","Apostenus fuscus WESTRING, 1851","Apostenus fuscus","Mossluiper","LIOAPFUSC","APFUSC","LIO","FL","RL","EN","IG",2,"Bldd","Fddd","Apostenus fuscus",1
+712,16,"LIOCRANIDAE","Ceto laticeps","Ceto laticeps","","LIOCELATI","CELATI","LIO","","","","",8,"","","Ceto laticeps",
+122,16,"LIOCRANIDAE","Liocranum rupicola (WALCKENAER, 1825)","Liocranum rupicola","Bonte steensluiper","LIOLIRUPI","LIRUPI","LIO","FL",,"NT","NB",6,,"-","Liocranum rupicola",1
+123,16,"LIOCRANIDAE","Phrurolithus festivus (C.L. KOCH, 1835)","Phrurolithus festivus",,"LIOPHFEST","PHFEST","LIO","FL",,"NT","NB",6,,"-","Phrurolithus festivus",1
+124,16,"LIOCRANIDAE","Phrurolithus minimus C.L. KOCH, 1839","Phrurolithus minimus","Kleine fruroliet","LIOPHMINI","PHMINI","LIO","FL","RL","CR","KR",1,"Gsdpm","Godta","Phrurolithus minimus",1
+125,16,"LIOCRANIDAE","Scotina celans (BLACKWALL, 1841)","Scotina celans","Bonte bodemzakspin","LIOSCCELA","SCCELA","LIO","FL","RL","RG","GB",5,"N","N","Scotina celans",1
+126,16,"LIOCRANIDAE","Scotina gracilipes (BLACKWALL, 1859)","Scotina gracilipes","Langpootbodemzakspin","LIOSCGRAC","SCGRAC","LIO","FL","RL","CR","KR",1,"Hdo","Hdb","Scotina gracilipes",1
+713,16,"LIOCRANIDAE","Scotina palliardii  ","Scotina palliardii  ","","LIOSCPALL","SCPALL","LIO","","","","",8,"","","Scotina palliardii",
+236,24,"LYCOSIDAE","Alopecosa accentuata (LATREILLE, 1817)","Alopecosa accentuata",,"LYCALACCE","ALACCE","LYC",,,"NT","NB",6,,"-","Alopecosa accentuata",1
+237,24,"LYCOSIDAE","Alopecosa barbipes (SUNDEVALL, 1832)","Alopecosa barbipes","Paaspantersdpin","LYCALBARB","ALBARB","LYC","FL","RL","VU","KW",3,"Gsdo","Godb","Alopecosa barbipes",1
+238,24,"LYCOSIDAE","Alopecosa cuneata (CLERCK, 1757)","Alopecosa cuneata","Dikpootpanterspin","LYCALCUNE","ALCUNE","LYC","FL","RL","VU","KW",3,"Gsdo","Godb","Alopecosa cuneata",1
+239,24,"LYCOSIDAE","Alopecosa cursor (HAHN, 1831)","Alopecosa cursor","Zandpanterspin","LYCALCURS","ALCURS","LYC","FL","RL","IK","OG",8,"Y","Y","Alopecosa cursor",1
+240,24,"LYCOSIDAE","Alopecosa fabrilis (CLERCK, 1757)","Alopecosa fabrilis","Grote panterspin","LYCALFABR","ALFABR","LYC","FL","RL","EN","IG",2,"Gsdo","Godb","Alopecosa fabrilis",1
+241,24,"LYCOSIDAE","Alopecosa inquilina (CLERCK, 1757)","Alopecosa inquilina",,"LYCALINQU","ALINQU","LYC",,,"NT","NB",6,,"-","Alopecosa inquilina",1
+242,24,"LYCOSIDAE","Alopecosa pulverulenta (CLERCK, 1757)","Alopecosa pulverulenta",,"LYCALPULV","ALPULV","LYC","FL",,"NT","NB",6,,"-","Alopecosa pulverulenta",1
+243,24,"LYCOSIDAE","Alopecosa striatipes (C.L. KOCH, 1837)","Alopecosa striatipes",,"LYCALSTRI","ALSTRI","LYC",,,"NT","NB",6,,"-","Alopecosa striatipes",1
+244,24,"LYCOSIDAE","Alopecosa taeniata","Alopecosa taeniata",,"LYCALTAEN","ALTAEN","LYC","FL","RL","RG","GB",5,"Z","S","Alopecosa taeniata",1
+245,24,"LYCOSIDAE","Alopecosa trabalis (CLERCK, 1758)","Alopecosa trabalis","Geelborstpanterspin","LYCALTRAB","ALTRAB","LYC","FL","RL","CR","KR",1,"Bldzs","Fddvs","Alopecosa trabalis",1
+246,24,"LYCOSIDAE","Arctosa cinerea (FABRICIUS, 1777)","Arctosa cinerea","Grindwolfspin","LYCARCINE","ARCINE","LYC","FL","RL","CR","KR",1,"Os","Rg","Arctosa cinerea",1
+247,24,"LYCOSIDAE","Arctosa figurata (SIMON, 1876)","Arctosa figurata","Grote zandwolfspin","LYCARFIGU","ARFIGU","LYC","FL","RL","RG","GB",5,"N","N","Arctosa figurata",1
+248,24,"LYCOSIDAE","Arctosa leopardus (SUNDEVALL, 1833)","Arctosa leopardus","Moswolfspin","LYCARLEOP","ARLEOP","LYC","FL","RL","VU","KW",3,"Gsnp","Gowt","Arctosa leopardus",1
+249,24,"LYCOSIDAE","Arctosa perita (LATREILLE, 1799)","Arctosa perita","Gewone zandwolfspin","LYCARPERI","ARPERI","LYC","FL","RL","EN","IG",2,"Gsdo","Godb","Arctosa perita",1
+250,24,"LYCOSIDAE","Aulonia albimana (WALCKENAER, 1805)","Aulonia albimana","Withandje","LYCAUALBI","AUALBI","LYC","FL","RL","EX","UI",0,"Gsdv","Godr","Aulonia albimana",1
+251,24,"LYCOSIDAE","Hygrolycosa rubrofasciata (OHLERT, 1865)","Hygrolycosa rubrofasciata","Trommelwolfspin","LYCHYRUBR","HYRUBR","LYC","FL","RL","EN","IG",2,"Blmoh","Fdmot","Hygrolycosa rubrofasciata",1
+252,24,"LYCOSIDAE","Pardosa agrestis (WESTRING, 1861)","Pardosa agrestis","Slikwolfspin","LYCPAAGRE","PAAGRE","LYC","FL","RL","EN","IG",2,"Oz","Rs","Pardosa agrestis",1
+253,24,"LYCOSIDAE","Pardosa agricola (THORELL, 1856)","Pardosa agricola","Ruigtewolfspin","LYCPAAGRI","PAAGRI","LYC","FL","RL","CR","KR",1,"Os","Rg","Pardosa agricola",1
+254,24,"LYCOSIDAE","Pardosa alacris (C.L. KOCH, 1833)","Pardosa alacris",,"LYCPAALAC","PAALAC","LYC",,,"NT","NB",6,,"-","Pardosa alacris",1
+255,24,"LYCOSIDAE","Pardosa amentata (CLERCK, 1757)","Pardosa amentata",,"LYCPAAMEN","PAAMEN","LYC","FL",,"NT","NB",6,,"-","Pardosa amentata",1
+256,24,"LYCOSIDAE","Pardosa bifasciata (C.L. KOCH, 1834)","Pardosa bifasciata",,"LYCPABIFA","PABIFA","LYC",,,"NT","NB",6,,"-","Pardosa bifasciata",1
+257,24,"LYCOSIDAE","Pardosa hortensis (THORELL, 1872)","Pardosa hortensis","Geelarmpje","LYCPAHORT","PAHORT","LYC","FL","RL","RG","GB",5,"N","N","Pardosa hortensis",1
+258,24,"LYCOSIDAE","Pardosa lugubris (WALCKENAER, 1802)","Pardosa lugubris","Boswolfspin","LYCPALUGU","PALUGU","LYC","FL","RL","VU","KW",3,"Bldz","Fddv","Pardosa lugubris",1
+259,24,"LYCOSIDAE","Pardosa monticola (CLERCK, 1757)","Pardosa monticola","Duinwolfspin","LYCPAMONT","PAMONT","LYC","FL","RL","EN","IG",2,"Gsdg","Godg","Pardosa monticola",1
+260,24,"LYCOSIDAE","Pardosa nigriceps (THORELL, 1856)","Pardosa nigriceps",,"LYCPANIGR","PANIGR","LYC","FL",,"NT","NB",6,,"-","Pardosa nigriceps",1
+261,24,"LYCOSIDAE","Pardosa oreophila SIMON, 1937","Pardosa oreophila",,"LYCPAOREO","PAOREO","LYC",,,"NT","NB",6,,"-","Pardosa oreophila",1
+262,24,"LYCOSIDAE","Pardosa paludicola (CLERCK, 1757)","Pardosa paludicola","Veenwolfspin","LYCPAPALD","PAPALD","LYC","FL","RL","EX","UI",0,"Ms","Mo","Pardosa paludicola",1
+263,24,"LYCOSIDAE","Pardosa palustris (LINNAEUS, 1758)","Pardosa palustris",,"LYCPAPALS","PAPALS","LYC","FL",,"NT","NB",6,,"-","Pardosa palustris",1
+264,24,"LYCOSIDAE","Pardosa prativaga (L. KOCH, 1870)","Pardosa prativaga","Oeverwolfspin","LYCPAPRAT","PAPRAT","LYC","FL","RL","VU","KW",3,"Mc","Mc","Pardosa prativaga",1
+265,24,"LYCOSIDAE","Pardosa proxima (C.L. KOCH, 1847)","Pardosa proxima","Veldwolfspin","LYCPAPROX","PAPROX","LYC","FL","RL","RG","GB",5,"N","N","Pardosa proxima",1
+266,24,"LYCOSIDAE","Pardosa pullata (CLERCK, 1757)","Pardosa pullata",,"LYCPAPULL","PAPULL","LYC","FL",,"NT","NB",6,,"-","Pardosa pullata",1
+267,24,"LYCOSIDAE","Pardosa purbeckensis F.O.P.-CAMBRIDGE, 1895","Pardosa purbeckensis","Schorrewolfspin","LYCPAPURB","PAPURB","LYC","FL","RL","CR","KR",1,"Szb","Sa","Pardosa purbeckensis",1
+268,24,"LYCOSIDAE","Pardosa saltans TÖPFER-HOFMANN & VON HELVERSEN, 1990","Pardosa saltans","Boswolfspin","LYCPASALT","PASALT","LYC","FL","RL","VU","KW",3,"Bldz","Fddv","Pardosa saltans",1
+269,24,"LYCOSIDAE","Pardosa sphagnicola (F. DAHL, 1908)","Pardosa sphagnicola","Veenmoswolfspin","LYCPASPHA","PASPHA","LYC","FL","RL","CR","KR",1,"Ms","Mo","Pardosa sphagnicola",1
+270,24,"LYCOSIDAE","Pirata hygrophilus THORELL, 1872","Pirata hygrophilus",,"LYCPIHYGR","PIHYGR","LYC","FL",,"NT","NB",6,,"-","Pirata hygrophilus",1
+271,24,"LYCOSIDAE","Pirata knorri (SCOPOLI, 1763)","Pirata knorri",,"LYCPIKNOR","PIKNOR","LYC","FL","RL","EX","UI",0,"Os","Rg","Pirata knorri",1
+272,24,"LYCOSIDAE","Pirata latitans (BLACKWALL, 1841)","Pirata latitans",,"LYCPILATI","PILATI","LYC","FL",,"NT","NB",6,,"-","Pirata latitans",1
+273,24,"LYCOSIDAE","Pirata piraticus (CLERCK, 1757)","Pirata piraticus",,"LYCPIPIRA","PIPIRA","LYC","FL",,"NT","NB",6,,"-","Pirata piraticus",1
+274,24,"LYCOSIDAE","Pirata piscatorius (CLERCK, 1757)","Pirata piscatorius","Grote piraat","LYCPIPISC","PIPISC","LYC","FL","RL","EN","IG",2,"Ms","Mo","Pirata piscatorius",1
+275,24,"LYCOSIDAE","Pirata tenuitarsis SIMON, 1876","Pirata tenuitarsis","Veenpiraat","LYCPITENU","PITENU","LYC","FL","RL","CR","KR",1,"Ms","Mo","Pirata tenuitarsis",1
+276,24,"LYCOSIDAE","Pirata uliginosus (THORELL, 1872)","Pirata uliginosus","Heidepiraat","LYCPIULIG","PIULIG","LYC","FL","RL","CR","KR",1,"Hnh","Hws","Pirata uliginosus",1
+714,24,"LYCOSIDAE","Tricca lutetiana (SIMON, 1876)","Tricca lutetiana","Leliewolfspin","LYCTRICCA","TRICCA","LYC","","","NT","NB",6,"","","Tricca lutetiana",1
+277,24,"LYCOSIDAE","Tricca lutetiana (SIMON, 1876)","Tricca lutetiana",,"LYCTRLUTE","TRLUTE","LYC",,,"NT","NB",6,,"-","Tricca lutetiana",1
+278,24,"LYCOSIDAE","Trochosa robusta (SIMON, 1876)","Trochosa robusta","Grote nachtwolfspin","LYCTRROBU","TRROBU","LYC","FL","RL","CR","KR",1,"Gsdk","Godl","Trochosa robusta",1
+279,24,"LYCOSIDAE","Trochosa ruricola (DEGEER, 1778)","Trochosa ruricola",,"LYCTRRURI","TRRURI","LYC","FL",,"NT","NB",6,,"-","Trochosa ruricola",1
+280,24,"LYCOSIDAE","Trochosa spinipalpis (F.O.P.-CAMBRIDGE, 1895)","Trochosa spinipalpis","Gestekelde nachtwolfspin","LYCTRSPIN","TRSPIN","LYC","FL","RL","VU","KW",3,"Gsnp","Gowt","Trochosa spinipalpis",1
+281,24,"LYCOSIDAE","Trochosa terricola THORELL, 1856","Trochosa terricola",,"LYCTRTERR","TRTERR","LYC","FL",,"NT","NB",6,,"-","Trochosa terricola",1
+282,24,"LYCOSIDAE","Xerolycosa miniata (C.L. KOCH, 1834)","Xerolycosa miniata","Kustwolfspin","LYCXEMINI","XEMINI","LYC","FL","RL","EN","IG",2,"Gsdo","Godb","Xerolycosa miniata",1
+283,24,"LYCOSIDAE","Xerolycosa nemoralis (WESTRING, 1861)","Xerolycosa nemoralis","Bosrandwolfspin","LYCXENEMO","XENEMO","LYC","FL","RL","VU","KW",3,"Bldz","Fddv","Xerolycosa nemoralis",1
+388,33,"METIDAE","Meta menardi (LATREILLE, 1804)","Metellina menardi",,"METMEMENA","MEMENA","MET",,,"NT","NB",6,,"-","Metellina menardi",1
+389,33,"METIDAE","Metellina mengei (BLACKWALL, 1869)","Metellina mengei",,"METMEMENG","MEMENG","MET","FL",,"NT","NB",6,,"-","Metellina mengei",1
+390,33,"METIDAE","Metellina merianae (SCOPOLI, 1773)","Metellina merianae",,"METMEMERI","MEMERI","MET","FL",,"NT","NB",6,,"-","Metellina merianae",1
+391,33,"METIDAE","Metellina segmentata (CLERCK, 1757)","Metellina segmentata",,"METMESEGM","MESEGM","MET","FL",,"NT","NB",6,,"-","Metellina segmentata",1
+392,33,"METIDAE","Zygiella atrica (C.L. KOCH, 1845)","Zygiella atrica","Struiksectorspin","METZYATRI","ZYATRI","MET","FL",,"NT","NB",6,,"-","Zygiella atrica",1
+393,33,"METIDAE","Zygiella stroemi (THORELL, 1870)","Zygiella stroemi",,"METZYSTRO","ZYSTRO","MET","FL","RL","IK","OG",8,"Y","Y","Zygiella stroemi",1
+394,33,"METIDAE","Zygiella x-notata (CLERCK, 1757)","Zygiella x-notata",,"METZYXNOT","ZYXNOT","MET","FL",,"NT","NB",6,,"-","Zygiella x-notata",1
+314,29,"MIMETIDAE","Ero aphana (WALCKENAER, 1802)","Ero aphana","Vierspitsspinneneter","MIMERAPHA","ERAPHA","MIM","FL","RL","RG","GB",5,"N","N","Ero aphana",1
+315,29,"MIMETIDAE","Ero cambridgei KULCZYNSKI, 1911","Ero cambridgei",,"MIMERCAMB","ERCAMB","MIM","FL",,"NT","NB",6,,"-","Ero cambridgei",1
+316,29,"MIMETIDAE","Ero furcata (VILLERS, 1789)","Ero furcata",,"MIMERFURC","ERFURC","MIM","FL",,"NT","NB",6,,"-","Ero furcata",1
+317,29,"MIMETIDAE","Ero tuberculata (DEGEER, 1778)","Ero tuberculata","Grote spinneneter","MIMERTUBE","ERTUBE","MIM","FL","RL","VU","KW",3,"Gsdd","Godd","Ero tuberculata",1
+376,31,"NESTICIDAE","Nesticus cellulanus (CLERCK, 1757)","Nesticus cellulanus",,"NESNECELL","NECELL","NES","FL",,"NT","NB",6,,"-","Nesticus cellulanus",1
+29,7,"OECOBIIDAE","Oecobius navus BLACKWALL, 1859 (niet: O. annulipes LUCAS, 1846)","Oecobius navus",,"OECOENAVU","OENAVU","OEC","FL",,"NT","NB",6,,"-","Oecobius navus",1
+33,9,"OONOPIDAE","Oonops domesticus DE DALMAS, 1916","Oonops domesticus",,"OONOODOME","OODOME","OON","FL",,"NT","NB",6,,"-","Oonops domesticus",1
+34,9,"OONOPIDAE","Oonops pulcher TEMPLETON, 1835","Oonops pulcher",,"OONOOPULC","OOPULC","OON","FL",,"NT","NB",6,,"-","Oonops pulcher",1
+715,9,"OONOPIDAE","Tapinesthis inermis  ","Tapinesthis inermis  ","","OONTAINER","TAINER","OON","","","","",8,"","","Tapinesthis inermis",
+233,23,"OXYOPIDAE","Oxyopes heterophthalmus LATREILLE, 1804","Oxyopes heterophthalmus","Gutspalpspringspin","OXYOXHETE","OXHETE","OXY","FL","RL","EX","UI",0,"Hdos","Hdbs","Oxyopes heterophthalmus",1
+234,23,"OXYOPIDAE","Oxyopes lineatus LATREIILLE, 1806","Oxyopes lineatus","Gestreepte lynxspin","OXYOXLINE","OXLINE","OXY","FL","RL","RG","GB",5,"N","N","Oxyopes lineatus",1
+235,23,"OXYOPIDAE","Oxyopes ramosus (PANZER, 1804)","Oxyopes ramosus","Prachtlynxspin","OXYOXRAMO","OXRAMO","OXY","FL","RL","VU","KW",3,"Hd","Hd","Oxyopes ramosus",1
+169,21,"PHILODROMIDAE","Philodromus albidus KULCZYNSKI, 1911","Philodromus albidus","Bleke renspin","PHIPHALBI","PHALBI","PHI","FL","RL","EN","IG",2,"Bldz","Fddv","Philodromus albidus",1
+170,21,"PHILODROMIDAE","Philodromus aureolus (CLERCK, 1757)","Philodromus aureolus",,"PHIPHAURE","PHAURE","PHI","FL",,"NT","NB",6,,"-","Philodromus aureolus",1
+171,21,"PHILODROMIDAE","Philodromus buxi SIMON, 1884","Philodromus buxi","Buxusrenspin","PHIPHBUXI","PHBUXI","PHI","FL","RL","RG","GB",5,"N","N","Philodromus buxi",1
+172,21,"PHILODROMIDAE","Philodromus cespitum (WALCKENAER, 1802)","Philodromus cespitum",,"PHIPHCESP","PHCESP","PHI","FL",,"NT","NB",6,,"-","Philodromus cespitum",1
+173,21,"PHILODROMIDAE","Philodromus collinus C.L. KOCH, 1835","Philodromus collinus",,"PHIPHCOLL","PHCOLL","PHI","FL",,"NT","NB",6,,"-","Philodromus collinus",1
+174,21,"PHILODROMIDAE","Philodromus dispar WALCKENAER, 1825","Philodromus dispar",,"PHIPHDISP","PHDISP","PHI","FL",,"NT","NB",6,,"-","Philodromus dispar",1
+175,21,"PHILODROMIDAE","Philodromus emarginatus (SCHRANK, 1803)","Philodromus emarginatus","Grauwe renspin","PHIPHEMAR","PHEMAR","PHI","FL","RL","IK","OG",8,"Y","Y","Philodromus emarginatus",1
+176,21,"PHILODROMIDAE","Philodromus fallax SUNDEVALL, 1833","Philodromus fallax","Kustrenspin","PHIPHFALL","PHFALL","PHI","FL","RL","CR","KR",1,"Gsdpz","Godtr","Philodromus fallax",1
+177,21,"PHILODROMIDAE","Philodromus histrio (LATREILLE, 1819)","Philodromus histrio","Heiderenspin","PHIPHHIST","PHHIST","PHI","FL","RL","VU","KW",3,"Hdo","Hdb","Philodromus histrio",1
+703,21,"PHILODROMIDAE","Philodromus longipalpis SIMON, 1870","Philodromus longipalpis","Struikrenspin","PHIPHLONG","PHLONG","PHI","FL","RL","NS","NS",7,,,"Philodromus longipalpis",1
+178,21,"PHILODROMIDAE","Philodromus margaritatus (CLERCK, 1757)","Philodromus margaritatus","Korstmosrenspin","PHIPHMARG","PHMARG","PHI","FL","RL","CR","KR",1,"Blnk","Fdwl","Philodromus margaritatus",1
+179,21,"PHILODROMIDAE","Philodromus poecilus (THORELL, 1872)","Philodromus poecilus",,"PHIPHPOEC","PHPOEC","PHI",,,"NT","NB",6,,"-","Philodromus poecilus",1
+180,21,"PHILODROMIDAE","Philodromus praedatus O.P.-CAMBRIDGE, 1871","Philodromus praedatus","Boomrenspin","PHIPHPRAE","PHPRAE","PHI","FL","RL","EN","IG",2,"Bldz","Fddv","Philodromus praedatus",1
+181,21,"PHILODROMIDAE","Philodromus rufus WALCKENAER, 1825","Philodromus rufus","Bonte renspin","PHIPHRUFU","PHRUFU","PHI","FL","RL","RG","GB",5,"N","N","Philodromus rufus",1
+182,21,"PHILODROMIDAE","Thanatus arenarius THORELL, 1872","Thanatus arenarius",,"PHITHAREN","THAREN","PHI",,,"NT","NB",6,,"-","Thanatus arenarius",1
+183,21,"PHILODROMIDAE","Thanatus formicinus (CLERCK, 1757)","Thanatus formicinus","Grote renspin","PHITHFORM","THFORM","PHI","FL","RL","IK","OG",8,"Y","Y","Thanatus formicinus",1
+184,21,"PHILODROMIDAE","Thanatus striatus C.L. KOCH, 1845","Thanatus striatus","Duinrenspin","PHITHSTRI","THSTRI","PHI","FL","RL","VU","KW",3,"Gsdp","Godt","Thanatus striatus",1
+185,21,"PHILODROMIDAE","Tibellus maritimus (MENGE, 1875)","Tibellus maritimus","Stippelsprietspin","PHITIMARI","TIMARI","PHI","FL","RL","VU","KW",3,"Gsnp","Gowt","Tibellus maritimus",1
+186,21,"PHILODROMIDAE","Tibellus oblongus (WALCKENAER, 1802)","Tibellus oblongus","Gewone sprietspin","PHITIOBLO","TIOBLO","PHI","FL","RL","VU","KW",3,"Gsnp","Gowt","Tibellus oblongus",1
+701,13,"PHOLCIDAE","Artema atlanta","Artema atlanta",,"PHOARATLA","ARATLA","PHO","FL",,"NS","NS",7,,,"Artema atlanta",1
+702,13,"PHOLCIDAE","Crosspriza lyoni","Crosspriza lyoni",,"PHOCRLYON","CRLYON","PHO","FL",,"NS","NS",7,,,"Crosspriza lyoni",1
+700,13,"PHOLCIDAE","Holocnemis pluchei","Holocnemis pluchei",,"PHOHOPLUC","HOPLUC","PHO","FL",,"NS","NS",7,,,"Holocnemis pluchei",1
+699,13,"PHOLCIDAE","Micropholcus fauroti","Micropholcus fauroti",,"PHOMIFAUR","MIFAUR","PHO","FL",,"NS","NS",7,,,"Micropholcus fauroti",1
+42,13,"PHOLCIDAE","Pholcus phalangioides (FUESSLIN, 1775)","Pholcus phalangioides",,"PHOPHPHAL","PHPHAL","PHO","FL",,"NT","NB",6,,"-","Pholcus phalangioides",1
+43,13,"PHOLCIDAE","Psilochorus simoni (BERLAND, 1911)","Psilochorus simoni",,"PHOPSSIMO","PSSIMO","PHO","FL",,"NT","NB",6,,"-","Psilochorus simoni",1
+284,25,"PISAURIDAE","Dolomedes fimbriatus (CLERCK, 1757)","Dolomedes fimbriatus","Gerande oeverspin","PISDOFIMB","DOFIMB","PIS","FL","RL","CR","KR",1,"Ms","Mo","Dolomedes fimbriatus",1
+285,25,"PISAURIDAE","Dolomedes plantarius (CLERCK, 1757)","Dolomedes plantarius","Grote oeverspin","PISDOPLAN","DOPLAN","PIS","FL","RL","CR","KR",1,"Aed","Wed","Dolomedes plantarius",1
+286,25,"PISAURIDAE","Pisaura mirabilis (CLERCK, 1757)","Pisaura mirabilis",,"PISPIMIRA","PIMIRA","PIS","FL",,"NT","NB",6,,"-","Pisaura mirabilis",1
+187,22,"SALTICIDAE","Asianellus festivus (C.L. KOCH, 1834) (=Aelurillus f. =Phlegra f. C.L. KOCH)","Aelurillus festivus (=Phlegra f.)","Dikpalpspringspin","SALAEFEST","AEFEST","SAL","FL","RL","IK","OG",8,"Y","Y","Aelurillus festivus",1
+188,22,"SALTICIDAE","Aelurillus v-insignitus (CLERCK, 1757)","Aelurillus v-insignitus","V-vlek-springspin","SALAEVINS","AEVINS","SAL","FL","RL","VU","KW",3,"Gsdd","Godd","Aelurillus v-insignitus",1
+189,22,"SALTICIDAE","Ballus chalybeius WALCKENAR, 1802 (=B. depressus WALCKENAER)","Ballus chalybeius",,"SALBACHAL","BACHAL","SAL","FL",,"NT","NB",6,,"-","Ballus chalybeius",1
+190,22,"SALTICIDAE","Bianor aurocinctus (OHLERT, 1865) (=B. aenescens (SIMON))","Bianor aurocinctus (=B. aenescens)","Dikpootspringspin","SALBIAURO","BIAURO","SAL","FL","RL","EN","IG",2,"Gsdo","Godb","Bianor aurocinctus",1
+191,22,"SALTICIDAE","Dendryphantes nidicolens (WALCKENAER, 1802)","Dendryphantes nidicolens",,"SALDENIDI","DENIDI","SAL",,,"NT","NB",6,,"-","Dendryphantes nidicolens",1
+192,22,"SALTICIDAE","Dendryphantes rudis (SUNDEVALL, 1833)","Dendryphantes rudis",,"SALDERUDI","DERUDI","SAL","FL",,"NT","NB",6,,"-","Dendryphantes rudis",1
+193,22,"SALTICIDAE","Euophrys aequipes (O.P.-CAMBRIDGE, 1871)","Euophrys aequipes","Ringpootzwartkop","SALEUAEQU","EUAEQU","SAL","FL","RL","VU","KW",3,"Gsdos","Godbs","Euophrys aequipes",1
+194,22,"SALTICIDAE","Euophrys aperta MILLER, 1971 (=Talavera a; (MILLER))","Euophrys aperta",,"SALEUAPER","EUAPER","SAL",,,"NT","NB",6,,"-","Euophrys aperta",1
+195,22,"SALTICIDAE","Euophrys erratica (WALCKENAER, 1825)","Euophrys erratica","Bruine zwartkop","SALEUERRA","EUERRA","SAL","FL",,"NT","NB",6,,"-","Euophrys erratica",1
+196,22,"SALTICIDAE","Euophrys frontalis (WALCKENAER, 1802)","Euophrys frontalis",,"SALEUFRON","EUFRON","SAL","FL",,"NT","NB",6,,"-","Euophrys frontalis",1
+197,22,"SALTICIDAE","Euophrys lanigera (SIMON, 1871)","Euophrys lanigera",,"SALEULANI","EULANI","SAL","FL",,"NT","NB",6,,"-","Euophrys lanigera",1
+198,22,"SALTICIDAE","Euophrys petrensis C.L. KOCH, 1837","Euophrys petrensis","Bergspringspin","SALEUPETR","EUPETR","SAL","FL","RL","EN","IG",2,"Gsdo","Godb","Euophrys petrensis",1
+199,22,"SALTICIDAE","Evarcha arcuata (CLERCK, 1757)","Evarcha arcuata",,"SALEVARCU","EVARCU","SAL","FL",,"NT","NB",6,,"-","Evarcha arcuata",1
+200,22,"SALTICIDAE","Evarcha falcata (CLERCK, 1757)","Evarcha falcata",,"SALEVFALC","EVFALC","SAL","FL",,"NT","NB",6,,"-","Evarcha falcata",1
+201,22,"SALTICIDAE","Evarcha jucunda (LUCAS, 1848)","Evarcha jucunda","Zuidelijke grasspringspin","SALEVJUCU","EVJUCU","SAL","FL","RL","IK","OG",8,"Y","Y","Evarcha jucunda",1
+202,22,"SALTICIDAE","Evarcha laetabunda (C.L. KOCH, 1848)","Evarcha laetabunda","Zeldzame grasspringspin","SALEVLAET","EVLAET","SAL","FL","RL","EN","IG",2,"Hdo","Hdb","Evarcha laetabunda",1
+203,22,"SALTICIDAE","Hasarius adansoni (SAVIGNY & AUDOUIN, 1827)????","Hasarius adansoni????",,"SALHAADAN","HAADAN","SAL",,,"NT","NB",6,,"-","Hasarius adansoni",1
+204,22,"SALTICIDAE","Heliophanus aeneus (HAHN, 1834) (=H. muscorum WALCKENAER)","Heliophanus aeneus","Rechte blinker","SALHEAENE","HEAENE","SAL","FL","RL","EX","UI",0,"Gsdos","Godbs","Heliophanus aeneus",1
+205,22,"SALTICIDAE","Heliophanus auratus C.L. KOCH, 1835","Heliophanus auratus","Moerasblinker","SALHEAURA","HEAURA","SAL","FL","RL","EN","IG",2,"Mrv","Mrr","Heliophanus auratus",1
+206,22,"SALTICIDAE","Heliophanus cupreus (WALCKENAER, 1802)","Heliophanus cupreus",,"SALHECUPR","HECUPR","SAL","FL",,"NT","NB",6,,"-","Heliophanus cupreus",1
+207,22,"SALTICIDAE","Heliophanus dampfi SCHENKEL, 1923","Heliophanus dampfi",,"SALHEDAMP","HEDAMP","SAL",,,"NT","NB",6,,"-","Heliophanus dampfi",1
+208,22,"SALTICIDAE","Heliophanus dubius C.L. KOCH, 1834","Heliophanus dubius","Gevlekte blinker","SALHEDUBI","HEDUBI","SAL","FL","RL","RG","GB",5,"Z","S","Heliophanus dubius",1
+209,22,"SALTICIDAE","Heliophanus flavipes (HAHN, 1832)","Heliophanus flavipes",,"SALHEFLAV","HEFLAV","SAL","FL",,"NT","NB",6,,"-","Heliophanus flavipes",1
+210,22,"SALTICIDAE","Heliophanus tribulosus SIMON, 1868","Heliophanus tribulosus","Driepuntsblinker","SALHETRIB","HETRIB","SAL","FL","RL","RG","GB",5,"N","N","Heliophanus tribulosus",1
+211,22,"SALTICIDAE","Leptorchestes berolinensis (C.L. KOCH, 1846)","Leptorchestes berolinensis",,"SALLEBERO","LEBERO","SAL",,,"NT","NB",6,,"-","Leptorchestes berolinensis",1
+212,22,"SALTICIDAE","Marpissa muscosa (CLERCK, 1757)","Marpissa muscosa",,"SALMAMUSC","MAMUSC","SAL","FL",,"NT","NB",6,,"-","Marpissa muscosa",1
+213,22,"SALTICIDAE","Marpissa nivoyi (LUCAS, 1846)","Marpissa nivoyi","Helmmarpissa","SALMANIVO","MANIVO","SAL","FL","RL","EN","IG",2,"Gsdp","Godt","Marpissa nivoyi",1
+214,22,"SALTICIDAE","Marpissa pomatia (WALCKENAER, 1802)","Marpissa pomatia","Goudbandmarpissa","SALMAPOMA","MAPOMA","SAL","FL","RL","CR","KR",1,"Mrv","Mrr","Marpissa pomatia",1
+215,22,"SALTICIDAE","Marpissa radiata (GRUBE, 1859)","Marpissa radiata","Rietmarpissa","SALMARADI","MARADI","SAL","FL","RL","VU","KW",3,"Mrv","Mrr","Marpissa radiata",1
+216,22,"SALTICIDAE","Myrmarachne formicaria (DEGEER, 1778)","Myrmarachne formicaria",,"SALMYFORM","MYFORM","SAL","FL",,"NT","NB",6,,"-","Myrmarachne formicaria",1
+217,22,"SALTICIDAE","Neon rayi (SIMON, 1875)","Neon rayi",,"SALNERAYI","NERAYI","SAL",,,"NT","NB",6,,"-","Neon rayi",1
+218,22,"SALTICIDAE","Neon reticulatus (BLACKWALL, 1853)","Neon reticulatus",,"SALNERETI","NERETI","SAL","FL",,"NT","NB",6,,"-","Neon reticulatus",1
+219,22,"SALTICIDAE","Neon valentulus FALCONER, 1912","Neon valentulus","Donkere neon","SALNEVALE","NEVALE","SAL","FL","RL","CR","KR",1,"Hnh","Hws","Neon valentulus",1
+220,22,"SALTICIDAE","Pellenes tripunctatus (WALCKENAER,1802)","Pellenes tripunctatus","Driepuntspringspin","SALPETRIP","PETRIP","SAL","FL","RL","EN","IG",2,"Gsdo","Godb","Pellenes tripunctatus",1
+221,22,"SALTICIDAE","Phlegra fasciata (HAHN, 1826)","Phlegra fasciata","Gestreepte springspin","SALPHFASC","PHFASC","SAL","FL","RL","VU","KW",3,"Gsdo","Godb","Phlegra fasciata",1
+222,22,"SALTICIDAE","Pseudicius encarpatus (WALCKENAER, 1803)","Pseudicius encarpatus","Sjirpspringspin","SALPSENCA","PSENCA","SAL","FL","RL","IK","OG",8,"Y","Y","Pseudicius encarpatus",1
+223,22,"SALTICIDAE","Salticus cingulatus (PANZER, 1797)","Salticus cingulatus",,"SALSACING","SACING","SAL","FL",,"NT","NB",6,,"-","Salticus cingulatus",1
+224,22,"SALTICIDAE","Salticus scenicus (CLERCK, 1757)","Salticus scenicus",,"SALSASCEN","SASCEN","SAL","FL",,"NT","NB",6,,"-","Salticus scenicus",1
+225,22,"SALTICIDAE","Salticus zebraneus (C.L. KOCH, 1837)","Salticus zebraneus",,"SALSAZEBR","SAZEBR","SAL","FL",,"NT","NB",6,,"-","Salticus zebraneus",1
+226,22,"SALTICIDAE","Sitticus caricis (WESTRING, 1861)","Sitticus caricis","Muisspringspin","SALSICARI","SICARI","SAL","FL","RL","EN","IG",2,"Ms","Mo","Sitticus caricis",1
+227,22,"SALTICIDAE","Sitticus distinguendus (SIMON, 1868) (=Attulus helveolus (SIMON) en Attulus cinereus (WESTRING))","Sitticus distinguendus (=Attulus helveolus en Attulus cinereus)","Kustspringspin","SALSIDIST","SIDIST","SAL","FL","RL","EN","IG",2,"Gsdo","Godb","Sitticus distinguendus",1
+228,22,"SALTICIDAE","Sitticus floricola (C.L. KOCH, 1837) (=S. littoralis (HAHN))","Sitticus floricola","Gevlekte moerasspringer","SALSIFLOR","SIFLOR","SAL","FL","RL","VU","KW",3,"Ms","Mo","Sitticus floricola",1
+229,22,"SALTICIDAE","Sitticus pubescens (FABRICIUS, 1775)","Sitticus pubescens",,"SALSIPUBE","SIPUBE","SAL","FL",,"NT","NB",6,,"-","Sitticus pubescens",1
+230,22,"SALTICIDAE","Sitticus saltator O.P.-CAMBRIDGE, 1868 (=Attulus s.)","Sitticus saltator","Zandspringspin","SALSISALT","SISALT","SAL","FL","RL","EN","IG",2,"Gsdo","Godb","Sitticus saltator",1
+231,22,"SALTICIDAE","Synageles hilarulus (C.L. KOCH, 1846)","Synageles hilarulus","Kleine mierspringspin","SALSYHILA","SYHILA","SAL","FL","RL","RG","GB",5,"N","N","Synageles hilarulus",1
+232,22,"SALTICIDAE","Synageles venator (LUCAS, 1836)","Synageles venator",,"SALSYVENA","SYVENA","SAL","FL",,"NT","NB",6,,"-","Synageles venator",1
+716,22,"SALTICIDAE","Euophrys thorelli thorelli ","Euophrys thorelli thorelli ","","SALTATHOR","TATHOR","SAL","","","","",8,"","","Euophrys thorelli",
+41,12,"SCYTODIDAE","Scytodes thoracica LATREILLE, 1804","Scytodes thoracica",,"SCYSCTHOR","SCTHOR","SCY","FL",,"NT","NB",6,,"-","Scytodes thoracica",1
+38,11,"SEGESTRIIDAE","Segestria bavarica C.L. KOCH, 1843","Segestria bavarica",,"SEGSEBAVA","SEBAVA","SEG","FL",,"NT","NB",6,,"-","Segestria bavarica",1
+39,11,"SEGESTRIIDAE","Segestria florentina (ROSSI, 1790)","Segestria florentina",,"SEGSEFLOR","SEFLOR","SEG","FL",,"NT","NB",6,,"-","Segestria florentina",1
+40,11,"SEGESTRIIDAE","Segestria senoculata (LINNAEUS, 1758)","Segestria senoculata",,"SEGSESENO","SESENO","SEG","FL",,"NT","NB",6,,"-","Segestria senoculata",1
+718,33,"TETRAGNATHIDAE","Meta menardi (LATREILLE, 1804)","Metellina menardi","Gewone grottenspin","TETMEMENA","MEMENA","TET","","","NT","NB",6,"","","Metellina menardi",1
+719,33,"TETRAGNATHIDAE","Metellina mengei (BLACKWALL, 1869)","Metellina mengei","Zomerwielwebspin","TETMEMENG","MEMENG","TET","FL","","NT","NB",6,"","","Metellina mengei",1
+720,33,"TETRAGNATHIDAE","Metellina merianae (SCOPOLI, 1773)","Metellina merianae","Holenwielwebspin","TETMEMERI","MEMERI","TET","FL","","NT","NB",6,"","","Metellina merianae",1
+721,33,"TETRAGNATHIDAE","Metellina segmentata (CLERCK, 1757)","Metellina segmentata","Herfstspin","TETMESEGM","MESEGM","TET","FL","","NT","NB",6,"","","Metellina segmentata",1
+377,32,"TETRAGNATHIDAE","Pachygnatha clercki SUNDEVALL, 1823","Pachygnatha clercki",,"TETPACLER","PACLER","TET","FL",,"NT","NB",6,,"-","Pachygnatha clercki",1
+378,32,"TETRAGNATHIDAE","Pachygnatha degeeri SUNDEVALL, 1830","Pachygnatha degeeri",,"TETPADEGE","PADEGE","TET","FL",,"NT","NB",6,,"-","Pachygnatha degeeri",1
+379,32,"TETRAGNATHIDAE","Pachygnatha listeri SUNDEVALL, 1830","Pachygnatha listeri","Bosdikkaak","TETPALIST","PALIST","TET","FL","RL","VU","KW",3,"Blmo","Fdmo","Pachygnatha listeri",1
+380,32,"TETRAGNATHIDAE","Tetragnatha dearmata THORELL, 1873","Tetragnatha dearmata","Noordse strekspin","TETTEDEAR","TEDEAR","TET","FL","RL","IK","OG",8,"Y","Y","Tetragnatha dearmata",1
+381,32,"TETRAGNATHIDAE","Tetragnatha extensa (LINNAEUS, 1758)","Tetragnatha extensa",,"TETTEEXTE","TEEXTE","TET","FL",,"NT","NB",6,,"-","Tetragnatha extensa",1
+382,32,"TETRAGNATHIDAE","Tetragnatha montana SIMON, 1874","Tetragnatha montana",,"TETTEMONT","TEMONT","TET","FL",,"NT","NB",6,,"-","Tetragnatha montana",1
+383,32,"TETRAGNATHIDAE","Tetragnatha nigrita LENDL, 1886","Tetragnatha nigrita",,"TETTENIGR","TENIGR","TET","FL",,"NT","NB",6,,"-","Tetragnatha nigrita",1
+384,32,"TETRAGNATHIDAE","Tetragnatha obtusa C.L. KOCH, 1837","Tetragnatha obtusa",,"TETTEOBTU","TEOBTU","TET","FL",,"NT","NB",6,,"-","Tetragnatha obtusa",1
+385,32,"TETRAGNATHIDAE","Tetragnatha pinicola L. KOCH, 1870","Tetragnatha pinicola",,"TETTEPINI","TEPINI","TET","FL",,"NT","NB",6,,"-","Tetragnatha pinicola",1
+386,32,"TETRAGNATHIDAE","Tetragnatha reimoseri (ROSCA, 1939)","Tetragnatha reimoseri","Staartstrekspin","TETTEREIM","TEREIM","TET","FL","RL","CR","KR",1,"Mr","Mr","Tetragnatha reimoseri",1
+387,32,"TETRAGNATHIDAE","Tetragnatha striata L. KOCH, 1862","Tetragnatha striata","Rietstrekspin","TETTESTRI","TESTRI","TET","FL","RL","EN","IG",2,"Mr","Mr","Tetragnatha striata",1
+318,30,"THERIDIIDAE","Achaearanea lunata (CLERCK, 1757)","Achaearanea lunata",,"THIACLUNA","ACLUNA","THI","FL",,"NT","NB",6,,"-","Achaearanea lunata",1
+319,30,"THERIDIIDAE","Achaearanea riparia (BLACKWALL, 1834)","Achaearanea riparia","Bermkogelspin","THIACRIPA","ACRIPA","THI","FL","RL","VU","KW",3,"Gsdom","Godba","Achaearanea riparia",1
+320,30,"THERIDIIDAE","Achaearanea simulans (THORELL, 1875)","Achaearanea simulans",,"THIACSIMU","ACSIMU","THI","FL",,"NT","NB",6,,"-","Achaearanea simulans",1
+321,30,"THERIDIIDAE","Achaearanea tepidariorum (C.L. KOCH, 1841)","Achaearanea tepidariorum",,"THIACTEPI","ACTEPI","THI","FL",,"NT","NB",6,,"-","Achaearanea tepidariorum",1
+322,30,"THERIDIIDAE","Achaearanea veruculata (URQUHART, 1885)","Achaearanea veruculata",,"THIACVERU","ACVERU","THI","FL",,"NT","NB",6,,"-","Achaearanea veruculata",1
+323,30,"THERIDIIDAE","Anelosimus aulicus (C.L. KOCH, 1838)","Anelosimus aulicus","Schijfhandje","THIANAULI","ANAULI","THI","FL","RL","RG","GB",5,"N","N","Anelosimus aulicus",1
+324,30,"THERIDIIDAE","Anelosimus pulchellus (WALCKENAER, 1802)","Anelosimus pulchellus","Volslanke kogelspin","THIANPULC","ANPULC","THI","FL","RL","RG","GB",5,"N","N","Anelosimus pulchellus",1
+325,30,"THERIDIIDAE","Anelosimus vittatus (C.L. KOCH, 1836)","Anelosimus vittatus",,"THIANVITT","ANVITT","THI","FL",,"NT","NB",6,,"-","Anelosimus vittatus",1
+326,30,"THERIDIIDAE","Carniella brignolii Thaler & Steinberger, 1988","Carniella brignolii",,"THICABRIG","CABRIG","THI",,,"NT","NB",6,,"-","Carniella brignolii",1
+327,30,"THERIDIIDAE","Crustulina guttata (WIDER, 1834)","Crustulina guttata","Gevlekt raspspinnetje","THICRGUTT","CRGUTT","THI","FL","RL","VU","KW",3,"Gsdp","Godt","Crustulina guttata",1
+328,30,"THERIDIIDAE","Crustulina sticta (O.P.-CAMBRIDGE, 1861)","Crustulina sticta","Egaal raspspinnetje","THICRSTIC","CRSTIC","THI","FL","RL","CR","KR",1,"Ms","Mo","Crustulina sticta",1
+329,30,"THERIDIIDAE","Dipoena coracina (C.L. KOCH, 1841)","Dipoena coracina",,"THIDICORA","DICORA","THI",,,"NT","NB",6,,"-","Dipoena coracina",1
+330,30,"THERIDIIDAE","Dipoena erythropus (SIMON, 1881)","Dipoena erythropus",,"THIDIERYT","DIERYT","THI",,,"NT","NB",6,,"-","Dipoena erythropus",1
+331,30,"THERIDIIDAE","Dipoena inornata (O.P.-CAMBRIDGE, 1861)","Dipoena inornata","Zijden galgspin","THIDIINOR","DIINOR","THI","FL","RL","CR","KR",1,"Hd","Hd","Dipoena inornata",1
+332,30,"THERIDIIDAE","Dipoena melanogaster (C.L. KOCH, 1845)","Dipoena melanogaster","Gemarmerde galgspin","THIDIMELA","DIMELA","THI","FL","RL","EN","IG",2,"Gsdd","Godd","Dipoena melanogaster",1
+333,30,"THERIDIIDAE","Dipoena prona (MENGE, 1868)","Dipoena prona","Neusgalgspin","THIDIPRON","DIPRON","THI","FL","RL","EN","IG",2,"Gsdd","Godd","Dipoena prona",1
+334,30,"THERIDIIDAE","Dipoena tristis (HAHN, 1833)","Dipoena tristis","Zwarte galgspin","THIDITRIS","DITRIS","THI","FL","RL","CR","KR",1,"Gsdd","Godd","Dipoena tristis",1
+335,30,"THERIDIIDAE","Enoplognatha latimana HIPPA & OKSALA, 1982","Enoplognatha latimana",,"THIENLATI","ENLATI","THI","FL",,"NT","NB",6,,"-","Enoplognatha latimana",1
+336,30,"THERIDIIDAE","Enoplognatha mordax (THORELL, 1875) (=E. crucifera en E. schaufussi)","Enoplognatha mordax","Schorrentandkaak","THIENMORD","ENMORD","THI","FL","RL","VU","KW",3,"Gsdd","Godd","Enoplognatha mordax",1
+337,30,"THERIDIIDAE","Enoplognatha oelandica (THORELL, 1875)","Enoplognatha oelandica","Gemarmerde tandkaak","THIENOELA","ENOELA","THI","FL","RL","EN","IG",2,"Gsdd","Godd","Enoplognatha oelandica",1
+338,30,"THERIDIIDAE","Enoplognatha ovata (CLERCK, 1757)","Enoplognatha ovata",,"THIENOVAT","ENOVAT","THI","FL",,"NT","NB",6,,"-","Enoplognatha ovata",1
+339,30,"THERIDIIDAE","Enoplognatha pallens BLACKWALL, 1834 (=Paidiscura p. (BLACKWALL))","Enoplognatha pallens (=Paidisura p.)",,"THIENPALL","ENPALL","THI","FL",,"NT","NB",6,,"-","Enoplognatha pallens",1
+340,30,"THERIDIIDAE","Enoplognatha tecta (KEYSERLING, 1884) (=E. caricis)","Enoplognatha tecta","Moerastandkaaak","THIENTECT","ENTECT","THI","FL","RL","RG","GB",5,"N","N","Enoplognatha tecta",1
+341,30,"THERIDIIDAE","Enoplognatha thoracica (HAHN, 1833)","Enoplognatha thoracica",,"THIENTHOR","ENTHOR","THI","FL",,"NT","NB",6,,"-","Enoplognatha thoracica",1
+342,30,"THERIDIIDAE","Episinus angulatus (BLACKWALL, 1836)","Episinus angulatus",,"THIEPANGU","EPANGU","THI","FL",,"NT","NB",6,,"-","Episinus angulatus",1
+343,30,"THERIDIIDAE","Episinus truncatus LATREILLE, 1809","Episinus truncatus","Egale kabelspin","THIEPTRUN","EPTRUN","THI","FL","RL","CR","KR",1,"Gsdd","Godd","Episinus truncatus",1
+344,30,"THERIDIIDAE","Euryopis flavomaculata (C.L. KOCH, 1836)","Euryopis flavomaculata","Geelvlekjachtkogelspin","THIEUFLAV","EUFLAV","THI","FL","RL","VU","KW",3,"Gsdv","Godr","Euryopis flavomaculata",1
+345,30,"THERIDIIDAE","Euryopis laeta (WESTRING, 1861)","Euryopis laeta",,"THIEULAET","EULAET","THI",,,"NT","NB",6,,"-","Euryopis laeta",1
+346,30,"THERIDIIDAE","Pholcomma gibbum (WESTRING, 1851)","Pholcomma gibbum","Pantserkogelspin","THIPHGIBB","PHGIBB","THI","FL","RL","VU","KW",3,"Gsdv","Godr","Pholcomma gibbum",1
+347,30,"THERIDIIDAE","Robertus arundineti (O.P.-CAMBRIDGE, 1871)","Robertus arundineti","Moerasmolspin","THIROARUN","ROARUN","THI","FL","RL","EN","IG",2,"Gsnv","Gowr","Robertus arundineti",1
+348,30,"THERIDIIDAE","Robertus kuehnae BAUCHHENS & UHLENHAUT, 1993","Robertus kuehnae","Kühns molspin","THIROKUEH","ROKUEH","THI","FL","RL","IN","OG",4,"X","X","Robertus kuehnae",1
+349,30,"THERIDIIDAE","Robertus lividus (BLACKWALL, 1836)","Robertus lividus",,"THIROLIVI","ROLIVI","THI","FL",,"NT","NB",6,,"-","Robertus lividus",1
+350,30,"THERIDIIDAE","Robertus neglectus (O.P.-CAMBRIDGE, 1871)","Robertus neglectus","Vergeten molspin","THIRONEGL","RONEGL","THI","FL","RL","VU","KW",3,"Blnz","Fdwv","Robertus neglectus",1
+351,30,"THERIDIIDAE","Robertus scoticus JACKSON, 1914","Robertus scoticus",,"THIROSCOT","ROSCOT","THI","FL","RL","RG","GB",5,"Z","S","Robertus scoticus",1
+352,30,"THERIDIIDAE","Steatoda albomaculata (DE GEER, 1778)","Steatoda albomaculata","Gevlekte steatoda","THISTALBO","STALBO","THI","FL","RL","VU","KW",3,"Hd","Hd","Steatoda albomaculata",1
+353,30,"THERIDIIDAE","Steatoda bipunctata (LINNAEUS, 1758)","Steatoda bipunctata",,"THISTBIPU","STBIPU","THI","FL",,"NT","NB",6,,"-","Steatoda bipunctata",1
+354,30,"THERIDIIDAE","Steatoda grossa (C.L. KOCH, 1838)","Steatoda grossa",,"THISTGROS","STGROS","THI","FL",,"NT","NB",6,,"-","Steatoda grossa",1
+355,30,"THERIDIIDAE","Steatoda phalerata (PANZER, 1801)","Steatoda phalerata","Heidesteatoda","THISTPHAL","STPHAL","THI","FL","RL","VU","KW",3,"Hd","Hd","Steatoda phalerata",1
+356,30,"THERIDIIDAE","Steatoda triangulosa (WALCKENAER, 1802)","Steatoda triangulosa",,"THISTTRIA","STTRIA","THI","FL",,"NT","NB",6,,"-","Steatoda triangulosa",1
+358,30,"THERIDIIDAE","Theridion bellicosum (SIMON, 1873) (=Rugathodes b. (SIMON))","Theridion bellicosum",,"THITHBELL","THBELL","THI",,,"NT","NB",6,,"-","Theridion bellicosum",1
+359,30,"THERIDIIDAE","Theridion bimaculatum (LINNAEUS, 1767)","Theridion bimaculatum",,"THITHBIMA","THBIMA","THI","FL",,"NT","NB",6,,"-","Theridion bimaculatum",1
+360,30,"THERIDIIDAE","Theridion blackwalli O.P.-CAMBRIDGE, 1870","Theridion blackwalli",,"THITHBLAC","THBLAC","THI","FL",,"NT","NB",6,,"-","Theridion blackwalli",1
+361,30,"THERIDIIDAE","Theridion familiare O.P.-CAMBRIDGE, 1871","Theridion familiare",,"THITHFAMI","THFAMI","THI","FL",,"NT","NB",6,,"-","Theridion familiare",1
+362,30,"THERIDIIDAE","Theridion hannoniae DENIS, 1944","Theridion hannoniae",,"THITHHANN","THHANN","THI","FL",,"NT","NB",6,,"-","Theridion hannoniae",1
+363,30,"THERIDIIDAE","Theridion hemerobius Simon, 1914","Theridion hemerobius",,"THITHHEMO","THHEMO","THI","FL",,"NT","NB",6,,"-","Theridion hemerobius",1
+364,30,"THERIDIIDAE","Theridion impressum L. KOCH, 1881","Theridion impressum",,"THITHIMPR","THIMPR","THI","FL",,"NT","NB",6,,"-","Theridion impressum",1
+365,30,"THERIDIIDAE","Theridion instabile O.P.-CAMBRIDGE, 1871 (=Rugathodes i. (O.P.-CAMBRIDGE)","Theridion instabile","Moeraskogelspin","THITHINST","THINST","THI","FL","RL","EN","IG",2,"Mc","Mc","Theridion instabile",1
+366,30,"THERIDIIDAE","Theridion melanurum HAHN, 1831","Theridion melanurum",,"THITHMELA","THMELA","THI","FL",,"NT","NB",6,,"-","Theridion melanurum",1
+357,30,"THERIDIIDAE","Theonoe minutissima (O.P.-CAMBRIDGE, 1879)","Theonoe minutissima","Kleinste kogelspin","THITHMINU","THMINU","THI","FL","RL","VU","KW",3,"Hnh","Hws","Theonoe minutissima",1
+367,30,"THERIDIIDAE","Theridion mystaceum L. KOCH, 1870","Theridion mystaceum",,"THITHMYST","THMYST","THI","FL",,"NT","NB",6,,"-","Theridion mystaceum",1
+368,30,"THERIDIIDAE","Theridion pictum (WALCKENAER, 1802)","Theridion pictum",,"THITHPICT","THPICT","THI","FL",,"NT","NB",6,,"-","Theridion pictum",1
+369,30,"THERIDIIDAE","Theridion pinastri L. KOCH, 1872","Theridion pinastri",,"THITHPINA","THPINA","THI","FL",,"NT","NB",6,,"-","Theridion pinastri",1
+370,30,"THERIDIIDAE","Theridion simile C.L. KOCH, 1836","Theridion simile",,"THITHSIMI","THSIMI","THI","FL",,"NT","NB",6,,"-","Theridion simile",1
+371,30,"THERIDIIDAE","Theridion sisyphium (CLERCK, 1757)","Theridion sisyphium",,"THITHSISY","THSISY","THI","FL",,"NT","NB",6,,"-","Theridion sisyphium",1
+372,30,"THERIDIIDAE","Theridion spec?????","Theridion spec.",,"THITHSPEC","THSPEC","THI","FL",,"NT","NB",6,,"-","Theridion spec.",1
+373,30,"THERIDIIDAE","Theridion tinctum (WALCKENAER, 1802)","Theridion tinctum",,"THITHTINC","THTINC","THI","FL",,"NT","NB",6,,"-","Theridion tinctum",1
+374,30,"THERIDIIDAE","Theridion uhlighi MARTIN, 1975","Theridion uhlighi","Uhligs kogelspin","THITHUHLI","THUHLI","THI","FL","RL","CR","KR",1,"Hdo","Hdb","Theridion uhlighi",1
+375,30,"THERIDIIDAE","Theridion varians HAHN, 1833","Theridion varians",,"THITHVARI","THVARI","THI","FL",,"NT","NB",6,,"-","Theridion varians",1
+132,20,"THOMISIDAE","Coriarachne depressa (C.L. KOCH,1837)","Coriarachne depressa","Platte krabspin","THMCODEPR","CODEPR","THM","FL","RL","RG","GB",5,"Z","S","Coriarachne depressa",1
+133,20,"THOMISIDAE","Diaea dorsata (FABRICIUS, 1777)","Diaea dorsata",,"THMDIDORS","DIDORS","THM","FL",,"NT","NB",6,,"-","Diaea dorsata",1
+134,20,"THOMISIDAE","Heriaeus hirtus (LATREILLE, 1819)","Heriaeus hirtus","Haarkrabspin","THMHEHIRT","HEHIRT","THM","FL","RL","RG","GB",5,"N","N","Heriaeus hirtus",1
+136,20,"THOMISIDAE","Misumenops tricuspidatus (FABRICIUS, 1775)","Misumenops tricuspidatus","Stuikkameleonspin","THMMITRIC","MITRIC","THM","FL","RL","RG","GB",5,"N","N","Misumenops tricuspidatus",1
+135,20,"THOMISIDAE","Misumena vatia (CLERCK, 1757)","Misumena vatia","Gewone kameleonspin","THMMIVATI","MIVATI","THM","FL","RL","VU","KW",3,"Gsdb","Godf","Misumena vatia",1
+137,20,"THOMISIDAE","Ozyptila atomaria (PANZER, 1810)","Ozyptila atomaria","Grote bodemkrabspin","THMOZATOM","OZATOM","THM","FL","RL","EN","IG",2,"Gsdp","Godt","Ozyptila atomaria",1
+138,20,"THOMISIDAE","Ozyptila blackwalli SIMON, 1875","Ozyptila blackwalli",,"THMOZBLAC","OZBLAC","THM",,,"NT","NB",6,,"-","Ozyptila blackwalli",1
+139,20,"THOMISIDAE","Ozyptila brevipes (HAHN, 1831)","Ozyptila brevipes","Witrugbodemkrabspin","THMOZBREV","OZBREV","THM","FL","RL","EN","IG",2,"Gsnp","Gowt","Ozyptila brevipes",1
+140,20,"THOMISIDAE","Ozyptila nigrita (THORELL, 1875)","Ozyptila nigrita","Zwarte bodemkrabspin","THMOZNIGR","OZNIGR","THM","FL","RL","CR","KR",1,"Gsdp","Godt","Ozyptila nigrita",1
+141,20,"THOMISIDAE","Ozyptila praticola (C.L. KOCH, 1837)","Ozyptila praticola",,"THMOZPRAT","OZPRAT","THM","FL",,"NT","NB",6,,"-","Ozyptila praticola",1
+142,20,"THOMISIDAE","Ozyptila pullata (THORELL, 1875)","Ozyptila pullata","Kalkbodemkrabspin","THMOZPULL","OZPULL","THM",,,"NT","NB",6,,"-","Ozyptila pullata",1
+143,20,"THOMISIDAE","Ozyptila rauda SIMON, 1875","Ozyptila rauda",,"THMOZRAUD","OZRAUD","THM",,,"NT","NB",6,,"-","Ozyptila rauda",1
+144,20,"THOMISIDAE","Ozyptila sanctuaria (O.P.-CAMBRIDGE, 1871)","Ozyptila sanctuaria","Bleke bodemkrabspin","THMOZSANC","OZSANC","THM","FL","RL","EN","IG",2,"Gsdp","Godt","Ozyptila sanctuaria",1
+145,20,"THOMISIDAE","Ozyptila scabricula (WESTRING, 1851)","Ozyptila scabricula","Mierbodemkrabspin","THMOZSCAB","OZSCAB","THM","FL","RL","EN","IG",2,"Hdo","Hdb","Ozyptila scabricula",1
+146,20,"THOMISIDAE","Ozyptila simplex (O.P.-CAMBRIDGE, 1862)","Ozyptila simplex",,"THMOZSIMP","OZSIMP","THM","FL",,"NT","NB",6,,"-","Ozyptila simplex",1
+147,20,"THOMISIDAE","Ozyptila trux (BLACKWALL, 1846)","Ozyptila trux",,"THMOZTRUX","OZTRUX","THM","FL",,"NT","NB",6,,"-","Ozyptila trux",1
+148,20,"THOMISIDAE","Pistius truncatus (PALLAS, 1772)","Pistius truncatus","Stompe krabspin","THMPITRUN","PITRUN","THM","FL","RL","CR","KR",1,"Bldo","Fddo","Pistius truncatus",1
+149,20,"THOMISIDAE","Synaema globosum (FABRICIUS, 1775)","Synaema globosum","Blinkende krabspin","THMSYGLOB","SYGLOB","THM","FL","RL","RG","GB",5,"N","N","Synaema globosum",1
+150,20,"THOMISIDAE","Thomisus onustus WALCKENAER, 1806","Thomisus onustus","Bloemkrabspin","THMTHONUS","THONUS","THM","FL","RL","RG","GB",5,"N","N","Thomisus onustus",1
+151,20,"THOMISIDAE","Tmarus piger (WALCKENAER, 1802)","Tmarus piger","Schorskrabspin","THMTMPIGE","TMPIGE","THM","FL","RL","RG","GB",5,"N","N","Tmarus piger",1
+152,20,"THOMISIDAE","Xysticus acerbus THORELL, 1872","Xysticus acerbus","Heidekrabspin","THMXYACER","XYACER","THM","FL","RL","CR","KR",1,"Hdo","Hdb","Xysticus acerbus",1
+153,20,"THOMISIDAE","Xysticus audax (SCHRANK, 1803)","Xysticus audax",,"THMXYAUDA","XYAUDA","THM","FL",,"NT","NB",6,,"-","Xysticus audax",1
+154,20,"THOMISIDAE","Xysticus bifasciatus C.L. KOCH, 1837","Xysticus bifasciatus","Steppekrabspin","THMXYBIFA","XYBIFA","THM","FL","RL","CR","KR",1,"Gsdk","Godl","Xysticus bifasciatus",1
+155,20,"THOMISIDAE","Xysticus cristatus (CLERCK, 1757)","Xysticus cristatus",,"THMXYCRIS","XYCRIS","THM","FL",,"NT","NB",6,,"-","Xysticus cristatus",1
+156,20,"THOMISIDAE","Xysticus erraticus (BLACKWALL, 1834)","Xysticus erraticus","Graskrabspin","THMXYERRA","XYERRA","THM","FL","RL","EN","IG",2,"Gsdp","Godt","Xysticus erraticus",1
+157,20,"THOMISIDAE","Xysticus ferrugineus MENGE, 1875","Xysticus ferrugineus","Roestkrabspin","THMXYFERR","XYFERR","THM","FL","RL","RG","GB",5,"N","N","Xysticus ferrugineus",1
+158,20,"THOMISIDAE","Xysticus kempelini THORELL, 1872","Xysticus kempelini","Kempelins krabspin","THMXYKEMP","XYKEMP","THM","FL","RL","RG","GB",5,"N","N","Xysticus kempelini",1
+159,20,"THOMISIDAE","Xysticus kochi THORELL, 1872","Xysticus kochi",,"THMXYKOCH","XYKOCH","THM","FL",,"NT","NB",6,,"-","Xysticus kochi",1
+160,20,"THOMISIDAE","Xysticus lanio C.L. KOCH, 1824","Xysticus lanio",,"THMXYLANI","XYLANI","THM","FL",,"NT","NB",6,,"-","Xysticus lanio",1
+161,20,"THOMISIDAE","Xysticus lineatus (WESTRING, 1951)","Xysticus lineatus","Gestreepte krabspin","THMXYLINE","XYLINE","THM","FL","RL","EX","UI",0,"Gsdd","Godd","Xysticus lineatus",1
+162,20,"THOMISIDAE","Xysticus luctator L. KOCH, 1870","Xysticus luctator",,"THMXYLUCA","XYLUCA","THM",,,"NT","NB",6,,"-","Xysticus luctator",1
+163,20,"THOMISIDAE","Xysticus luctuosus (BLACKWALL, 1836)","Xysticus luctuosus","Woudkrabspin","THMXYLUCU","XYLUCU","THM","FL","RL","CR","KR",1,"Bldz","Fddv","Xysticus luctuosus",1
+164,20,"THOMISIDAE","Xysticus ninnii THORELL, 1872","Xysticus ninnii","Duinkrabspin","THMXYNINN","XYNINN","THM","FL","RL","EN","IG",2,"Gsdo","Godb","Xysticus ninnii",1
+165,20,"THOMISIDAE","Xysticus robustus (HAHN, 1832)","Xysticus robustus",,"THMXYROBU","XYROBU","THM",,,"NT","NB",6,,"-","Xysticus robustus",1
+166,20,"THOMISIDAE","Xysticus sabulosus (HAHN, 1832)","Xysticus sabulosus","Zandkrabspin","THMXYSABU","XYSABU","THM","FL","RL","EN","IG",2,"Gsdo","Godb","Xysticus sabulosus",1
+167,20,"THOMISIDAE","Xysticus striatipes (L. KOCH, 1870)","Xysticus striatipes",,"THMXYSTRI","XYSTRI","THM",,,"NT","NB",6,,"-","Xysticus striatipes",1
+168,20,"THOMISIDAE","Xysticus ulmi (HAHN, 1832)","Xysticus ulmi",,"THMXYULMI","XYULMI","THM","FL",,"NT","NB",6,,"-","Xysticus ulmi",1
+430,36,"THERIDIOSOMATHIDAE","Theridiosoma gemmosum (L. KOCH, 1877)","Theridiosoma gemmosum","Moeraspareltje","THSTHGEMM","THGEMM","THS","FL","RL","EN","IG",2,"Blmo","Fdmo","Theridiosoma gemmosum",1
+25,5,"TITANOECIDAE","Titanoeca quadriguttata (HAHN, 1883) (=T. obscura (WALCKENAER, 1802))","Titanoeca quadriguttata","Rotskaardespin","TITTIQUAD","TIQUAD","TIT","FL","RL","CR","KR",1,"Bldzs","Fddvs","Titanoeca quadriguttata",1
+26,6,"ULOBORIDAE","Hyptiotes paradoxus (C.L. KOCH, 1834)","Hyptiotes paradoxus",,"ULOHYPARA","HYPARA","ULO","FL",,"NT","NB",6,,"-","Hyptiotes paradoxus",1
+27,6,"ULOBORIDAE","Uloborus plumipes LUCAS, 1846","Uloborus plumipes",,"ULOULPLUM","ULPLUM","ULO","FL",,"NT","NB",6,,"-","Uloborus plumipes",1
+28,6,"ULOBORIDAE","Uloborus walckenaerius LATREILLE, 1806","Uloborus walckenaerius",,"ULOULWALC","ULWALC","ULO",,,"NT","NB",6,,"-","Uloborus walckenaerius",1
+30,8,"ZODARIIDAE","Zodarion gallicum (SIMON, 1872)","Zodarion italicum",,"ZODZOGALL","ZOGALL","ZOD","FL","RL","IK","OG",8,"Y","Y","Zodarion italicum",1
+31,8,"ZODARIIDAE","Zodarion italicum (CANESTRINI, 1868)","Zodarion italicum","Oranje mierenjager","ZODZOITAL","ZOITAL","ZOD",,,"NT","NB",6,,"-","Zodarion italicum",1
+32,8,"ZODARIIDAE","Zodarion rubidum (SIMON, 1914)","Zodarion rubidum","Sepia mierenjager","ZODZORUBI","ZORUBI","ZOD","FL","RL","RG","GB",5,"N","N","Zodarion rubidum",1
+127,17,"ZORIDAE","Zora nemoralis (BLACKWALL, 1861)","Zora nemoralis","Donkere stekelpoot","ZORZONEMO","ZONEMO","ZOR","FL","RL","CR","KR",1,"Bldzs","Fddvs","Zora nemoralis",1
+690,17,"ZORIDAE","Zora parallela SIMON, 1878","Zora parallela","Gestreepte stekelpoot","ZORZOPARA","ZOPARA","ZOR","FL","RL","NS","NS",7,,"-","Zora parallela",1
+722,17,"ZORIDAE","Zora pardalis  ","Zora pardalis  ","","ZORZOPARD","ZOPARD","ZOR","","","IK","OG",4,"","","Zora pardalis",
+128,17,"ZORIDAE","Zora silvestris KULCZYNSKI, 1897","Zora silvestris","Bosstekelpoot","ZORZOSILV","ZOSILV","ZOR","FL","RL","EN","IG",2,"Hdo","Hdb","Zora silvestris",1
+129,17,"ZORIDAE","Zora spinimana (SUNDEVALL, 1833)","Zora spinimana",,"ZORZOSPIN","ZOSPIN","ZOR","FL",,"NT","NB",6,,"-","Zora spinimana",1
+697,38,"LINYPHIINAE","Porhomma microcavense WUNDERLICH, 1990","Porhomma microcavense","","LINPOMICC","POMICC","LIN","FL","RL","NS","NS",7,"","","Porhomma microcavense",1
+727,30,"THERIDIIDAE","Theridion n.sp. cfr. mystaceum","Theridion n.sp. cfr. mystaceum",,"THITHNSP-M","THNSP-M","THI","FL",,"IK","OG",4,,,"Theridion n.sp. cfr. mystaceum",
+728,14,"GNAPHOSIDAE","Haplodrassus cognatus","Haplodrassus cognatus",,"GNAHACOGN","HACOGN","GNA",,,"IK","OG",4,,,"Haplodrassus cognatus",
+729,20,"THOMISIDAE","Ozyptila claveata (WALCKENAER, 1837)","Ozyptila claveata",,"THMOZCLAV","OZCLAV","THM",,,"IK","OG",4,,,"Ozyptila claveata",
+730,21,"PHILODROMIDAE","Philodromus fuscomarginatus (De Geer, 1778)","Philodromus fuscomarginatus",,"PHIPHFUSC","PHFUSC","PHI",,,"IK","OG",4,,,"Philodromus fuscomarginatus",
+731,22,"SALTICIDAE","Sibianor larae Logunov, 2001","Sibianor larae",,"SALSILARA","SILARA","SAL",,,"IK","OG",4,,,"Sibianor larae",
+732,38,"LINYPHIINAE","Abacoproeces saltuum (L. Koch, 1872)","Abacoproeces saltuum",,"LINABSALT","ABSALT","LIN",,,"IK","OG",4,,,"Abacoproeces saltuum",
+733,15,"CLUBIONIDAE","Clubiona similis L. Koch, 1867","Clubiona similis",,"CLUCLSIMI","CLSIMI","CLU",,,"IK","OG",4,,,"Clubiona similis",
+734,4,"DICTYNIDAE","Emblyna brevidens (Kulczynski, 1897)","Emblyna brevidens",,"DICEMBREV","EMBREV","DIC",,,"IK","OG",4,,,"Emblyna brevidens",
+735,30,"THERIDIIDAE","Episinus maculipes Cavanna, 1876","Episinus maculipes",,"THIEPMACU","EPMACU","THI",,,"IK","OG",4,,,"Episinus maculipes",
+736,37,"ERIGONINAE","Erigone dentosa (O.P.-Cambridge, 1894)","Erigone dentosa",,"ERIERDENO","ERDENO","ERI",,,"IK","OG",4,,,"Erigone dentosa",
+737,22,"SALTICIDAE","Evarcha michailovi  Logunov, 1992","Evarcha michailovi",,"SALEVMICH","EVMICH","SAL",,,"IK","OG",4,,,"Evarcha michailovi",
+738,34,"ARANEIDAE","Gibbaranea omoeda (Thorell, 1870)","Gibbaranea omoeda",,"ARAGIOMOE","GIOMOE","ARA",,,"IK","OG",4,,,"Gibbaranea omoeda",
+739,14,"GNAPHOSIDAE","Haplodrassus minor (O. Pickard-Cambridge, 1879)","Haplodrassus minor",,"GNAHAMINO","HAMINO","GNA",,,"IK","OG",4,,,"Haplodrassus minor",
+740,7,"OECOBIIDAE","Oecobius amboseli Shear & Benoit, 1974","Oecobius amboseli",,"OECOEAMBO","OEAMBO","OEC",,,"IK","OG",4,,,"Oecobius amboseli",
+741,34,"ARANEIDAE","Parazygiela montana","Parazygiela montana",,"ARAPAMONA","PAMONA","ARA",,,"IK","OG",4,,,"Parazygiela montana",
+742,37,"ERIGONINAE","Parapelecopsis nemoralioides","Parapelecopsis nemoralioides",,"ERIPANEMO","PANEMO","ERI",,,"IK","OG",4,,,"Parapelecopsis nemoralioides",
+743,22,"SALTICIDAE","Pellenes geniculatus  (Simon, 1868)","Pellenes geniculatus",,"SALPEGENI","PEGENI","SAL",,,"IK","OG",4,,,"Pellenes geniculatus",
+744,22,"SALTICIDAE","Saitis barbipes (Simon, 1868)","Saitis barbipes",,"SALSABARB","SABARB","SAL",,,"IK","OG",4,,,"Saitis barbipes",
+745,37,"ERIGONINAE","Sauron rayi (Simon, 1881)","Sauron rayi",,"ERISARAYI","SARAYI","ERI",,,"IK","OG",4,,,"Sauron rayi",
+675,38,"LINYPHIINAE","Porrhomma microphthalmum (O.P.-CAMBRIDGE, 1871)","Porrhomma microphthalmum","","LINPOMICP","POMICP","LIN","FL","","NT","NB",6,"","-","Porrhomma microphthalmum",1
+723,30,"THERIDIIDAE","Achaearanea acoreensis","Achaearanea acoreensis",,"THIACACOR","ACACOR","THI","FL",,"IK","OG",4,,,"Achaearanea acoreensis",
+724,15,"CLUBIONIDAE","Cheiracanthium mildei","Cheiracanthium mildei",,"CLUCHMILD","CHMILD","CLU","FL",,"IK","OG",4,,,"Cheiracanthium mildei",
+725,22,"SALTICIDAE","Heliophanus kochi","Heliophanus kochi",,"SALHEKOCH","HEKOCH","SAL","FL",,"IK","OG",4,,,"Heliophanus kochi",
+726,13,"PHOLCIDAE","Pholcus opilionoides","Pholcus opilionoides",,"PHOPHOPIL","PHOPIL","PHO","FL",,"IK","OG",4,,,"Pholcus opilionoides",
+746,14,"GNAPHOSIDAE","Scotophaeus quadripunctatus (Linnaeus, 1758)","Scotophaeus quadripunctatus",,"GNASCQUAD","SCQUAD","GNA",,,"IK","OG",4,,,"Scotophaeus quadripunctatus",
+747,27,"AGELENIDAE","Tegenaria fuesslini","Tegenaria fuesslini",,"AGETEFUES","TEFUES","AGE",,,"IK","OG",4,,,"Tegenaria fuesslini",
+748,22,"PHILODROMIDAE","Thanatus vulgaris (Simon, 1870)","Thanatus vulgaris",,"PHITHVULG","THVULG","PHI",,,"IK","OG",4,,,"Thanatus vulgaris",
+749,17,"ZORIDAE","Zoropsis spinimana (Dufour, 1820)","Zoropsis spinimana",,"ZORZOSPIO","ZOSPIO","ZOR",,,"IK","OG",4,,,"Zoropsis spinimana",
