@@ -37,6 +37,14 @@
 
   $ python manage.py import_all_access
 
+# Grid data
+
+Grid data (=MGRS squares over Belgium) should be imported to the MgrsSquare model/table.
+GeoDjango's layermapping utilipy can be used for that.
+Source data in `grid_data` directory:
+  - the mgrs5 file contains both 5km and 10mk squares all over Belgium (from https://github.com/BelgianBiodiversityPlatform/grids-belgium)
+  - the mgrs1 data is split in two files for zone 31U and 32U (downloaded from https://earth-info.nga.mil/GandG/update/index.php?dir=coordsys&action=mgrs-1km-polyline-dloads and manually clipped)
+
 # Test server configuration on Digital Ocean
 
 ## Most useful commands
@@ -91,3 +99,9 @@ Systemd socket file: `/etc/systemd/system/gunicorn_arabel.socket`
 Systemd service file: `/etc/systemd/system/gunicorn_arabel.service`
   
 => all works, I also enable HTTPS via certbot following: https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04
+
+from django.contrib.gis.utils import LayerMapping
+from website.models import *
+mapping = {'name': 'code', 'gzd': 'gzd', 'poly': 'POLYGON'}
+lm = LayerMapping(MgrsSquare, '/home/nnoe/Downloads/utm5_grid_belgium.polygon.gpkg', mapping)
+lm.save(verbose=True, strict=True)

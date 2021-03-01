@@ -1,4 +1,4 @@
-from django.db import models
+from django.contrib.gis.db import models
 
 
 class Family(models.Model):
@@ -70,3 +70,8 @@ class Station(models.Model):
     def __str__(self):
         return self.station_name
 
+
+class MgrsSquare(models.Model):
+    name = models.CharField(max_length=9)
+    gzd = models.CharField(max_length=3)
+    poly = models.PolygonField()
