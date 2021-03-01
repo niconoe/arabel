@@ -8,18 +8,36 @@
     <div class="col">
         <div class="row">
             <div id="app">
-                [[ message ]]
+                <select v-model="selectedSpeciesId">
+                    <option v-for="species in availableSpecies" :value="species.id">
+                        [[ species.scientific_name ]]
+                    </option>
+                </select>
             </div>
         </div>
     </div>
 
     <script>
+        var arabelConf = {
+            availableSpeciesURL: '{% url "available-species-json" %}'
+        }
+
         window.onload = function () {
             var app = new Vue({
                 el: '#app',
                 delimiters: ['[[', ']]'],
                 data: {
-                    message: 'Hello Vue!'
+                    selectedSpeciesId: null,
+                    availableSpecies: [],
+                },
+                mounted: function() {
+                    var vm = this;
+
+                    axios
+                        .get(arabelConf.availableSpeciesURL)
+                        .then(function (response) {
+                            vm.availableSpecies = response.data.species
+                        })
                 }
             })
         }

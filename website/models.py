@@ -19,6 +19,13 @@ class Species(models.Model):
     scientific_name_w_authorship = models.CharField(max_length=255)
     vernacular_name_nl = models.CharField(max_length=255, blank=True)
 
+    def as_dict(self):
+        return {
+            "id": self.pk,
+            "scientific_name": self.scientific_name,
+            "family_id": self.family_id
+        }
+
     def __str__(self):
         return self.scientific_name
 
