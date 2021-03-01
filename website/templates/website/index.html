@@ -4,10 +4,9 @@
 {% block content %}
     {% get_page_fragment 'welcome' %}
 
-
-    <div class="col">
-        <div class="row">
-            <div id="app">
+    <div id="app">
+        <div class="col">
+            <div class="row">
                 <form>
                     <div class="form-group">
                         <label for="speciesSelect">Species:</label>
@@ -18,9 +17,18 @@
                         </select>
                     </div>
                 </form>
+
+
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="row">
+                <arabel-map/>
             </div>
         </div>
     </div>
+
 
     <script>
         var arabelConf = {
@@ -30,6 +38,7 @@
         window.onload = function () {
             new Vue({
                 el: '#app',
+                components: {ArabelMap: ArabelMap},
                 delimiters: ['[[', ']]'],
                 data: {
                     selectedSpeciesId: null,
