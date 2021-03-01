@@ -15,6 +15,7 @@
 - Should I do something (filter data), according to the "present" field in SOORTEN INFO 
 - Database structure is pretty messy, if they want to improve one day.
 - Report data import (date interpretation, ...) issues
+- Data: all UTM squares in 31U zone?
 
 # Data import process
 

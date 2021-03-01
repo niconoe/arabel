@@ -33,6 +33,10 @@ class Species(models.Model):
         verbose_name_plural = "Species"
 
 
+class NoMGRSData(Exception):
+    pass
+
+
 class Station(models.Model):
     staal_id = models.CharField(max_length=50, unique=True)  # PK in Access
     station_name = models.CharField(max_length=50)
@@ -49,6 +53,19 @@ class Station(models.Model):
 
     begin_date = models.DateField(blank=True, null=True)
     end_date = models.DateField(blank=True, null=True)
+
+    @property
+    def most_detailed_mgrs_identifier(self):
+        """Return the identifier and type (1-5-10)"""
+        PREFIX = '31U'
+        if self.utm1_code != '':
+            return (f"{PREFIX}self.utm1_code", 1)
+        elif self.utm5_code != '':
+            return (f"{PREFIX}self.utm5_code", 5)
+        elif self.utm10_code != '':
+            return (f"{PREFIX}self.utm10_code", 10)
+        else:
+            raise NoMGRSData
 
     def __str__(self):
         return self.station_name
