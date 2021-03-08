@@ -7,7 +7,7 @@
 - create second page, create links in navbar?
 - Configure test server?
 - Data: LITERAATUUR table empty?
-
+- Squares possiblement manquant à vérifier: 31UGR9503, 32ULA9898
 
 # To discuss
 - Release the code as Open Source?
@@ -15,7 +15,8 @@
 - Should I do something (filter data), according to the "present" field in SOORTEN INFO 
 - Database structure is pretty messy, if they want to improve one day.
 - Report data import (date interpretation, ...) issues
-- Data: all UTM squares in 31U zone?
+- Data: all UTM squares in 31U zone? Apparently NOT (code with "KB"...) => PLEASE fot he future enter the full code!!
+=> transfer import log to Frederik
 
 # Data import process
 

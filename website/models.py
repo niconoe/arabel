@@ -37,6 +37,19 @@ class NoMGRSData(Exception):
     pass
 
 
+class MgrsSquare(models.Model):
+    name = models.CharField(max_length=9)
+    gzd = models.CharField(max_length=3)
+    poly = models.PolygonField()
+
+
+def get_mgrs_prefix(code):
+    if code[0] == 'K' or code[0] == 'L':
+        return '32U'
+    else:
+        return '31U'
+
+
 class Station(models.Model):
     staal_id = models.CharField(max_length=50, unique=True)  # PK in Access
     station_name = models.CharField(max_length=50)
@@ -54,16 +67,16 @@ class Station(models.Model):
     begin_date = models.DateField(blank=True, null=True)
     end_date = models.DateField(blank=True, null=True)
 
-    @property
+    most_detailed_square = models.ForeignKey(MgrsSquare, blank=True, null=True, on_delete=models.PROTECT)
+
     def most_detailed_mgrs_identifier(self):
         """Return the identifier and type (1-5-10)"""
-        PREFIX = '31U'
         if self.utm1_code != '':
-            return (f"{PREFIX}self.utm1_code", 1)
+            return (f"{get_mgrs_prefix(self.utm1_code)}{self.utm1_code}", 1)
         elif self.utm5_code != '':
-            return (f"{PREFIX}self.utm5_code", 5)
+            return (f"{get_mgrs_prefix(self.utm5_code)}{self.utm5_code}", 5)
         elif self.utm10_code != '':
-            return (f"{PREFIX}self.utm10_code", 10)
+            return (f"{get_mgrs_prefix(self.utm10_code)}{self.utm10_code}", 10)
         else:
             raise NoMGRSData
 
@@ -71,7 +84,3 @@ class Station(models.Model):
         return self.station_name
 
 
-class MgrsSquare(models.Model):
-    name = models.CharField(max_length=9)
-    gzd = models.CharField(max_length=3)
-    poly = models.PolygonField()
