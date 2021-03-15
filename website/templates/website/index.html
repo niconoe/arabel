@@ -24,7 +24,7 @@
 
         <div class="col">
             <div class="row">
-                <arabel-map/>
+                <arabel-map :species-id="selectedSpeciesId" :species-data-endpoint="conf.getOccurrenceDataURL" />
             </div>
         </div>
     </div>
@@ -32,7 +32,8 @@
 
     <script>
         var arabelConf = {
-            availableSpeciesURL: '{% url "available-species-json" %}'
+            availableSpeciesURL: '{% url "available-species-json" %}',
+            getOccurrenceDataURL: '{% url "occurrence-data-json" %}',
         }
 
         window.onload = function () {
@@ -43,16 +44,17 @@
                 data: {
                     selectedSpeciesId: null,
                     availableSpecies: [],
+                    conf: arabelConf
                 },
                 mounted: function () {
                     var vm = this;
 
                     axios
-                        .get(arabelConf.availableSpeciesURL)
+                        .get(vm.conf.availableSpeciesURL)
                         .then(function (response) {
                             vm.availableSpecies = response.data.species
                         })
-                }
+                },
             })
         }
     </script>

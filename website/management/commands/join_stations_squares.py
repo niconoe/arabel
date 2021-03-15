@@ -13,8 +13,8 @@ class Command(ArabelCommand):
                 station.save()
                 self.w('.', ending="")
             except NoMGRSData:
-                self.w(f"No MGRS code for station {station.pk}")
+                self.w(f"\nNo MGRS code for station {station.pk}")
             except MgrsSquare.DoesNotExist:
-                self.w(f"Station {station.pk} has square code {code}, but such a square doesn't exist in the DB")
+                self.w(f"\nStation {station.pk} has square code {code}, but such a square doesn't exist in the DB")
 
         self.w("DONE")

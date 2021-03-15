@@ -11,4 +11,9 @@ def index(request):
 def available_species_json(request):
     dictionaries = [obj.as_dict() for obj in Species.objects.all()]
     return JsonResponse({'species': dictionaries})
-    #return serializers.serialize("json", )
+
+
+def occurrences_data_json(request):
+    species_id = request.GET.get('speciesId')
+    # TODO: load occurrences
+    return JsonResponse({})

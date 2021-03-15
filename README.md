@@ -1,9 +1,12 @@
 # Notes
 
+NEXT:
+  - Write JJS code to load occurrences and show on map
 - I use CSV (created from Access by jetread) files to implement import, but I have a full PostgreSQL copy of the DB on 
   the development machine for easier inspection: **arabel_access_copy**
 
 # TODO
+- Import script: make reporting better? (error, ..)
 - create second page, create links in navbar?
 - Configure test server?
 - Data: LITERAATUUR table empty?
@@ -37,6 +40,12 @@
 3) Run the full import script:
 
   $ python manage.py import_all_access
+
+4) Make sure all grid data is in the database (see below)
+
+5) Reconcile Access data and grid data:
+
+  $ python manage.py join_station_squares
 
 # Grid data
 

@@ -84,3 +84,9 @@ class Station(models.Model):
         return self.station_name
 
 
+class Occurrence(models.Model):  # = GEGEVENS in Access
+    record_id = models.IntegerField()  # From access, for traceability
+    station = models.ForeignKey(Station, on_delete=models.PROTECT)
+    species = models.ForeignKey(Species, on_delete=models.PROTECT)
+    date = models.DateField(blank=True, null=True)
+    individual_count = models.IntegerField(default=1)
