@@ -13,6 +13,11 @@ NEXT:
 - Squares possiblement manquant à vérifier: 31UGR9503, 32ULA9898
 
 # To discuss
+- Prioritize features:
+  - filtering for map (date, ...)
+  - styling map (density? observation age?)
+  - Table of occurrences below? (point to show specific on map?)
+
 - Release the code as Open Source?
 - Familiar with GitHub?
 - Should I do something (filter data), according to the "present" field in SOORTEN INFO 

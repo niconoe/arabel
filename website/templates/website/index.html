@@ -24,7 +24,7 @@
 
         <div class="col">
             <div class="row">
-                <arabel-map :species-id="selectedSpeciesId" :species-data-endpoint="conf.getOccurrenceDataURL" />
+                <arabel-map :species-id="selectedSpeciesId" :squares-endpoint="conf.getSquaresDataURL" />
             </div>
         </div>
     </div>
@@ -33,7 +33,7 @@
     <script>
         var arabelConf = {
             availableSpeciesURL: '{% url "available-species-json" %}',
-            getOccurrenceDataURL: '{% url "occurrence-data-json" %}',
+            getSquaresDataURL: '{% url "squares-for-occurrences-json" %}',
         }
 
         window.onload = function () {

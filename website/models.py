@@ -42,6 +42,14 @@ class MgrsSquare(models.Model):
     gzd = models.CharField(max_length=3)
     poly = models.PolygonField()
 
+    def as_dict(self):
+        return {
+            'id': self.pk,
+            'gzd': self.gzd,
+            'name': self.name,
+            'geojson_str': self.poly.json
+        }
+
 
 def get_mgrs_prefix(code):
     if code[0] == 'K' or code[0] == 'L':
@@ -83,6 +91,15 @@ class Station(models.Model):
     def __str__(self):
         return self.station_name
 
+    def as_dict(self):
+        return {
+            'id': self.pk,
+            'name': self.station_name,
+            'area': self.area,
+            'subarea': self.subarea,
+            'most_detailed_square_id': self.most_detailed_square_id
+        }
+
 
 class Occurrence(models.Model):  # = GEGEVENS in Access
     record_id = models.IntegerField()  # From access, for traceability
@@ -90,3 +107,19 @@ class Occurrence(models.Model):  # = GEGEVENS in Access
     species = models.ForeignKey(Species, on_delete=models.PROTECT)
     date = models.DateField(blank=True, null=True)
     individual_count = models.IntegerField(default=1)
+
+    @property
+    def date_isoformat(self):
+        if self.date:
+            return self.date.isoformat()
+        else:
+            return None
+
+    def as_dict(self):
+        return {
+            "id": self.pk,
+            "individual_count": self.individual_count,
+            "date": self.date_isoformat,
+            "station_id": self.station_id,
+            "species_id": self.species_id
+        }
