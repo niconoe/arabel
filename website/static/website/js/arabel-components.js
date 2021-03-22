@@ -69,7 +69,7 @@ var ArabelMap = {
                         });
 
                         stationsStr = stationsStr.concat(`
-                            <h5>station: ${station.name}</h5> 
+                            <h5>station: ${station.name} (#${station.id})</h5> 
                             <p>area: ${station.area}<br/>
                             subarea: ${station.subarea}</p>
                             
@@ -77,7 +77,6 @@ var ArabelMap = {
                         `)
                     })
 
-                    //console.log(stationsStr)
                     var popupContent = `
                         <h3>${feature.properties.name}</h3>
                         

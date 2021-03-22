@@ -44,17 +44,18 @@ def squares_for_occurences_json(request):
             station_dict = station.as_dict()
             station_dict['occurrences'] = [occ_as_dict]
             encountered_stations[station.pk] = station_dict
+
+            # 2. Keep every encountered squares, with related stations
+            square = station.most_detailed_square
+            if square:  # Some stations don't have squares
+                if square.pk not in encountered_squares:
+                    square_dict = square.as_dict()
+                    square_dict['stations'] = [encountered_stations[station.pk]]
+                    encountered_squares[square.pk] = square_dict
+                else:
+                    encountered_squares[square.pk]['stations'].append(encountered_stations[station.pk])
         else:
             encountered_stations[station.pk]['occurrences'].append(occ_as_dict)
 
-        # 2. Keep every encountered squares, with related stations
-        square = station.most_detailed_square
-        if square:  # Some stations don't have squares
-            if square.pk not in encountered_squares:
-                square_dict = square.as_dict()
-                square_dict['stations'] = [encountered_stations[station.pk]]
-                encountered_squares[square.pk] = square_dict
-            else:
-                encountered_squares[square.pk]['stations'].append(encountered_stations[station.pk])
 
     return JsonResponse({'squares': list(encountered_squares.values())})
