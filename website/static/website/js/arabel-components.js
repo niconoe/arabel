@@ -22,7 +22,6 @@ var ArabelMap = {
 
         },
         entryToFeature: function (entry) {
-            console.log("Entry", entry)
             var geojsonFeature = {
                 "type": "Feature",
                 "properties": {

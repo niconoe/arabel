@@ -1,9 +1,10 @@
 # Notes
 
-NEXT:
-  - Write JJS code to load occurrences and show on map
 - I use CSV (created from Access by jetread) files to implement import, but I have a full PostgreSQL copy of the DB on 
   the development machine for easier inspection: **arabel_access_copy**
+
+NEXT:
+
 
 # TODO
 - Import script: make reporting better? (error, ..)
@@ -13,11 +14,20 @@ NEXT:
 - Squares possiblement manquant à vérifier: 31UGR9503, 32ULA9898
 
 # To discuss
+- Show existing
 - Prioritize features:
   - filtering for map (date, ...)
   - styling map (density? observation age?)
+  - Update popup content?  
   - Table of occurrences below? (point to show specific on map?)
+  - Other map backgrounds?
+  - Selection list by family?
+  - Show total number of occurrences per species (in select list?, in table below?)
+  - Stats (most represented species, distribution over time, distribution over space)
+  - Tables?
 
+- Transfer import logs?
+  
 - Release the code as Open Source?
 - Familiar with GitHub?
 - Should I do something (filter data), according to the "present" field in SOORTEN INFO 
@@ -55,10 +65,18 @@ NEXT:
 # Grid data
 
 Grid data (=MGRS squares over Belgium) should be imported to the MgrsSquare model/table.
-GeoDjango's layermapping utilipy can be used for that.
+GeoDjango's layermapping utility can be used for that.
 Source data in `grid_data` directory:
   - the mgrs5 file contains both 5km and 10mk squares all over Belgium (from https://github.com/BelgianBiodiversityPlatform/grids-belgium)
   - the mgrs1 data is split in two files for zone 31U and 32U (downloaded from https://earth-info.nga.mil/GandG/update/index.php?dir=coordsys&action=mgrs-1km-polyline-dloads and manually clipped)
+
+Example:
+
+    from django.contrib.gis.utils import LayerMapping
+    from website.models import *
+    mapping = {'name': 'code', 'gzd': 'gzd', 'poly': 'POLYGON'}
+    lm = LayerMapping(MgrsSquare, '/home/nnoe/Downloads/utm5_grid_belgium.polygon.gpkg', mapping)
+    lm.save(verbose=True, strict=True)
 
 # Test server configuration on Digital Ocean
 
@@ -115,8 +133,4 @@ Systemd service file: `/etc/systemd/system/gunicorn_arabel.service`
   
 => all works, I also enable HTTPS via certbot following: https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04
 
-from django.contrib.gis.utils import LayerMapping
-from website.models import *
-mapping = {'name': 'code', 'gzd': 'gzd', 'poly': 'POLYGON'}
-lm = LayerMapping(MgrsSquare, '/home/nnoe/Downloads/utm5_grid_belgium.polygon.gpkg', mapping)
-lm.save(verbose=True, strict=True)
+
