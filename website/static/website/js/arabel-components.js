@@ -20,16 +20,14 @@ var ArabelMap = {
             });
             OpenStreetMap_HOT.addTo(this.mapObject);
 
-            this.geojsonLayer = L.geoJSON().addTo(this.mapObject);
-
         },
         entryToFeature: function (entry) {
-            //console.log(JSON.parse(entry));
-
+            console.log("Entry", entry)
             var geojsonFeature = {
                 "type": "Feature",
                 "properties": {
-                    "name": "Write something here",
+                    "name": entry.name,
+                    "stations": entry.stations
                 },
                 "geometry": JSON.parse(entry.geojson_str)
             };
@@ -53,8 +51,45 @@ var ArabelMap = {
     },
     watch: {
         allFeatures: function (newFeatures) {
-            this.geojsonLayer.clearLayers();
-            this.geojsonLayer.addData(newFeatures);
+            // 1. Remove existing layer, if applicatble
+            if (this.mapObject.hasLayer(this.geojsonLayer)) {
+                this.mapObject.removeLayer(this.geojsonLayer)
+            }
+
+            // 2. Prepare popups
+            function onEachFeature(feature, layer) {
+                // does this feature have a property named popupContent?
+                if (feature.properties) {
+
+                    var stationsStr = ''
+                    feature.properties.stations.forEach(function(station) {
+                        var occStr = '';
+                        station.occurrences.forEach(function(occ) {
+                            occStr = occStr.concat(`occurrence #${occ.id} (date: ${occ.date} - count: ${occ.individual_count})<br/>`)
+                        });
+
+                        stationsStr = stationsStr.concat(`
+                            <h5>station: ${station.name}</h5> 
+                            <p>area: ${station.area}<br/>
+                            subarea: ${station.subarea}</p>
+                            
+                            ${occStr}
+                        `)
+                    })
+
+                    //console.log(stationsStr)
+                    var popupContent = `
+                        <h3>${feature.properties.name}</h3>
+                        
+                        ${stationsStr}
+                    `
+
+                    layer.bindPopup(popupContent, {maxHeight: 300});
+                }
+            }
+
+            // 3. Create and add layer on map
+            this.geojsonLayer = L.geoJSON(newFeatures, {onEachFeature: onEachFeature}).addTo(this.mapObject);
         },
         speciesId: function (speciesId) {
             if (speciesId !== null) {
