@@ -1,3 +1,4 @@
 # Project exclude paths
 /venv/
 /arabel/settings_local.py
+/data/
