@@ -96,6 +96,7 @@ class Station(models.Model):
         return {
             'id': self.pk,
             'name': self.station_name,
+            'staal_id': self.staal_id,
             'area': self.area,
             'subarea': self.subarea,
             'most_detailed_square_id': self.most_detailed_square_id

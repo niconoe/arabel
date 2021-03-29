@@ -69,7 +69,9 @@ var ArabelMap = {
 
                         stationsStr = stationsStr.concat(`
                             <h5>station: ${station.name} (#${station.id})</h5> 
-                            <p>area: ${station.area}<br/>
+                            <p>
+                            staal id: ${station.staal_id}<br/>
+                            area: ${station.area}<br/>
                             subarea: ${station.subarea}</p>
                             
                             ${occStr}
