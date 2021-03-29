@@ -10,6 +10,24 @@ var ArabelMap = {
             allFeatures: []
         }
     },
+    computed: {
+        colorScale: function () {
+            return d3.scaleSequentialLog(d3.interpolateViridis)
+                .domain([1, this.maxIndividualsPerSquare])
+
+        },
+        maxIndividualsPerSquare: function () {
+            let max = 1;
+
+            this.allFeatures.forEach(feature => {
+                if (feature.properties.totalIndividuals > max) {
+                    max = feature.properties.totalIndividuals
+                }
+            })
+
+            return max;
+        }
+    },
     methods: {
         setupMap: function () {
             this.mapObject = L.map('mapid').setView([50.6411, 4.6680], 8);
@@ -26,10 +44,17 @@ var ArabelMap = {
                 "type": "Feature",
                 "properties": {
                     "name": entry.name,
-                    "stations": entry.stations
+                    "stations": entry.stations,
+                    "totalIndividuals": 0
                 },
                 "geometry": JSON.parse(entry.geojson_str)
             };
+
+            entry.stations.forEach(station => {
+                station.occurrences.forEach(occ => {
+                    geojsonFeature.properties.totalIndividuals += occ.individual_count
+                })
+            })
 
             return geojsonFeature;
         },
@@ -61,9 +86,9 @@ var ArabelMap = {
                 if (feature.properties) {
 
                     var stationsStr = ''
-                    feature.properties.stations.forEach(function(station) {
+                    feature.properties.stations.forEach(function (station) {
                         var occStr = '';
-                        station.occurrences.forEach(function(occ) {
+                        station.occurrences.forEach(function (occ) {
                             occStr = occStr.concat(`occurrence #${occ.id} (date: ${occ.date} - count: ${occ.individual_count})<br/>`)
                         });
 
@@ -81,6 +106,8 @@ var ArabelMap = {
                     var popupContent = `
                         <h3>${feature.properties.name}</h3>
                         
+                        <p>Total: ${feature.properties.totalIndividuals} individual(s)</p>
+                        
                         ${stationsStr}
                     `
 
@@ -88,8 +115,16 @@ var ArabelMap = {
                 }
             }
 
+
+
             // 3. Create and add layer on map
-            this.geojsonLayer = L.geoJSON(newFeatures, {onEachFeature: onEachFeature}).addTo(this.mapObject);
+            var vm = this;
+            this.geojsonLayer = L.geoJSON(newFeatures, {
+                onEachFeature: onEachFeature,
+                style: function(feature) {
+                    return {'color': vm.colorScale(feature.properties.totalIndividuals)}
+                }
+            }).addTo(this.mapObject);
         },
         speciesId: function (speciesId) {
             if (speciesId !== null) {
