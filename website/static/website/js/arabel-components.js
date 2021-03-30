@@ -12,7 +12,7 @@ var ArabelMap = {
     },
     computed: {
         colorScale: function () {
-            return d3.scaleSequentialLog(d3.interpolateViridis)
+            return d3.scaleSequentialLog(d3.interpolateReds)
                 .domain([1, this.maxIndividualsPerSquare])
 
         },
@@ -122,7 +122,12 @@ var ArabelMap = {
             this.geojsonLayer = L.geoJSON(newFeatures, {
                 onEachFeature: onEachFeature,
                 style: function(feature) {
-                    return {'color': vm.colorScale(feature.properties.totalIndividuals)}
+                    return {
+                        'color': 'black', // border color
+                        'fillColor': vm.colorScale(feature.properties.totalIndividuals),
+                        'weight': 1, // border weight
+                        'fillOpacity': 0.8
+                    }
                 }
             }).addTo(this.mapObject);
         },
