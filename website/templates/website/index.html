@@ -16,9 +16,12 @@
                             </option>
                         </select>
                     </div>
+
+                    <div class="form-group form-check">
+                        <input type="checkbox" id="checkbox-small-squares" v-model="noSmallSquares">
+                        <label class="form-check-label" for="checkbox-small-squares">Show data at 5 or 10km resolution</label>
+                    </div>
                 </form>
-
-
             </div>
         </div>
 
@@ -30,7 +33,7 @@
 
         <div class="col">
             <div class="row">
-                <arabel-map :species-id="selectedSpeciesId" :squares-endpoint="conf.getSquaresDataURL" />
+                <arabel-map :species-id="selectedSpeciesId" :squares-endpoint="conf.getSquaresDataURL" :no-small-squares="noSmallSquares"/>
             </div>
         </div>
     </div>
@@ -52,6 +55,7 @@
                 delimiters: ['[[', ']]'],
                 data: {
                     selectedSpeciesId: null,
+                    noSmallSquares: true,
                     availableSpecies: [],
                     conf: arabelConf
                 },

@@ -78,11 +78,16 @@ class Station(models.Model):
     begin_date = models.DateField(blank=True, null=True)
     end_date = models.DateField(blank=True, null=True)
 
-    most_detailed_square = models.ForeignKey(MgrsSquare, blank=True, null=True, on_delete=models.PROTECT)
+    most_detailed_square = models.ForeignKey(MgrsSquare, blank=True, null=True, on_delete=models.PROTECT, related_name='stations_mostdetailed_set')
+    _5_or_10_square = models.ForeignKey(MgrsSquare, blank=True, null=True, on_delete=models.PROTECT, related_name='stations_5or10_set')
 
-    def most_detailed_mgrs_identifier(self):
-        """Return the identifier and type (1-5-10)"""
-        if self.utm1_code != '':
+    def most_detailed_mgrs_identifier(self , limit_to_5=False):
+        """Return the identifier and type (1-5-10)
+
+        if limit_to_5 is True, avoid returning 1km square even if we have them (might bring confusion on the map,
+        see https://github.com/niconoe/arabel/issues/8.
+        """
+        if self.utm1_code != '' and limit_to_5 is False:
             return (f"{get_mgrs_prefix(self.utm1_code)}{self.utm1_code}", 1)
         elif self.utm5_code != '':
             return (f"{get_mgrs_prefix(self.utm5_code)}{self.utm5_code}", 5)

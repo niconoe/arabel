@@ -1,3 +1,6 @@
+import distutils
+import distutils.util
+
 from django.http import JsonResponse
 from django.shortcuts import render
 
@@ -23,15 +26,11 @@ def _filtered_occ(request):
     return occ
 
 
-# def occurrences_data_json(request):
-#     occ = _filtered_occ(request)
-#     dictionaries = [obj.as_dict() for obj in occ]
-#     return JsonResponse({'occurrences': dictionaries})
-
-
-def squares_for_occurences_json(request):
+def squares_for_occurrences_json(request):
     """Return squares, including related stations and occurrences. Filtering is done on occ"""
     occurrences = _filtered_occ(request)
+
+    avoid_small_squares = bool(distutils.util.strtobool(request.GET.get("noSmallSquares", "false")))
 
     encountered_stations = {} # k: station_id val: station dict (see model) + added occurrence list
     encountered_squares = {}  # k: square_id, val: square dict + added stations list
@@ -46,7 +45,11 @@ def squares_for_occurences_json(request):
             encountered_stations[station.pk] = station_dict
 
             # 2. Keep every encountered squares, with related stations
-            square = station.most_detailed_square
+            if avoid_small_squares:
+                square = station._5_or_10_square
+            else:
+                square = station.most_detailed_square
+
             if square:  # Some stations don't have squares
                 if square.pk not in encountered_squares:
                     square_dict = square.as_dict()
@@ -56,6 +59,5 @@ def squares_for_occurences_json(request):
                     encountered_squares[square.pk]['stations'].append(encountered_stations[station.pk])
         else:
             encountered_stations[station.pk]['occurrences'].append(occ_as_dict)
-
 
     return JsonResponse({'squares': list(encountered_squares.values())})
