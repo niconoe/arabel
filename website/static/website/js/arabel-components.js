@@ -7,11 +7,23 @@ var SpeciesDescription = {
     },
     template: `
         <div class="alert alert-info" role="alert">
-            <h3>Species details</h3>
-            <p><b>Name:</b> {{ speciesData.scientific_name }}</p>
-            <p><b>Family:</b> {{ speciesData.family_name }}</p>
-            <p><b>Vernacular name (NL):</b> {{ speciesData.vernacular_name_nl }}</p>
+            <h4>Selected species</h4>
+            <p><b>Name:</b> {{ speciesData.scientific_name }}<br/>
+               <b>Family:</b> {{ speciesData.family_name }}<br/>
+               <b>Vernacular name (NL):</b> {{ speciesData.vernacular_name_nl }}</p>
         </div>
+    `
+}
+
+var ArabelTable = {
+    props: {
+        speciesId: Number
+    },
+    data: function () {
+        return {}
+    },
+    template: `
+        <h4>Results table (not yet implemented)</h4>
     `
 }
 

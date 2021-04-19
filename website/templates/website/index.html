@@ -2,42 +2,48 @@
 {% load page_fragments %}
 
 {% block content %}
-    {% get_page_fragment 'welcome' %}
+    <div class="container">
+        {% get_page_fragment 'welcome' %}
+    </div>
 
-    <div id="app">
-        <div class="col">
+    <div class="container-fluid">
+        <div id="app">
             <div class="row">
-                <form>
-                    <div class="form-group">
-                        <label for="speciesSelect">Species:</label>
-                        <select class="form-control" id="speciesSelect" v-model="selectedSpeciesId">
-                            <option v-for="species in availableSpecies" :value="species.id">
-                                [[ species.scientific_name ]]
-                            </option>
-                        </select>
+                <div class="col-3 bg-dark text-white shadow">
+                    <form>
+                        <h4 class="my-3 text-center">Data selection</h4>
+                        <div class="form-group row">
+                            <label class="col-sm-6 col-form-label" for="speciesSelect">Species:</label>
+                            <select class="form-control col-sm-5 form-control-sm" id="speciesSelect" v-model="selectedSpeciesId">
+                                <option v-for="species in availableSpecies" :value="species.id">
+                                    [[ species.scientific_name ]]
+                                </option>
+                            </select>
+                        </div>
+
+                        <div class="form-group ">
+                            <input type="checkbox" id="checkbox-small-squares" v-model="noSmallSquares">
+                            <label class="col-form-label col-form-label-sm" for="checkbox-small-squares">Map: show data at 5 or 10km
+                                resolution only</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-9">
+                    <div v-if="selectedSpecies">
+                        <species-description :species-data="selectedSpecies"></species-description>
                     </div>
 
-                    <div class="form-group form-check">
-                        <input type="checkbox" id="checkbox-small-squares" v-model="noSmallSquares">
-                        <label class="form-check-label" for="checkbox-small-squares">Show data at 5 or 10km resolution</label>
-                    </div>
-                </form>
-            </div>
-        </div>
+                    <h4>Results map</h4>
+                    <arabel-map :species-id="selectedSpeciesId" :squares-endpoint="conf.getSquaresDataURL"
+                                :no-small-squares="noSmallSquares" />
 
-        <div v-if="selectedSpecies" class="col">
-            <div class="row">
-                <species-description :species-data="selectedSpecies"></species-description>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="row">
-                <arabel-map :species-id="selectedSpeciesId" :squares-endpoint="conf.getSquaresDataURL" :no-small-squares="noSmallSquares"/>
+                </div>
+                <div v-if="selectedSpecies">
+                    <arabel-table></arabel-table>
+                </div>
             </div>
         </div>
     </div>
-
 
     <script>
         var arabelConf = {
@@ -50,7 +56,8 @@
                 el: '#app',
                 components: {
                     ArabelMap: ArabelMap,
-                    SpeciesDescription: SpeciesDescription
+                    SpeciesDescription: SpeciesDescription,
+                    ArabelTable: ArabelTable
                 },
                 delimiters: ['[[', ']]'],
                 data: {
@@ -60,7 +67,7 @@
                     conf: arabelConf
                 },
                 computed: {
-                    selectedSpecies: function() {
+                    selectedSpecies: function () {
                         return (this.selectedSpeciesId ? this.availableSpecies.find(s => s.id == this.selectedSpeciesId) : null)
                     }
                 },
