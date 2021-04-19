@@ -1,3 +1,20 @@
+var SpeciesDescription = {
+    props: {
+        speciesData: Object
+    },
+    data: function () {
+        return {}
+    },
+    template: `
+        <div class="alert alert-info" role="alert">
+            <h3>Species details</h3>
+            <p><b>Name:</b> {{ speciesData.scientific_name }}</p>
+            <p><b>Family:</b> {{ speciesData.family_name }}</p>
+            <p><b>Vernacular name (NL):</b> {{ speciesData.vernacular_name_nl }}</p>
+        </div>
+    `
+}
+
 var ArabelMap = {
     props: {
         speciesId: Number,

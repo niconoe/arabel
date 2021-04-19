@@ -23,7 +23,9 @@ class Species(models.Model):
         return {
             "id": self.pk,
             "scientific_name": self.scientific_name,
-            "family_id": self.family_id
+            "family_id": self.family_id,
+            "family_name": self.family.name,
+            "vernacular_name_nl": self.vernacular_name_nl
         }
 
     def __str__(self):

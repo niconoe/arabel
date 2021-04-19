@@ -22,6 +22,12 @@
             </div>
         </div>
 
+        <div v-if="selectedSpecies" class="col">
+            <div class="row">
+                <species-description :species-data="selectedSpecies"></species-description>
+            </div>
+        </div>
+
         <div class="col">
             <div class="row">
                 <arabel-map :species-id="selectedSpeciesId" :squares-endpoint="conf.getSquaresDataURL" />
@@ -39,12 +45,20 @@
         window.onload = function () {
             new Vue({
                 el: '#app',
-                components: {ArabelMap: ArabelMap},
+                components: {
+                    ArabelMap: ArabelMap,
+                    SpeciesDescription: SpeciesDescription
+                },
                 delimiters: ['[[', ']]'],
                 data: {
                     selectedSpeciesId: null,
                     availableSpecies: [],
                     conf: arabelConf
+                },
+                computed: {
+                    selectedSpecies: function() {
+                        return (this.selectedSpeciesId ? this.availableSpecies.find(s => s.id == this.selectedSpeciesId) : null)
+                    }
                 },
                 mounted: function () {
                     var vm = this;
