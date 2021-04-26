@@ -3,13 +3,14 @@ import os
 import datetime
 
 from website.management.commands._utils import ArabelCommand
-from website.models import Species, Family, Station, Occurrence
+from website.models import Species, Family, Station, Occurrence, RedListStatus
 
-MODELS_TO_TRUNCATE = [Occurrence, Species, Family, Station]
+MODELS_TO_TRUNCATE = [Occurrence, Species, Family, Station, RedListStatus]
 
 SPECIES_INFO_FILENAME = 'soorten_info.csv'
 STATIONS_FILENAME = 'staal_gegevens.csv'
 OCCURRENCES_FILENAME = 'gegevens.csv'
+REDLIST_FILENAME = 'redlist_categories.csv'
 
 THIS_SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 
@@ -50,6 +51,12 @@ class Command(ArabelCommand):
                 self.w(self.style.WARNING(
                     f"\nOccurrence with RecordID {record_id} was NOT imported because it references a non-existent station with StaalID: {staal_id}"))
 
+    def load_redlist_data(self, redlist_data):
+        self.w(self.style.SUCCESS("\nWill now import Redlist status data"))
+        for i, redlist_row in enumerate(csv.DictReader(redlist_data)):
+            RedListStatus.objects.create(name=redlist_row['Description'], access_id=redlist_row['R-L (ci)'])
+            self.w('.', ending='')
+
     def load_families_and_species(self, soorten_info_data):
         self.w(self.style.SUCCESS("\nWill now import Family and Species data"))
         for i, species_row in enumerate(csv.DictReader(soorten_info_data)):
@@ -59,7 +66,9 @@ class Command(ArabelCommand):
                                    fsc=species_row['FSC'].lower(),
                                    scientific_name=species_row['SZ + SYN'],
                                    scientific_name_w_authorship=species_row['SA + SYN'],
-                                   vernacular_name_nl=species_row['SNL'])
+                                   vernacular_name_nl=species_row['SNL'],
+                                   redlist_status=RedListStatus.objects.get(access_id=species_row['RL-C (ci)']))
+
             self.w('.', ending='')
 
     def load_stations(self, stations_data):
@@ -123,6 +132,9 @@ class Command(ArabelCommand):
                 self.w(self.style.SUCCESS(f'\nTruncate model {model.__name__}...'), ending='')
                 model.objects.all().delete()
                 self.w(self.style.SUCCESS('Done.'))
+
+        with open(os.path.join(THIS_SCRIPT_DIR, "../../../data", REDLIST_FILENAME)) as redlist_data:
+            self.load_redlist_data(redlist_data)
 
         with open(os.path.join(THIS_SCRIPT_DIR, "../../../data", SPECIES_INFO_FILENAME)) as soorten_info_data:
             self.load_families_and_species(soorten_info_data)

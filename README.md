@@ -6,7 +6,7 @@ Implemented with Python, Django and Vue.js
 
 ## Data import process
 
-1) convert access database to CSV using `jetread`. All useful data is in the 4 tables in uppercase:
+1) convert access database to CSV using `jetread`. All useful data is in the tables listed below:
 
 ```
 ./jetread spinnenatlas_20201007.mdb export "STAAL GEGEVENS" -fmt csv > staal_gegevens.csv
@@ -16,6 +16,8 @@ Implemented with Python, Django and Vue.js
 ./jetread spinnenatlas_20201007.mdb export "GEGEVENS" -fmt csv > gegevens.csv
 
 ./jetread spinnenatlas_20201007.mdb export "SOORTEN INFO" -fmt csv > soorten_info.csv
+
+./jetread spinnenatlas_20201007.mdb export "Omschrijving Rode lijst categoriën" -fmt csv > redlist_categories.csv
 ```
 
 2) Copy those 4 files to ./data (keep the same filenames)

@@ -10,7 +10,8 @@ var SpeciesDescription = {
             <h4>Selected species</h4>
             <p><b>Name:</b> {{ speciesData.scientific_name }}<br/>
                <b>Family:</b> {{ speciesData.family_name }}<br/>
-               <b>Vernacular name (NL):</b> {{ speciesData.vernacular_name_nl }}</p>
+               <b>Vernacular name (NL):</b> {{ speciesData.vernacular_name_nl }}<br/>
+               <b>Red list status:</b> {{ speciesData.redlist_status_text }}</p>
         </div>
     `
 }

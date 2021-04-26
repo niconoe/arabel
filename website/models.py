@@ -12,12 +12,18 @@ class Family(models.Model):
         verbose_name_plural = "Families"
 
 
+class RedListStatus(models.Model):
+    access_id = models.IntegerField()
+    name = models.CharField(max_length=255)
+
+
 class Species(models.Model):
     fsc = models.CharField(max_length=50, unique=True)  # This is the PK in access, it appears to be the family code concatenated with a species code
     family = models.ForeignKey(Family, on_delete=models.PROTECT)
     scientific_name = models.CharField(max_length=255)
     scientific_name_w_authorship = models.CharField(max_length=255)
     vernacular_name_nl = models.CharField(max_length=255, blank=True)
+    redlist_status = models.ForeignKey(RedListStatus, on_delete=models.PROTECT, blank=True, null=True)
 
     def as_dict(self):
         return {
@@ -25,7 +31,8 @@ class Species(models.Model):
             "scientific_name": self.scientific_name,
             "family_id": self.family_id,
             "family_name": self.family.name,
-            "vernacular_name_nl": self.vernacular_name_nl
+            "vernacular_name_nl": self.vernacular_name_nl,
+            "redlist_status_text": self.redlist_status.name
         }
 
     def __str__(self):
