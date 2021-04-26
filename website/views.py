@@ -6,6 +6,8 @@ from django.shortcuts import render
 
 from website.models import Species, Occurrence
 
+LEON_BECKER_NAME = "Becker Leon"
+
 
 def index(request):
     return render(request, 'website/index.html')
@@ -17,11 +19,21 @@ def available_species_json(request):
 
 
 def _filtered_occ(request):
-    species_id = request.GET.get('speciesId')
 
-    occ = Occurrence.objects.all().select_related('station__most_detailed_square')
+    species_id = request.GET.get('speciesId')
+    filter_out_leon_becker = bool(distutils.util.strtobool(request.GET.get('filterLeonBecker', "false")))
+    avoid_small_squares = bool(distutils.util.strtobool(request.GET.get("noSmallSquares", "false")))
+
+    occ = Occurrence.objects.all()
     if species_id:
         occ = occ.filter(species_id=species_id)
+    if filter_out_leon_becker:
+        occ = occ.exclude(station__det=LEON_BECKER_NAME).exclude(station__leg=LEON_BECKER_NAME)
+
+    if avoid_small_squares:
+        occ = occ.select_related('station___5_or_10_square')  # Perfs
+    else:
+        occ = occ.select_related('station__most_detailed_square')  # Perfs
 
     return occ
 

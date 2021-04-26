@@ -32,7 +32,8 @@ var ArabelMap = {
     props: {
         speciesId: Number,
         squaresEndpoint: String,
-        noSmallSquares: Boolean
+        noSmallSquares: Boolean,
+        filterLeonBecker: Boolean
     },
     data: function () {
         return {
@@ -90,14 +91,15 @@ var ArabelMap = {
             return geojsonFeature;
         },
 
-        loadOccurrences: function (speciesId, noSmallSquares) {
+        loadOccurrences: function (speciesId, noSmallSquares, filterLeonBecker) {
             var vm = this;
 
             axios
                 .get(vm.squaresEndpoint, {
                     params: {
                         'speciesId': speciesId,
-                        'noSmallSquares': noSmallSquares
+                        'noSmallSquares': noSmallSquares,
+                        'filterLeonBecker': filterLeonBecker
                     }})
                 .then(function (response) {
                     var squares = response.data.squares;
@@ -168,11 +170,15 @@ var ArabelMap = {
         },
         speciesId: function () {
             if (this.speciesId !== null) {
-                this.loadOccurrences(this.speciesId, this.noSmallSquares);
+                this.loadOccurrences(this.speciesId, this.noSmallSquares, this.filterLeonBecker);
             }
         }, noSmallSquares: function() {
             if (this.speciesId !== null) {
-                this.loadOccurrences(this.speciesId, this.noSmallSquares);
+                this.loadOccurrences(this.speciesId, this.noSmallSquares, this.filterLeonBecker);
+            }
+        }, filterLeonBecker: function() {
+            if (this.speciesId !== null) {
+                this.loadOccurrences(this.speciesId, this.noSmallSquares, this.filterLeonBecker);
             }
         }
 

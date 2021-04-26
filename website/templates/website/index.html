@@ -26,6 +26,10 @@
                             <label class="col-form-label col-form-label-sm" for="checkbox-small-squares">Map: show data at 5 or 10km
                                 resolution only</label>
                         </div>
+                        <div class="form-group ">
+                            <input type="checkbox" id="checkbox-filter-leon" v-model="filterOutLeonBecker">
+                            <label class="col-form-label col-form-label-sm" for="checkbox-filter-leon">Filter out Léon Becker</label>
+                        </div>
                     </form>
                 </div>
                 <div class="col-9">
@@ -35,7 +39,7 @@
 
                     <h4>Results map</h4>
                     <arabel-map :species-id="selectedSpeciesId" :squares-endpoint="conf.getSquaresDataURL"
-                                :no-small-squares="noSmallSquares" />
+                                :no-small-squares="noSmallSquares" :filter-leon-becker="filterOutLeonBecker" />
 
                 </div>
                 <div v-if="selectedSpecies">
@@ -63,6 +67,7 @@
                 data: {
                     selectedSpeciesId: null,
                     noSmallSquares: true,
+                    filterOutLeonBecker: false,
                     availableSpecies: [],
                     conf: arabelConf
                 },
