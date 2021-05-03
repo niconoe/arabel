@@ -157,7 +157,7 @@ Vue.component('arabel-table', {
     },
     template: `
         <div id="table-outer">
-            <table class="table table-striped table-sm">
+            <table class="table table-striped table-sm table-hover">
                 <thead class="thead-dark">
                     <tr>
                         <th scope="col" :class="{ 'text-primary': (sortBy == col.sortId) }" v-for="col in cols">
