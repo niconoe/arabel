@@ -38,7 +38,7 @@
                 </div>
                 <div class="col-9">
                     <div v-if="selectedSpecies">
-                        <species-description :species-data="selectedSpecies"></species-description>
+                        <species-description :species-data="selectedSpecies" :counters-endpoint="conf.countersURL" :filters="selectedFilters"></species-description>
                     </div>
 
                     <h4>Results map</h4>
@@ -60,7 +60,8 @@
         var arabelConf = {
             availableSpeciesURL: '{% url "available-species-json" %}',
             getSquaresDataURL: '{% url "squares-for-occurrences-json" %}',
-            getOccurrencesDataURL: '{% url "occurrences-json" %}'
+            getOccurrencesDataURL: '{% url "occurrences-json" %}',
+            countersURL: '{% url "counters-json" %}'
         }
 
         window.onload = function () {
@@ -69,7 +70,6 @@
                 components: {
                     ArabelMap: ArabelMap,
                     SpeciesDescription: SpeciesDescription,
-                    //ArabelTable: ArabelTable
                 },
                 delimiters: ['[[', ']]'],
                 data: {

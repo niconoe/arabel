@@ -21,7 +21,7 @@ def available_species_json(request):
 
 def _filtered_occ(request):
     species_id = request.GET.get('speciesId')
-    filter_out_leon_becker = bool(distutils.util.strtobool(request.GET.get('filterLeonBecker', "false")))
+    filter_out_leon_becker = bool(distutils.util.strtobool(request.GET.get('filterOutLeonBecker', "false")))
     avoid_small_squares = bool(distutils.util.strtobool(request.GET.get("noSmallSquares", "false")))
 
     occ = Occurrence.objects.all()
@@ -30,10 +30,11 @@ def _filtered_occ(request):
     if filter_out_leon_becker:
         occ = occ.exclude(station__det=LEON_BECKER_NAME).exclude(station__leg=LEON_BECKER_NAME)
 
+    # For perfs
     if avoid_small_squares:
-        occ = occ.select_related('station___5_or_10_square')  # Perfs
+        occ = occ.select_related('station___5_or_10_square')
     else:
-        occ = occ.select_related('station__most_detailed_square')  # Perfs
+        occ = occ.select_related('station__most_detailed_square')
 
     return occ
 
@@ -57,6 +58,14 @@ def _extract_bool_request(request, param_name):
         return False
 
 
+def counters_json(request):
+    occurrences = _filtered_occ(request)
+
+    return JsonResponse({
+        'occurrences': occurrences.count(),
+    })
+
+
 def occurrences_json(request):
     order = request.GET.get('order')
     limit = _extract_int_request(request, 'limit')
@@ -73,7 +82,6 @@ def occurrences_json(request):
                          'firstPage': page.paginator.page_range.start,
                          'lastPage': page.paginator.page_range.stop,
                          'totalResultsCount': page.paginator.count})
-
 
 
 def squares_for_occurrences_json(request):

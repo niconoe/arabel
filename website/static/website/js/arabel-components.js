@@ -1,14 +1,42 @@
 var SpeciesDescription = {
     props: {
-        speciesData: Object
+        speciesData: Object,
+        countersEndpoint: String,
+        filters: Object
     },
     data: function () {
-        return {}
+        return {
+            counters: {
+                'occurrences': null,
+                'stations': null
+            }
+        }
+    },
+    watch: {
+        filters: {
+            deep: true,
+            immediate: true,
+            handler: function () {
+                this.updateCounters()
+            }
+        },
+    },
+    methods: {
+        updateCounters: function() {
+            var vm = this;
+
+            $.ajax({
+                url: this.countersEndpoint,
+                data: vm.filters,
+            }).done(function (data) {
+                vm.counters.occurrences = data.occurrences;
+            });
+        }
     },
     template: `
         <div class="alert alert-info" role="alert">
-            <h4>Selected species</h4>
-            <p><b>Name:</b> {{ speciesData.scientific_name }}<br/>
+            <h4>Search results ({{ counters.occurrences }} matching occurrences)</h4>
+            <p><b>Species name:</b> {{ speciesData.scientific_name }}<br/>
                <b>Family:</b> {{ speciesData.family_name }}<br/>
                <b>Vernacular name (NL):</b> {{ speciesData.vernacular_name_nl }}<br/>
                <b>Red list status:</b> {{ speciesData.redlist_status_text }}</p>
@@ -81,7 +109,7 @@ Vue.component('arabel-table', {
             }
         },
         loadOccurrences: function (filters, orderBy, pageSize, pageNumber) {
-            let params = filters;
+            let params = Object.assign({}, filters);  // Let's clone to avoid mutating props
             params.order = orderBy;
             params.limit = pageSize;
             params.page_number = pageNumber;
@@ -212,7 +240,7 @@ var ArabelMap = {
                     params: {
                         'speciesId': speciesId,
                         'noSmallSquares': noSmallSquares,
-                        'filterLeonBecker': filterLeonBecker
+                        'filterOutLeonBecker': filterLeonBecker
                     }
                 })
                 .then(function (response) {

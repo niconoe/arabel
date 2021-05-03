@@ -7,5 +7,6 @@ urlpatterns = [
 
     path('api/available-species', views.available_species_json, name='available-species-json'),
     path('api/squares_for_occurrences', views.squares_for_occurrences_json, name='squares-for-occurrences-json'),
-    path('api/occurrences', views.occurrences_json, name='occurrences-json')
+    path('api/occurrences', views.occurrences_json, name='occurrences-json'),
+    path('api/counters', views.counters_json, name='counters-json')
 ]
