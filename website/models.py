@@ -146,5 +146,7 @@ class Occurrence(models.Model):  # = GEGEVENS in Access
             "station_area": self.station.area,
             "station_subarea": self.station.subarea,
             "station_most_detailed_square": most_detailed_square_name,
+            "station_leg": self.station.leg,
+            "station_det": self.station.det,
             "species_id": self.species_id
         }

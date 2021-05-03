@@ -71,6 +71,10 @@ Vue.component('arabel-table-page', {
                             <br v-if="occ.station_area != '' || occ.station_subarea != ''"/>
                             <b>Most detailed square:</b> {{ occ.station_most_detailed_square}}
                             
+                            <br/>
+                            <b>Leg:</b> {{ occ.station_leg }} - 
+                            <b>Det:</b> {{ occ.station_det }}
+                            
                         </small>
                     </td>
                     <td>{{ occ.individual_count }}</td>
