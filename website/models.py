@@ -137,5 +137,6 @@ class Occurrence(models.Model):  # = GEGEVENS in Access
             "individual_count": self.individual_count,
             "date": self.date_isoformat,
             "station_id": self.station_id,
+            "station_name": self.station.station_name,
             "species_id": self.species_id
         }

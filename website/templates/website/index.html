@@ -14,7 +14,8 @@
                         <h4 class="my-3 text-center">Data selection</h4>
                         <div class="form-group row">
                             <label class="col-sm-6 col-form-label" for="speciesSelect">Species:</label>
-                            <select class="form-control col-sm-5 form-control-sm" id="speciesSelect" v-model="selectedSpeciesId">
+                            <select class="form-control col-sm-5 form-control-sm" id="speciesSelect"
+                                    v-model="selectedFilters.speciesId">
                                 <option v-for="species in availableSpecies" :value="species.id">
                                     [[ species.scientific_name ]]
                                 </option>
@@ -22,13 +23,16 @@
                         </div>
 
                         <div class="form-group ">
-                            <input type="checkbox" id="checkbox-small-squares" v-model="noSmallSquares">
-                            <label class="col-form-label col-form-label-sm" for="checkbox-small-squares">Map: show data at 5 or 10km
+                            <input type="checkbox" id="checkbox-small-squares" v-model="selectedFilters.noSmallSquares">
+                            <label class="col-form-label col-form-label-sm" for="checkbox-small-squares">Map: show data
+                                at 5 or 10km
                                 resolution only</label>
                         </div>
                         <div class="form-group ">
-                            <input type="checkbox" id="checkbox-filter-leon" v-model="filterOutLeonBecker">
-                            <label class="col-form-label col-form-label-sm" for="checkbox-filter-leon">Filter out Léon Becker</label>
+                            <input type="checkbox" id="checkbox-filter-leon"
+                                   v-model="selectedFilters.filterOutLeonBecker">
+                            <label class="col-form-label col-form-label-sm" for="checkbox-filter-leon">Filter out Léon
+                                Becker</label>
                         </div>
                     </form>
                 </div>
@@ -38,13 +42,16 @@
                     </div>
 
                     <h4>Results map</h4>
-                    <arabel-map :species-id="selectedSpeciesId" :squares-endpoint="conf.getSquaresDataURL"
-                                :no-small-squares="noSmallSquares" :filter-leon-becker="filterOutLeonBecker" />
+                    <arabel-map :squares-endpoint="conf.getSquaresDataURL" :filters="selectedFilters"></arabel-map>
 
+                    <h4>Results table</h4>
+                    <div v-if="selectedSpecies">
+
+                        <arabel-table :occurrences-endpoint="conf.getOccurrencesDataURL"
+                                      :filters="selectedFilters"></arabel-table>
+                    </div>
                 </div>
-                <div v-if="selectedSpecies">
-                    <arabel-table></arabel-table>
-                </div>
+
             </div>
         </div>
     </div>
@@ -53,6 +60,7 @@
         var arabelConf = {
             availableSpeciesURL: '{% url "available-species-json" %}',
             getSquaresDataURL: '{% url "squares-for-occurrences-json" %}',
+            getOccurrencesDataURL: '{% url "occurrences-json" %}'
         }
 
         window.onload = function () {
@@ -61,19 +69,21 @@
                 components: {
                     ArabelMap: ArabelMap,
                     SpeciesDescription: SpeciesDescription,
-                    ArabelTable: ArabelTable
+                    //ArabelTable: ArabelTable
                 },
                 delimiters: ['[[', ']]'],
                 data: {
-                    selectedSpeciesId: null,
-                    noSmallSquares: true,
-                    filterOutLeonBecker: false,
+                    selectedFilters: {
+                        speciesId: null,
+                        noSmallSquares: true,
+                        filterOutLeonBecker: false
+                    },
                     availableSpecies: [],
                     conf: arabelConf
                 },
                 computed: {
                     selectedSpecies: function () {
-                        return (this.selectedSpeciesId ? this.availableSpecies.find(s => s.id == this.selectedSpeciesId) : null)
+                        return (this.selectedFilters.speciesId ? this.availableSpecies.find(s => s.id == this.selectedFilters.speciesId) : null)
                     }
                 },
                 mounted: function () {

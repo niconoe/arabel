@@ -1,6 +1,7 @@
 import distutils
 import distutils.util
 
+from django.core.paginator import Paginator
 from django.http import JsonResponse
 from django.shortcuts import render
 
@@ -19,7 +20,6 @@ def available_species_json(request):
 
 
 def _filtered_occ(request):
-
     species_id = request.GET.get('speciesId')
     filter_out_leon_becker = bool(distutils.util.strtobool(request.GET.get('filterLeonBecker', "false")))
     avoid_small_squares = bool(distutils.util.strtobool(request.GET.get("noSmallSquares", "false")))
@@ -36,6 +36,44 @@ def _filtered_occ(request):
         occ = occ.select_related('station__most_detailed_square')  # Perfs
 
     return occ
+
+
+def _extract_int_request(request, param_name):
+    """Returns an integer, or None if the parameter doesn't exist or is 'null' """
+    val = request.GET.get(param_name, None)
+    if val == '' or val == 'null' or val is None:
+        return None
+    else:
+        return int(val)
+
+
+def _extract_bool_request(request, param_name):
+    """Returns an boolean (default to False). Input: 'true' | 'false' """
+    val = request.GET.get(param_name, 'false')
+
+    if val == 'true':
+        return True
+    else:
+        return False
+
+
+def occurrences_json(request):
+    order = request.GET.get('order')
+    limit = _extract_int_request(request, 'limit')
+    page_number = _extract_int_request(request, 'page_number')
+
+    occurrences = _filtered_occ(request).order_by(order)
+
+    paginator = Paginator(occurrences, limit)  # Show 25 contacts per page.
+
+    page = paginator.get_page(page_number)
+    occurrences_dicts = [occ.as_dict() for occ in page.object_list]
+
+    return JsonResponse({'results': occurrences_dicts,
+                         'firstPage': page.paginator.page_range.start,
+                         'lastPage': page.paginator.page_range.stop,
+                         'totalResultsCount': page.paginator.count})
+
 
 
 def squares_for_occurrences_json(request):

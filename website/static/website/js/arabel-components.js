@@ -16,24 +16,123 @@ var SpeciesDescription = {
     `
 }
 
-var ArabelTable = {
+// A single page in the occurrence table
+Vue.component('arabel-table-page', {
     props: {
-        speciesId: Number
+        'occurrences': { // Only the subset for the page
+            type: Array,
+            default: function () {
+                return []
+            }
+        }
+    },
+    template: `<tbody>
+                 <tr v-for="occ in occurrences">
+                    <th scope="row">{{ occ.id }}</th>
+                    <td>{{ occ.date }}</td>
+                    <td>{{ occ.station_name }}</td>
+                    <td>{{ occ.individual_count }}</td>
+                 </tr>
+               </tbody>`
+})
+
+// The whole table, manages pagination and data load
+Vue.component('arabel-table', {
+    props: {
+        filters: Object,
+        occurrencesEndpoint: String,
     },
     data: function () {
-        return {}
+        return {
+            currentPage: 1,
+            firstPage: null,
+            lastPage: null,
+            sortBy: 'id',
+            pageSize: 20,
+            totalOccurrencesCount: null,
+            occurrences: [],
+            cols: [
+                // sortId: must match django QS filter (null = non-sortable), label: displayed in header
+                {'sortId': 'id', 'label': '#', },
+                {'sortId': 'date', 'label': 'Date'},
+                {'sortId': 'station__station_name', 'label': 'Station', },
+                {'sortId': 'individual_count', 'label': 'Individual count', },
+            ]
+        }
+    },
+    methods: {
+        changeSort: function(newSort) {
+            if (newSort != null) {
+                this.sortBy = newSort;
+            }
+        },
+        loadOccurrences: function (filters, orderBy, pageSize, pageNumber) {
+            let params = filters;
+            params.order = orderBy;
+            params.limit = pageSize;
+            params.page_number = pageNumber;
+
+            let vm = this;
+
+            $.ajax({
+                url: this.occurrencesEndpoint,
+                data: params,
+            }).done(function (data) {
+                vm.occurrences = data.results;
+                vm.firstPage = data.firstPage;
+                vm.lastPage = data.lastPage - 1;
+                vm.totalOccurrencesCount = data.totalResultsCount;
+            })
+        }
+    },
+    computed: {
+        hasPreviousPage: function () {
+            return (this.currentPage > 1);
+        },
+        hasNextPage: function () {
+            return (this.currentPage < this.lastPage);
+        },
+    },
+    watch: {
+        filters: {
+            deep: true,
+            immediate: true,
+            handler: function () {
+                this.currentPage = 1;
+                this.loadOccurrences(this.filters, this.sortBy, this.pageSize, this.currentPage)
+            }
+        },
+        currentPage: function () {
+            this.loadOccurrences(this.filters, this.sortBy, this.pageSize, this.currentPage);
+        },
+        sortBy: function () {
+            this.loadOccurrences(this.filters, this.sortBy, this.pageSize, this.currentPage);
+        },
     },
     template: `
-        <h4>Results table (not yet implemented)</h4>
-    `
-}
+        <div id="table-outer">
+            <table class="table table-striped table-sm">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col" :class="{ 'text-primary': (sortBy == col.sortId) }" v-for="col in cols">
+                            <span @click="changeSort(col.sortId)">{{ col.label }}</span>
+                        </th>
+                    </tr>
+                </thead>
+                <arabel-table-page :occurrences="occurrences"></arabel-table-page>
+            </table>
+            <p class="text-center"> 
+                <button type="button" :disabled="!hasPreviousPage" class="btn btn-outline-primary btn-sm" @click="currentPage -= 1">Previous</button>
+                    Page {{ currentPage }} / {{ lastPage }}
+                <button type="button" :disabled="!hasNextPage" class="btn btn-outline-primary btn-sm" @click="currentPage += 1">Next</button>
+            </p>
+        </div>`
+});
 
 var ArabelMap = {
     props: {
-        speciesId: Number,
         squaresEndpoint: String,
-        noSmallSquares: Boolean,
-        filterLeonBecker: Boolean
+        filters: Object
     },
     data: function () {
         return {
@@ -100,7 +199,8 @@ var ArabelMap = {
                         'speciesId': speciesId,
                         'noSmallSquares': noSmallSquares,
                         'filterLeonBecker': filterLeonBecker
-                    }})
+                    }
+                })
                 .then(function (response) {
                     var squares = response.data.squares;
                     vm.allFeatures = squares.map(entry => vm.entryToFeature(entry))
@@ -152,13 +252,11 @@ var ArabelMap = {
                 }
             }
 
-
-
             // 3. Create and add layer on map
             var vm = this;
             this.geojsonLayer = L.geoJSON(newFeatures, {
                 onEachFeature: onEachFeature,
-                style: function(feature) {
+                style: function (feature) {
                     return {
                         'color': 'black', // border color
                         'fillColor': vm.colorScale(feature.properties.totalIndividuals),
@@ -168,20 +266,14 @@ var ArabelMap = {
                 }
             }).addTo(this.mapObject);
         },
-        speciesId: function () {
-            if (this.speciesId !== null) {
-                this.loadOccurrences(this.speciesId, this.noSmallSquares, this.filterLeonBecker);
-            }
-        }, noSmallSquares: function() {
-            if (this.speciesId !== null) {
-                this.loadOccurrences(this.speciesId, this.noSmallSquares, this.filterLeonBecker);
-            }
-        }, filterLeonBecker: function() {
-            if (this.speciesId !== null) {
-                this.loadOccurrences(this.speciesId, this.noSmallSquares, this.filterLeonBecker);
-            }
+        filters: {
+            deep: true,
+            handler: function () {
+                if (this.filters.speciesId !== null) {
+                    this.loadOccurrences(this.filters.speciesId, this.filters.noSmallSquares, this.filters.filterOutLeonBecker);
+                }
+            },
         }
-
     },
     template: `
         <div id="mapid" style="width: 100%; height: 600px;"></div>
