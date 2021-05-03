@@ -132,11 +132,19 @@ class Occurrence(models.Model):  # = GEGEVENS in Access
             return None
 
     def as_dict(self):
+        most_detailed_square_name = None
+        if self.station and self.station.most_detailed_square:
+            most_detailed_square_name = self.station.most_detailed_square.name
+
         return {
             "id": self.pk,
             "individual_count": self.individual_count,
             "date": self.date_isoformat,
             "station_id": self.station_id,
             "station_name": self.station.station_name,
+            "station_staal_id": self.station.staal_id,
+            "station_area": self.station.area,
+            "station_subarea": self.station.subarea,
+            "station_most_detailed_square": most_detailed_square_name,
             "species_id": self.species_id
         }

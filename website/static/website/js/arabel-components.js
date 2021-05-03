@@ -30,7 +30,21 @@ Vue.component('arabel-table-page', {
                  <tr v-for="occ in occurrences">
                     <th scope="row">{{ occ.id }}</th>
                     <td>{{ occ.date }}</td>
-                    <td>{{ occ.station_name }}</td>
+                    <td>
+                        {{ occ.station_name }}
+                        <small>
+                            <br/>
+                            <b>Staal id:</b>{{ occ.station_staal_id }}
+                            <br/>
+                            
+                            <span v-if="occ.station_area != ''"><b>Area:</b> {{ occ.station_area }}</span>
+                            <span v-if="occ.station_subarea != ''"><b>Subarea:</b> {{ occ.station_subarea }}</span>
+                            
+                            <br v-if="occ.station_area != '' || occ.station_subarea != ''"/>
+                            <b>Most detailed square:</b> {{ occ.station_most_detailed_square}}
+                            
+                        </small>
+                    </td>
                     <td>{{ occ.individual_count }}</td>
                  </tr>
                </tbody>`
