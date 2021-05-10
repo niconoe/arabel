@@ -14,6 +14,16 @@
           crossorigin=""/>
     <title>Arabel</title>
     <style>
+        /* Extra styles for footer */
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 60px; /* Set the fixed height of the footer here */
+            line-height: 60px; /* Vertically center the text there */
+            background-color: #f5f5f5;
+        }
+
         /* Extra styles for custom leaflet legend */
         .legend {
             line-height: 18px;
@@ -49,31 +59,41 @@
     </style>
 </head>
 <body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light mb-3" style="background-color: #e3f2fd;">
+        <a class="navbar-brand" href="#"> 🕷️ Arabel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item {% if selected_menu_entry == 'index' %}active{% endif %}">
+                    <a class="nav-link" href="{% url 'website-index' %}">Explore occurrences</a>
+                </li>
+                <li class="nav-item {% if selected_menu_entry == 'about' %}active{% endif %}">
+                    <a class="nav-link" href="{% url 'website-about' %}">About</a>
+                </li>
+            </ul>
 
-<nav class="navbar navbar-expand-lg navbar-light mb-3" style="background-color: #e3f2fd;">
-    <a class="navbar-brand" href="#"> 🕷️ Arabel</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item {% if selected_menu_entry == 'index' %}active{% endif %}">
-                <a class="nav-link" href="{% url 'website-index' %}">Explore occurrences</a>
-            </li>
-            <li class="nav-item {% if selected_menu_entry == 'about' %}active{% endif %}">
-                <a class="nav-link" href="{% url 'website-about' %}">About</a>
-            </li>
-        </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="{% url 'admin:index' %}"><span class="oi oi-lock-locked"
+                                                                                              title="admin interface"></span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
 
-        <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="{% url 'admin:index' %}"><span class="oi oi-lock-locked" title="admin interface"></span></a></li>
-        </ul>
+<main role="main">
+    {% block content %}{% endblock content %}
+</main>
+
+<footer class="footer">
+    <div class="container text-center">
+        <span class="text-muted">© 2021 Arabel - <small><a href="https://github.com/niconoe/arabel">Source code</a> version: {{ git_revision_string }}</small></span>
     </div>
-</nav>
-
-{% block content %}{% endblock content %}
-
+</footer>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
