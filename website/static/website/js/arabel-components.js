@@ -22,7 +22,7 @@ var SpeciesDescription = {
         },
     },
     methods: {
-        updateCounters: function() {
+        updateCounters: function () {
             var vm = this;
 
             $.ajax({
@@ -99,15 +99,15 @@ Vue.component('arabel-table', {
             occurrences: [],
             cols: [
                 // sortId: must match django QS filter (null = non-sortable), label: displayed in header
-                {'sortId': 'id', 'label': '#', },
+                {'sortId': 'id', 'label': '#',},
                 {'sortId': 'date', 'label': 'Date'},
-                {'sortId': 'station__station_name', 'label': 'Station', },
-                {'sortId': 'individual_count', 'label': 'Individual count', },
+                {'sortId': 'station__station_name', 'label': 'Station',},
+                {'sortId': 'individual_count', 'label': 'Individual count',},
             ]
         }
     },
     methods: {
-        changeSort: function(newSort) {
+        changeSort: function (newSort) {
             if (newSort != null) {
                 this.sortBy = newSort;
             }
@@ -184,20 +184,31 @@ var ArabelMap = {
         return {
             mapObject: null,
             defaultBaseLayer: "OpenStreetMap HOT",
-            baseLayers : {
+            baseLayers: {
                 "OpenStreetMap HOT": L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
                     maxZoom: 19,
                     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Tiles style by <a href="https://www.hotosm.org/" target="_blank">Humanitarian OpenStreetMap Team</a> hosted by <a href="https://openstreetmap.fr/" target="_blank">OpenStreetMap France</a>'
                 }),
                 "ESRI World Imagery": L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-	                attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+                    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
                 }),
-                "CartoWeb (NGI/IGN)": L.tileLayer.wms('https://cartoweb.wms.ngi.be/service?', { layers: 'topo', format: 'image/png' }),
-                "Ortho 2019(NGI/IGN)": L.tileLayer.wms('https://wms.ngi.be/inspire/ortho/service?', { layers: 'orthoimage_coverage_2019', format: 'image/png' })
+                "CartoWeb (NGI/IGN)": L.tileLayer.wms('https://cartoweb.wms.ngi.be/service?', {
+                    layers: 'topo',
+                    format: 'image/png'
+                }),
+                "Ortho 2019(NGI/IGN)": L.tileLayer.wms('https://wms.ngi.be/inspire/ortho/service?', {
+                    layers: 'orthoimage_coverage_2019',
+                    format: 'image/png'
+                })
             },
             overlayLayers: {
-                "Ecoregions": L.tileLayer.wms('https://projects.biodiversity.be/geoserver/wms?', { layers: 'bbpf:ecoregions', format: 'image/png', transparent: true })
+                "Ecoregions": L.tileLayer.wms('https://projects.biodiversity.be/geoserver/wms?', {
+                    layers: 'bbpf:ecoregions',
+                    format: 'image/png',
+                    transparent: true
+                })
             },
+            ecoregionsLegend: null,
             geojsonLayer: null,
             allFeatures: []
         }
@@ -228,15 +239,50 @@ var ArabelMap = {
                 layers: this.baseLayers[this.defaultBaseLayer]
             });
 
+            this.ecoregionsLegend = this.createEcoregionsLegend();
+
             L.control.layers(this.baseLayers, this.overlayLayers).addTo(this.mapObject);
-            //this.baseMaps
 
-
-
+            this.mapObject.on('layeradd', e => {
+                if(e.layer.options.layers === 'bbpf:ecoregions') { // TODO: we should use a better way to check it's the ecoregions layer
+                    this.ecoregionsLegend.addTo(this.mapObject)
+                }
+            })
+            this.mapObject.on('layerremove', e => {
+                if(e.layer.options.layers === 'bbpf:ecoregions') { // TODO: we should use a better way to check it's the ecoregions layer
+                    this.mapObject.removeControl(this.ecoregionsLegend);
+                }
+            })
         },
-        /*setupLayerSelector: function () {
-            L.control.layers(baseMaps, overlayMaps).addTo(map);
-        },*/
+        createEcoregionsLegend: function () {
+            var legend = L.control({position: 'bottomright'});
+
+            legend.onAdd = function (map) {
+                var div = L.DomUtil.create('div', 'info legend'),
+                    legendData = [
+                        { name: 'Ardennes', color: '#3f38f0' },
+                        { name: 'Condroz', color: '#fb5966' },
+                        { name: 'Fagne - Famenne - Calestienne', color: '#54c2cd' },
+                        { name: 'Gaume - Lorraine', color: '#6b7b82' },
+                        { name: 'Thierache', color: '#e02463' },
+                        { name: 'Dune', color: '#1ddcf1' },
+                        { name: 'Campine', color: '#6aba3f' },
+                        { name: 'Loam', color: '#5f75f0' },
+                        { name: 'Gravel Meuse', color: '#e56631' },
+                        { name: 'Polder', color: '#418495' },
+                        { name: 'Sandyloam', color: '#9cb4d8;' },
+                    ]
+
+                div.innerHTML += '<h4>Ecoregions</h4>';
+                legendData.forEach(entry => {
+                    div.innerHTML +=
+                        '<p class="legend-entry"><i style="background:' + entry.color + '"></i> ' + entry.name + '</p>'
+                })
+
+                return div;
+            };
+            return legend;
+        },
         entryToFeature: function (entry) {
             var geojsonFeature = {
                 "type": "Feature",
