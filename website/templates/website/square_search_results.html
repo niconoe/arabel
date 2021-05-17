@@ -7,7 +7,13 @@
             <p>Click a square identifier to see the details</p>
             <ul>
                 {% for square in results %}
-                    <li><a href="{% url 'website-square-details' square.pk %}">{{ square.name }}</a></li>
+                    <li>
+                        <a href="{% url 'website-square-details' square.pk %}">
+                            {{ square.name }}
+                        </a>
+
+                        ({{ square.stations_mostdetailed_set.count }} station(s))
+                    </li>
                 {% endfor %}
             </ul>
         {% else %}

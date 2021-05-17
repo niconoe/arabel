@@ -92,6 +92,9 @@ class Station(models.Model):
     most_detailed_square = models.ForeignKey(MgrsSquare, blank=True, null=True, on_delete=models.PROTECT, related_name='stations_mostdetailed_set')
     _5_or_10_square = models.ForeignKey(MgrsSquare, blank=True, null=True, on_delete=models.PROTECT, related_name='stations_5or10_set')
 
+    class Meta:
+        ordering = ['station_name']
+
     def most_detailed_mgrs_identifier(self , limit_to_5=False):
         """Return the identifier and type (1-5-10)
 

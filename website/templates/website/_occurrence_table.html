@@ -1,0 +1,23 @@
+{% if occurrences.exists %}
+    <h5>Occurrences</h5>
+    <table class="table table-sm">
+        <thead>
+        <tr>
+            <th scope="col">Record id</th>
+            <th scope="col">Species</th>
+            <th scope="col">Date</th>
+            <th scope="col">Individual count</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for occurrence in occurrences %}
+            <tr>
+                <td>{{ occurrence.record_id }}</td>
+                <td>{{ occurrence.species.scientific_name }}</td>
+                <td>{{ occurrence.date|default_if_none:"-" }}</td>
+                <td>{{ occurrence.individual_count }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endif %}

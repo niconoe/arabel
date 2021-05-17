@@ -1,0 +1,25 @@
+<div>
+    <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">Name: {{ station.station_name }}</h4>
+
+        <p>
+            <b>Staal ID:</b> {{ station.staal_id|default:"/" }}<br>
+            <b>Area:</b> {{ station.area|default:"/" }}<br>
+            <b>Subarea:</b> {{ station.subarea|default:"/" }}<br>
+            <b>UTM squares:</b>
+                <b>10km:</b> {{ station.utm10_code|default:"/" }} -
+                <b>5km:</b> {{ station.utm5_code|default:"/" }} -
+                <b>1km:</b> {{ station.utm1_code|default:"/" }}
+            <br>
+            <b>Leg: </b> {{ station.leg|default:"/" }}<br>
+            <b>Det: </b> {{ station.det|default:"/" }}<br>
+            <b>Habitat: </b> {{ station.habitat_description|default:"/" }}<br>
+            <b>Start date: </b> {{ station.begin_date|default:"/" }}<br>
+            <b>End date: </b> {{ station.end_date|default:"/" }}<br>
+        </p>
+
+        <hr>
+        {% include "website/_occurrence_table.html" with occurrences=station.occurrence_set.all %}
+    </div>
+
+</div>

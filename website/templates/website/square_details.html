@@ -2,12 +2,16 @@
 
 {% block content %}
     <div class="container">
-        <h1>Details about {{ square.name  }}</h1>
+        <h1>Details about {{ square.name }}</h1>
 
-        <h2>Stations referencing this square (most detailed)</h2>
-        {% for station in square.stations_mostdetailed_set.all %}
-            {{ station.station_name }}
-        {% endfor %}
+        {% if square.stations_mostdetailed_set.all.exists %}
+            <h2>The following stations reference this square (most detailed)</h2>
+            {% for station in square.stations_mostdetailed_set.all %}
+                {% include "website/_station_details.html" with station=station %}
+            {% endfor %}
+        {% else %}
+            <p>Sorry, no known station for this square.</p>
+        {% endif %}
         <p></p><a href="{% url "website-squares" %}">Return to search form</a></div>
     </div>
 {% endblock %}

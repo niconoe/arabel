@@ -23,8 +23,11 @@ def explore_by_square(request):
 
 
 def square_details(request, square_id):
-    square = get_object_or_404(MgrsSquare, pk=square_id)
-    return render(request, 'website/square_details.html', {'selected_menu_entry': 'squares', 'square': square})
+    square = get_object_or_404(MgrsSquare.objects.prefetch_related('stations_mostdetailed_set__occurrence_set__species'), pk=square_id)
+    return render(request, 'website/square_details.html', {
+        'selected_menu_entry': 'squares',
+        'square': square}
+    )
 
 
 def square_search(request):
