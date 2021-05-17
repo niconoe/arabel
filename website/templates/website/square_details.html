@@ -1,0 +1,13 @@
+{% extends 'website/base.html' %}
+
+{% block content %}
+    <div class="container">
+        <h1>Details about {{ square.name  }}</h1>
+
+        <h2>Stations referencing this square (most detailed)</h2>
+        {% for station in square.stations_mostdetailed_set.all %}
+            {{ station.station_name }}
+        {% endfor %}
+        <p></p><a href="{% url "website-squares" %}">Return to search form</a></div>
+    </div>
+{% endblock %}

@@ -3,9 +3,9 @@ import distutils.util
 
 from django.core.paginator import Paginator
 from django.http import JsonResponse
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404, redirect
 
-from website.models import Species, Occurrence
+from website.models import Species, Occurrence, MgrsSquare
 
 LEON_BECKER_NAME = "Becker Leon"
 
@@ -16,6 +16,23 @@ def index(request):
 
 def about(request):
     return render(request, 'website/about.html', {'selected_menu_entry': 'about'})
+
+
+def explore_by_square(request):
+    return render(request, 'website/explore_by_square.html', {'selected_menu_entry': 'squares'})
+
+
+def square_details(request, square_id):
+    square = get_object_or_404(MgrsSquare, pk=square_id)
+    return render(request, 'website/square_details.html', {'selected_menu_entry': 'squares', 'square': square})
+
+
+def square_search(request):
+    identifier = request.GET.get('squareIdentifier')
+    squares = MgrsSquare.objects.filter(name__icontains=identifier).order_by('name')
+    if len(squares) == 1:
+        return redirect(squares.first())
+    return render(request, 'website/square_search_results.html', {'selected_menu_entry': 'squares', 'results': squares})
 
 
 def available_species_json(request):

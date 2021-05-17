@@ -1,4 +1,5 @@
 from django.contrib.gis.db import models
+from django.urls import reverse
 
 
 class Family(models.Model):
@@ -51,6 +52,9 @@ class MgrsSquare(models.Model):
     name = models.CharField(max_length=9)
     gzd = models.CharField(max_length=3)
     poly = models.PolygonField()
+
+    def get_absolute_url(self):
+        return reverse('website-square-details', kwargs={"square_id": self.pk})
 
     def as_dict(self):
         return {

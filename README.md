@@ -1,3 +1,9 @@
+# TODO
+- occurrence search: proper message if empty table
+- occurrence search: show numer of occurrences in <select>?
+- occurrence search: (option to) group <select> by family
+
+
 # Arabel
 
 Source code for the (future) Atlas of spiders (ARABEL Database). 

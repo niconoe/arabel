@@ -71,6 +71,9 @@
                 <li class="nav-item {% if selected_menu_entry == 'index' %}active{% endif %}">
                     <a class="nav-link" href="{% url 'website-index' %}">Explore occurrences</a>
                 </li>
+                <li class="nav-item {% if selected_menu_entry == 'squares' %}active{% endif %}">
+                    <a class="nav-link" href="{% url 'website-squares' %}">Explore by UTM square</a>
+                </li>
                 <li class="nav-item {% if selected_menu_entry == 'about' %}active{% endif %}">
                     <a class="nav-link" href="{% url 'website-about' %}">About</a>
                 </li>

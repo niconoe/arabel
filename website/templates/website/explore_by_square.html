@@ -1,0 +1,16 @@
+{% extends 'website/base.html' %}
+
+{% block content %}
+    <div class="container">
+        <h1>Search by square</h1>
+        <form method="get" action="{% url 'website-square-search' %}">
+            <div class="form-group">
+                <label for="exampleInputEmail1">UTM/MGRS square identifier:</label>
+                <input type="text" class="form-control" name="squareIdentifier" id="squareIdentifier" aria-describedby="identifierHelp" placeholder="31UFR14A">
+                <small id="identifierHelp" class="form-text text-muted">Incomplete square identifier such as "32ULV" can be used to perform a search.
+                </small>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+{% endblock %}
