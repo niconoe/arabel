@@ -5,7 +5,7 @@ from django.core.paginator import Paginator
 from django.http import JsonResponse
 from django.shortcuts import render, get_object_or_404, redirect
 
-from website.models import Species, Occurrence, MgrsSquare
+from website.models import Species, Occurrence, MgrsSquare, Station
 
 LEON_BECKER_NAME = "Becker Leon"
 
@@ -41,6 +41,19 @@ def square_search(request):
 def available_species_json(request):
     dictionaries = [obj.as_dict() for obj in Species.objects.all()]
     return JsonResponse({'species': dictionaries})
+
+
+def _filtered_unique_stations(request):
+    species_id = request.GET.get('speciesId')
+    filter_out_leon_becker = bool(distutils.util.strtobool(request.GET.get('filterOutLeonBecker', "false")))
+
+    stations = Station.objects.all()
+    if species_id:
+        stations = stations.filter(occurrence__species_id=species_id)
+    if filter_out_leon_becker:
+        stations = stations.exclude(det=LEON_BECKER_NAME).exclude(leg=LEON_BECKER_NAME)
+
+    return stations.distinct()
 
 
 def _filtered_occ(request):
@@ -84,10 +97,19 @@ def _extract_bool_request(request, param_name):
 
 def counters_json(request):
     occurrences = _filtered_occ(request)
+    stations = _filtered_unique_stations(request)
 
     return JsonResponse({
         'occurrences': occurrences.count(),
+        'stations': stations.count()
     })
+
+
+def stations_json(request):
+    return JsonResponse({'results': [],
+                         'firstPage': 1,
+                         'lastPage': 1,
+                         'totalResultsCount': 3})
 
 
 def occurrences_json(request):

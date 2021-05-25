@@ -44,11 +44,16 @@
                     <h4>Results map</h4>
                     <arabel-map :squares-endpoint="conf.getSquaresDataURL" :filters="selectedFilters"></arabel-map>
 
-                    <h4>Results table</h4>
                     <div v-if="selectedSpecies">
+                        <h4>Occurrence table</h4>
+                        <arabel-occ-table :occurrences-endpoint="conf.getOccurrencesDataURL"
+                                      :filters="selectedFilters"></arabel-occ-table>
+                    </div>
 
-                        <arabel-table :occurrences-endpoint="conf.getOccurrencesDataURL"
-                                      :filters="selectedFilters"></arabel-table>
+                    <div v-if="selectedSpecies">
+                        <h4>Stations table</h4>
+                        <arabel-stations-table :stations-endpoint="conf.getStationsDataURL"
+                                      :filters="selectedFilters"></arabel-stations-table>
                     </div>
                 </div>
 
@@ -61,6 +66,7 @@
             availableSpeciesURL: '{% url "available-species-json" %}',
             getSquaresDataURL: '{% url "squares-for-occurrences-json" %}',
             getOccurrencesDataURL: '{% url "occurrences-json" %}',
+            getStationsDataURL: '{% url "stations-json" %}',
             countersURL: '{% url "counters-json" %}'
         }
 

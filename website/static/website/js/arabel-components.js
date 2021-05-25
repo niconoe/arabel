@@ -30,6 +30,7 @@ var SpeciesDescription = {
                 data: vm.filters,
             }).done(function (data) {
                 vm.counters.occurrences = data.occurrences;
+                vm.counters.stations = data.stations;
             });
         }
     },
@@ -45,7 +46,7 @@ var SpeciesDescription = {
 }
 
 // A single page in the occurrence table
-Vue.component('arabel-table-page', {
+Vue.component('arabel-occ-table-page', {
     props: {
         'occurrences': { // Only the subset for the page
             type: Array,
@@ -83,7 +84,7 @@ Vue.component('arabel-table-page', {
 })
 
 // The whole table, manages pagination and data load
-Vue.component('arabel-table', {
+Vue.component('arabel-occ-table', {
     props: {
         filters: Object,
         occurrencesEndpoint: String,
@@ -165,7 +166,7 @@ Vue.component('arabel-table', {
                         </th>
                     </tr>
                 </thead>
-                <arabel-table-page :occurrences="occurrences"></arabel-table-page>
+                <arabel-occ-table-page :occurrences="occurrences"></arabel-occ-table-page>
             </table>
             <p class="text-center"> 
                 <button type="button" :disabled="!hasPreviousPage" class="btn btn-outline-primary btn-sm" @click="currentPage -= 1">Previous</button>
