@@ -3,14 +3,15 @@ import os
 import datetime
 
 from website.management.commands._utils import ArabelCommand
-from website.models import Species, Family, Station, Occurrence, RedListStatus
+from website.models import Species, Family, Station, Occurrence, RedListStatus, Publication
 
-MODELS_TO_TRUNCATE = [Occurrence, Species, Family, Station, RedListStatus]
+MODELS_TO_TRUNCATE = [Occurrence, Species, Family, Station, RedListStatus, Publication]
 
 SPECIES_INFO_FILENAME = 'soorten_info.csv'
 STATIONS_FILENAME = 'staal_gegevens.csv'
 OCCURRENCES_FILENAME = 'gegevens.csv'
 REDLIST_FILENAME = 'redlist_categories.csv'
+PUBLICATIONS_FILENAME = 'litteratuur.csv'
 
 THIS_SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 
@@ -56,6 +57,19 @@ class Command(ArabelCommand):
         for i, redlist_row in enumerate(csv.DictReader(redlist_data)):
             RedListStatus.objects.create(name=redlist_row['Description'], access_id=redlist_row['R-L (ci)'])
             self.w('.', ending='')
+
+    def load_publications(self, publications_data):
+        self.w(self.style.SUCCESS("\nWill now import publications/litterature data"))
+        for i, litterature_row in enumerate(csv.DictReader(publications_data)):
+            Publication.objects.create(
+                access_id=litterature_row['ID'],
+                code=litterature_row['Code'],
+                year=litterature_row['Year'],
+                still_checking=bool(litterature_row['Nog controlleren'] == "1"),
+                not_relevant=bool(litterature_row['Niet relevant'] == '1'),
+                ingegeven=bool(litterature_row['Ingegeven'] == '1'),
+                publication=(litterature_row['Publicatie'])
+            )
 
     def load_families_and_species(self, soorten_info_data):
         self.w(self.style.SUCCESS("\nWill now import Family and Species data"))
@@ -110,6 +124,15 @@ class Command(ArabelCommand):
                 self.w(self.style.WARNING(f"\nUTM1 code too long for row: {station_row}"))
                 utm_1_code = ''
 
+            # Link to publications
+            reference_str = station_row['Referentie']
+            related_publication = None
+            if reference_str != '':
+                try:
+                    related_publication = Publication.objects.get(code=reference_str)
+                except Publication.DoesNotExist:
+                    self.w(f"Station reference a non-existing publication with code: {related_publication}")
+
             # 3. Creating objects
             Station.objects.create(staal_id=station_row['StaalID'].lower(),
                                    station_name=station_row['Naam station'],
@@ -123,6 +146,8 @@ class Command(ArabelCommand):
                                    habitat_description=station_row['Biotoopomschrijving'],
                                    begin_date=begin_date,
                                    end_date=end_date,
+                                   publication_reference=reference_str,
+                                   publication=related_publication
                                    )
             self.w('.', ending='')
 
@@ -138,6 +163,9 @@ class Command(ArabelCommand):
 
         with open(os.path.join(THIS_SCRIPT_DIR, "../../../data", SPECIES_INFO_FILENAME)) as soorten_info_data:
             self.load_families_and_species(soorten_info_data)
+
+        with open(os.path.join(THIS_SCRIPT_DIR, "../../../data", PUBLICATIONS_FILENAME)) as publications_data:
+            self.load_publications(publications_data)
 
         with open(os.path.join(THIS_SCRIPT_DIR, "../../../data", STATIONS_FILENAME)) as stations_data:
             self.load_stations(stations_data)

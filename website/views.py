@@ -5,7 +5,7 @@ from django.core.paginator import Paginator
 from django.http import JsonResponse
 from django.shortcuts import render, get_object_or_404, redirect
 
-from website.models import Species, Occurrence, MgrsSquare
+from website.models import Species, Occurrence, MgrsSquare, Publication
 
 LEON_BECKER_NAME = "Becker Leon"
 
@@ -28,6 +28,13 @@ def square_details(request, square_id):
         'selected_menu_entry': 'squares',
         'square': square}
     )
+
+
+def publication_details(request):
+    publication_id = request.GET.get('publication_id')
+    publication = get_object_or_404(Publication, pk=publication_id)
+
+    return render(request, 'website/publication_details.html', {'publication': publication})
 
 
 def square_search(request):

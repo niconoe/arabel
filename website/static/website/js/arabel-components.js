@@ -52,10 +52,21 @@ Vue.component('arabel-table-page', {
             default: function () {
                 return []
             }
+        },
+        'publicationDetailsUrl': String
+    },
+    computed: {
+        'occurrencesPrepared': function() {
+            return this.occurrences.map(occ => {
+                return {
+                    ...occ,
+                    url: this.publicationDetailsUrl + '?publication_id=' + occ.station_publication_id
+                }
+            })
         }
     },
     template: `<tbody>
-                 <tr v-for="occ in occurrences">
+                 <tr v-for="occ in occurrencesPrepared">
                     <th scope="row">{{ occ.id }}</th>
                     <td>{{ occ.date }}</td>
                     <td>
@@ -75,6 +86,11 @@ Vue.component('arabel-table-page', {
                             <b>Leg:</b> {{ occ.station_leg }} - 
                             <b>Det:</b> {{ occ.station_det }}
                             
+                            <span v-if="occ.station_publication_code">
+                                <br/>
+                                <b>Literature reference:</b> <a :href="occ.url" target="_blank">{{ occ.station_publication_code }}</a>
+                            </span>
+                            
                         </small>
                     </td>
                     <td>{{ occ.individual_count }}</td>
@@ -87,6 +103,7 @@ Vue.component('arabel-table', {
     props: {
         filters: Object,
         occurrencesEndpoint: String,
+        publicationDetailsUrl: String,
     },
     data: function () {
         return {
@@ -165,7 +182,7 @@ Vue.component('arabel-table', {
                         </th>
                     </tr>
                 </thead>
-                <arabel-table-page :occurrences="occurrences"></arabel-table-page>
+                <arabel-table-page :occurrences="occurrences" :publication-details-url="publicationDetailsUrl"></arabel-table-page>
             </table>
             <p class="text-center"> 
                 <button type="button" :disabled="!hasPreviousPage" class="btn btn-outline-primary btn-sm" @click="currentPage -= 1">Previous</button>
@@ -178,6 +195,7 @@ Vue.component('arabel-table', {
 var ArabelMap = {
     props: {
         squaresEndpoint: String,
+        publicationDetailsUrl: String,
         filters: Object
     },
     data: function () {
@@ -232,6 +250,9 @@ var ArabelMap = {
         }
     },
     methods: {
+        linkToReference: function (referenceId) {
+            return this.publicationDetailsUrl + '?publication_id=' + referenceId;
+        },
         setupMap: function () {
             this.mapObject = L.map('mapid', {
                 center: [50.6411, 4.6680],
@@ -325,6 +346,8 @@ var ArabelMap = {
     },
     watch: {
         allFeatures: function (newFeatures) {
+            var vm = this;
+
             // 1. Remove existing layer, if applicatble
             if (this.mapObject.hasLayer(this.geojsonLayer)) {
                 this.mapObject.removeLayer(this.geojsonLayer)
@@ -334,7 +357,6 @@ var ArabelMap = {
             function onEachFeature(feature, layer) {
                 // does this feature have a property named popupContent?
                 if (feature.properties) {
-
                     var stationsStr = ''
                     feature.properties.stations.forEach(function (station) {
                         var occStr = '';
@@ -342,12 +364,20 @@ var ArabelMap = {
                             occStr = occStr.concat(`occurrence #${occ.id} (date: ${occ.date} - count: ${occ.individual_count})<br/>`)
                         });
 
+                        var referenceStr = '';
+                        if (station.publication_id) {
+                            referenceStr = `litterature reference: <a target="_blank" href="${vm.linkToReference(station.publication_id)}">${station.publication_code}</a>`
+                        }
+
                         stationsStr = stationsStr.concat(`
                             <h5>station: ${station.name} (#${station.id})</h5> 
                             <p>
                             staal id: ${station.staal_id}<br/>
                             area: ${station.area}<br/>
-                            subarea: ${station.subarea}</p>
+                            subarea: ${station.subarea}<br/>
+                            
+                            ${referenceStr}
+                            </p>
                             
                             ${occStr}
                         `)

@@ -2,6 +2,16 @@ from django.contrib.gis.db import models
 from django.urls import reverse
 
 
+class Publication(models.Model):  # = Access table "LITTERATUUR"
+    access_id = models.CharField(max_length=50, unique=True)
+    code = models.CharField(max_length=50, unique=True)
+    year = models.IntegerField()
+    still_checking = models.BooleanField()  # "Nog controlleren" in source data
+    not_relevant = models.BooleanField()  # "Niet relevant"
+    ingegeven = models.BooleanField()
+    publication = models.TextField()
+
+
 class Family(models.Model):
     name = models.CharField(max_length=255)
     code = models.CharField(max_length=5, unique=True)
@@ -89,6 +99,9 @@ class Station(models.Model):
     begin_date = models.DateField(blank=True, null=True)
     end_date = models.DateField(blank=True, null=True)
 
+    publication_reference = models.CharField(max_length=50, blank=True)  # reference to publication code, as a string straight from Access
+    publication = models.ForeignKey(Publication, on_delete=models.PROTECT, null=True, blank=True)
+
     most_detailed_square = models.ForeignKey(MgrsSquare, blank=True, null=True, on_delete=models.PROTECT, related_name='stations_mostdetailed_set')
     _5_or_10_square = models.ForeignKey(MgrsSquare, blank=True, null=True, on_delete=models.PROTECT, related_name='stations_5or10_set')
 
@@ -114,13 +127,21 @@ class Station(models.Model):
         return self.station_name
 
     def as_dict(self):
+        publication_code = None
+        publication_id = None
+        if self.publication:
+            publication_code = self.publication.code
+            publication_id = self.publication_id
+
         return {
             'id': self.pk,
             'name': self.station_name,
             'staal_id': self.staal_id,
             'area': self.area,
             'subarea': self.subarea,
-            'most_detailed_square_id': self.most_detailed_square_id
+            'most_detailed_square_id': self.most_detailed_square_id,
+            'publication_code': publication_code,
+            'publication_id': publication_id
         }
 
 
@@ -143,6 +164,16 @@ class Occurrence(models.Model):  # = GEGEVENS in Access
         if self.station and self.station.most_detailed_square:
             most_detailed_square_name = self.station.most_detailed_square.name
 
+        publication_year = None
+        publication_str = None
+        publication_code = None
+        publication_id = None
+        if self.station and self.station.publication:
+            publication_year = self.station.publication.year
+            publication_str = self.station.publication.publication
+            publication_code = self.station.publication.code
+            publication_id = self.station.publication_id
+
         return {
             "id": self.pk,
             "individual_count": self.individual_count,
@@ -155,5 +186,10 @@ class Occurrence(models.Model):  # = GEGEVENS in Access
             "station_most_detailed_square": most_detailed_square_name,
             "station_leg": self.station.leg,
             "station_det": self.station.det,
-            "species_id": self.species_id
+            "species_id": self.species_id,
+
+            "station_publication_year": publication_year,
+            "station_publication_code": publication_code,
+            "station_publication_str": publication_str,
+            "station_publication_id": publication_id
         }

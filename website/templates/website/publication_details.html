@@ -1,0 +1,18 @@
+{% extends 'website/base.html' %}
+
+{% block content %}
+    <div class="container">
+        <div class="alert alert-success" role="alert">
+            <h1>Details about publication with code: {{ publication.code }}</h1>
+
+            <p>
+                <b>Access ID:</b> {{ publication.access_id|default:"/" }}<br>
+                <b>Code:</b> {{ publication.code|default:"/" }}<br>
+                <b>Year:</b> {{ publication.year|default:"/" }}<br>
+                <b>Publication: </b>{{ publication.publication }}
+            </p>
+        </div>
+
+        <small>(close this tab to go back to your search)</small>
+    </div>
+{% endblock %}
