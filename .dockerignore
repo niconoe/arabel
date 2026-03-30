@@ -1,0 +1,10 @@
+.venv
+.git
+.env
+.idea
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+grid_data
+docs
