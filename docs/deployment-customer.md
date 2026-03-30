@@ -31,20 +31,21 @@ The application is available at: http://localhost:8000
 
 ## Load the Database Dump
 
-Once the application is running, load the `.dump` file provided by your supplier:
+Load the `.sql` file provided by your supplier. This must be done in three steps.
 
-    docker compose exec -T db pg_restore \
-        --username=$POSTGRES_USER \
-        --dbname=$POSTGRES_DB \
-        --no-owner \
-        --no-privileges \
-        /dev/stdin < /path/to/arabel.dump
+**1. Stop the web container** (the database keeps running):
 
-Replace `/path/to/arabel.dump` with the actual path to the dump file on your machine.
+    docker compose stop web
 
-After loading, restart the web container to clear any cached state:
+**2. Reset the database to a clean state**, removing any tables created during first start:
 
-    docker compose restart web
+    docker compose exec db sh -c 'psql --username=$POSTGRES_USER --dbname=$POSTGRES_DB -c "DROP SCHEMA public CASCADE; CREATE SCHEMA public;"'
+
+**3. Load the dump and restart**. Replace `/path/to/arabel.sql` with the actual path to the file:
+
+    docker compose exec -T db sh -c 'psql --username=$POSTGRES_USER --dbname=$POSTGRES_DB' \
+        < /path/to/arabel.sql
+    docker compose start web
 
 ## Stop the Application
 
